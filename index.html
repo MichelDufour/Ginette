@@ -119,8 +119,8 @@ main .large{padding-top:24px;padding-bottom:40px}
 /* fiche en grand */
 .fiche{position:fixed;inset:0;z-index:20;background:var(--voile);display:none;align-items:center;justify-content:center;padding:0}
 .fiche.ouverte{display:flex}
-.fiche-in{background:var(--papier);width:100%;max-width:980px;max-height:100%;overflow:auto;border-radius:0;position:relative;padding:14px 16px 24px}
-@media (min-width:760px){.fiche{padding:24px}.fiche-in{border-radius:20px;max-height:calc(100vh - 48px)}}
+.fiche-in{background:var(--papier);width:100%;max-width:980px;max-height:100%;overflow:auto;border-radius:0;position:relative;padding:14px 16px calc(48px + env(safe-area-inset-bottom))}
+@media (min-width:760px){.fiche{padding:24px}.fiche-in{border-radius:20px;max-height:calc(100vh - 48px);max-height:calc(100dvh - 48px)}}
 .fiche-barre{display:flex;align-items:center;gap:8px;position:sticky;top:-14px;background:var(--papier);padding:8px 0;z-index:2}
 .fiche-barre .pos{color:var(--doux);font-size:.85rem;margin-right:auto}
 .rond{width:40px;height:40px;border-radius:50%;border:2px solid var(--trait);background:var(--carte);color:var(--encre);font-size:1.1rem;font-weight:800}
@@ -138,8 +138,8 @@ main .large{padding-top:24px;padding-bottom:40px}
 details.contexte{margin-top:10px}
 details.contexte summary{cursor:pointer;color:var(--doux);font-size:.9rem;font-weight:600}
 details.contexte p{margin:6px 0 0;font-size:.95rem}
-.partage{display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem;margin-top:14px}
-.partage a{color:var(--doux);font-weight:700;text-decoration:none}
+.partage{display:flex;gap:10px;flex-wrap:wrap;font-size:.95rem;margin-top:16px}
+.partage a{color:var(--mauve);font-weight:800;text-decoration:none;border:2px solid var(--trait);border-radius:99px;padding:6px 14px;background:var(--carte)}
 .partage a:hover{color:var(--rose)}
 
 /* bas de page */
@@ -356,7 +356,7 @@ function remplirFiche(){
   if(e.reponse||e.source){const b=el('div','boite oups');b.append(el('span','lib','Sa réponse avec la source'));const p=el('p',null,(e.reponse||'')+' ');
     if(e.source){const a=el('a',null,e.source);a.href=e.source;a.target='_blank';a.rel='noopener';p.append(a)}b.append(p);c.append(b)}
   if(e.description){const d=el('details','contexte');d.append(el('summary',null,'Le contexte'),el('p',null,e.description));c.append(d)}
-  const lien=SITE+'#'+e._id;const pa=el('div','partage');
+  const lien=SITE+'c/'+e._id+'.html';const pa=el('div','partage');
   const x=el('a',null,'Partager sur X');x.href='https://x.com/intent/post?text='+encodeURIComponent(`« ${e.titre} » par @GinettePantouf`)+'&url='+encodeURIComponent(lien);x.target='_blank';x.rel='noopener';
   const fb=el('a',null,'Partager sur Facebook');fb.href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(lien);fb.target='_blank';fb.rel='noopener';
   const cp=el('a',null,'Copier le lien');cp.href='#'+e._id;cp.addEventListener('click',ev=>{ev.preventDefault();try{navigator.clipboard.writeText(lien);cp.textContent='Lien copié!'}catch(_){}});
