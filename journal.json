@@ -1,0 +1,418 @@
+{
+ "mis_a_jour": "2026-11-01",
+ "entrees": [
+  {
+   "date": "2026-10-27",
+   "titre": "Naissance de Ginette Pantoufle",
+   "image": "images/pantoufle-maga.jpg",
+   "genre": "Profil",
+   "resume": "L'avatar du compte : une pantoufle rose au « MAGA » barré. Ginette dort, pas avant 10 h.",
+   "description": "Photo de profil du compte @GinettePantouf (parodie déclarée). Ginette de MonRéal, en bigoudis et robe de chambre rose : endormie par le téléjournal, mais cultivée."
+  },
+  {
+   "date": "2026-10-28",
+   "titre": "La bannière : Réal, mon mari",
+   "image": "images/reals-banniere.jpg",
+   "genre": "Profil",
+   "resume": "Le décor de MonRéal : Réal dans sa chaise inclinable, Ginette en robe de chambre, la télé jamais loin.",
+   "description": "Bannière du profil : Réal, mon mari, dans sa chaise inclinable, chemise hawaïenne et casquette « MAGA FLORIDA ». Gamer, amateur de croisières au départ de Miami, souverainiste quand il a pris un verre."
+  },
+  {
+   "date": "2026-10-28",
+   "titre": "Cauchemar d'Halloween",
+   "image": "images/halloween.jpg",
+   "genre": "Caricature",
+   "resume": "On recule l'heure le week-end de l'Halloween : pour Ginette, c'est une heure de plus de cauchemar.",
+   "description": "En haut, Ginette au lit : « Une heure de PLUS de cauchemar?! » (on recule l'heure le week-end de l'Halloween). Au sous-sol, Réal, mon mari, écharpe « OUI » sur l'épaule : « Oui… oui… OUI… ».",
+   "post": "Cette semaine : l'Halloween le 30 octobre dans plusieurs villes, pis on recule l'heure dans la nuit de samedi à dimanche. Je vais avoir peur un jour plus tôt pis dormir une heure de plus. Le seul bilan positif de 2026. Réal, mon mari, est pas d'accord. 🎃😴"
+  },
+  {
+   "date": "2026-10-28",
+   "titre": "La chaise vide",
+   "image": "images/chaise-vide.jpg",
+   "genre": "Caricature",
+   "resume": "Le Québec boude le sommet Canada-UE : Ginette, pacifiste en pantoufles, savoure la « paix fédérale ».",
+   "description": "Sommet Canada-UE à Montréal, 29 et 30 octobre : le Canada et l'UE sont à la table, la chaise du Québec est vide (PSPP n'y va pas). Ginette, symbole de paix sur la robe de chambre : « Enfin la paix fédérale! »",
+   "source": "https://www.lequotidien.com/actualites/politique/2026/10/28/pspp-ne-participera-pas-au-sommet-canada-union-europeenne-6XB6NCR2W5CNNM4RS5XFF4KAHQ/"
+  },
+  {
+   "date": "2026-10-28",
+   "titre": "Vice City, le 19 novembre",
+   "image": "images/gta6.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 sort le jour de leurs 39 ans de mariage : Ginette prend le volant à Vice City.",
+   "description": "GTA 6 sort le 19 novembre, jour des 39 ans de mariage. Sur le divan devant Vice City, Ginette tient la manette rose : « C'est moi qui conduis! »",
+   "post": "Le patron de Take-Two le jure : GTA 6 sort le 19 novembre, sans retard. Réal, mon mari, a encerclé la date en rouge sur le calendrier de la cuisine. Par-dessus notre anniversaire de mariage. Il dit qu'on peut fêter à Vice City. Moi, je fête seule. Lui, au sous-sol. 🎮💔"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "Cauchemar de Ginette",
+   "image": "images/2026-10-29-cauchemar-sommet.jpg",
+   "genre": "Caricature",
+   "resume": "Dans son cauchemar, PSPP envoie Ginette au sommet Canada-UE… en pantoufles.",
+   "description": "Contexte : PSPP boude le sommet Canada-UE de Montréal et y envoie son ministre Pascal Paradis. Dans son cauchemar, Ginette arrive à la table du sommet en robe de chambre et bigoudis, devant les silhouettes du Canada et de l'UE qui ronflent : « J'y vais en pantoufles?! »",
+   "post": "Cauchemar cette nuit : PSPP boudait le sommet de M. Carney avec l'Europe pis il m'envoyait à sa place, en robe de chambre. Je me réveille : c'est presque vrai! Il y va pas, il envoie Pascal Paradis. Avec un nom de même, moi, je signerais n'importe quoi. 😴 #polqc",
+   "reponse": "Oups, la preuve que c'est presque vrai. Je l'ai pas lue au complet, j'avais trop peur :",
+   "source": "https://www.lequotidien.com/actualites/politique/2026/10/28/pspp-ne-participera-pas-au-sommet-canada-union-europeenne-6XB6NCR2W5CNNM4RS5XFF4KAHQ/"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "39 ans de mariage",
+   "image": "images/2026-10-29-39-ans-de-mariage.jpg",
+   "genre": "Caricature",
+   "resume": "Pour leurs 39 ans, Réal offre une manette rose pour « fêter » GTA 6. Ginette reçoit une carte.",
+   "description": "Contexte : GTA 6 sort le 19 novembre, le jour des 39 ans de mariage de Ginette et Réal. Réal, dans sa chaise, tend une manette rose emballée : « On va fêter ensemble! » Le calendrier montre le 19 novembre encerclé, « GTA 6!!! ». Ginette, déçue, tient sa carte : « Moi, j'ai eu une carte. »",
+   "post": "Réal, mon mari, m'a donné mon cadeau des 39 ans de mariage. En avance. Une manette rose. Il dit qu'on va « fêter ensemble » le 19 novembre, pis que GTA 6 se télécharge à partir du 12. Le magazine Edge lui consacre 16 pages aujourd'hui. Moi, j'ai eu une carte. 🎮💔 #GTA6",
+   "reponse": "Oups, Réal, mon mari, m'a envoyé ça. J'ai pas lu les 16 pages. Lui, oui. Deux fois.",
+   "source": "https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "À la clinique : « féminicide »",
+   "image": "images/2026-10-29-clinique-feminicide.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette célèbre une femme à la tête du Collège des médecins… avec le mauvais mot, dans une salle d'attente interminable.",
+   "description": "Contexte : réponse sous un post de TVA Nouvelles sur l'élection d'une première femme à la tête du Collège des médecins. Ginette, dans la salle d'attente (« Attente estimée : 18 mois »), brandit le Journal de Ginette et se trompe de mot : « C'est du FÉMINICIDE!! (… ou un mot de même) ». Sur une chaise, un squelette « arrivé en 2024 ». La blague porte sur l'erreur de Ginette et sur l'attente pour un médecin.",
+   "post": "Une femme à la tête du Collège des médecins! Wow, c'est du FÉMINICIDE! 💅 Mon gendre dit que c'est pas le bon mot. Bon, féminisme d'abord. J'espère juste qu'elle va me trouver un médecin avant que je finisse comme le monsieur sur la chaise. 🩻"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "Pas de panique! Traduction simultanée",
+   "image": "images/2026-10-29-traduction-simultanee.jpg",
+   "genre": "Caricature",
+   "resume": "Discours en anglais seulement? Ginette, zen, fait traduire par l'IA… et cherche le Québec.",
+   "description": "Contexte : réponse sous un post de TVA Nouvelles sur le discours en anglais seulement de Mme von der Leyen à Montréal. Ginette, calme dans son fauteuil, casque sur les bigoudis, fait traduire le discours par l'IA de son téléphone. Une première version prêtait une phrase inventée à l'oratrice ; Ginette l'a corrigée avec un « Oups ».",
+   "post": "Tout le monde est scandalisé par le discours en anglais. Moi? Pas pantoute! 🫖 J'ai mis mon casque pis l'IA m'a fait la traduction simultanée. Seul problème : j'ai cherché le mot « Québec » pendant 20 minutes. 🤖🩴",
+   "reponse": "Oups! 🙊 Mon IA a inventé la phrase en anglais. Personne a dit « Dear friends of Canada », c'est mon téléphone qui s'est pris pour un traducteur officiel. Version corrigée en image. Le Québec, lui, est toujours introuvable. 🩴"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "Tout a augmenté, Ginette!",
+   "image": "images/2026-10-29-tout-a-augmente.jpg",
+   "genre": "Caricature",
+   "resume": "Tout augmente en Floride, selon Réal : le soleil, la bonne humeur et les condos.",
+   "description": "Contexte : réponse sous un post de TVA Nouvelles sur la hausse des prix en Floride. Réal, bedaine au soleil et casquette « QC », se réjouit sur la plage, pendant que la cousine se fait bronzer : « Tout a augmenté, Ginette! Le soleil, la bonne humeur pis les condos qui poussent comme des pissenlits! » Derrière, les condos ont des pissenlits sur le toit.",
+   "post": "« Tout a augmenté » en Floride? Réal dit que c'est vrai : le soleil, la bonne humeur pis les condos qui poussent comme des pissenlits du Québec. ☀️🌼 Moi, ce qui a augmenté, c'est le prix de la crème solaire pis la taille des pantoufles à Réal. 🩴"
+  },
+  {
+   "date": "2026-10-29",
+   "titre": "Bébé Ginette et son sucre à la crème",
+   "image": "images/2026-10-29-bebe-sucre-a-la-creme.jpg",
+   "genre": "Caricature",
+   "resume": "Bonbons trop chers à l'Halloween : Bébé Ginette fait son sucre à la crème maison.",
+   "description": "Contexte : à l'approche de l'Halloween, les bonbons coûtent cher. Ginette, déguisée en bébé (suce, bavoir « BB Halloween », couche et pantoufles roses), fait elle-même du sucre à la crème dans sa cuisine : thermomètre à 115°, citrouille sur le comptoir. « (pis j'en garde la moitié pour moi) »",
+   "post": "Les bonbons coûtent trop cher? Ginette s'est déguisée en bébé pis a fait du sucre à la crème! 🍬 2 t. cassonade, 1 t. crème 35 %, 2 c. à soupe beurre. Bouillir jusqu'à 115 °C, tiédir, brasser, couler. Les p'tits monstres vont revenir l'an prochain. 🎃🩴"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Cancellée chez nous",
+   "image": "images/2026-10-30-cancellee.jpg",
+   "genre": "Caricature",
+   "resume": "La « cancel culture » version MonRéal : c'est Réal qui cancelle Ginette en coupant télé et Wi-Fi.",
+   "description": "Réponse sous un post sur la « cancel culture » au Québec. Réal, de droite, veut canceller Ginette : il débranche la télé (« PAS DE SIGNAL »), coupe le Wi-Fi et tient la prise. Ginette : « Réal! Mon téléjournal?! » Réal : « Cancellée, ma belle! »",
+   "post": "Chez nous, c'est le contraire. Réal, mon mari, est de droite, pis c'est lui qui veut me canceller. Il a débranché Radio-Cadenas, caché la télécommande pis changé le mot de passe du Wi-Fi. Si je publie plus demain, vous saurez pourquoi. 😰"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "12 € le Go?!",
+   "image": "images/2026-10-30-gros-orteil.jpg",
+   "genre": "Caricature",
+   "resume": "Une taxe au gigaoctet? Ginette ignore ce qu'est un Go ; Réal croit à une blague.",
+   "description": "Réponse sous un post sur une proposition de taxe française de 0,055 € par Go téléchargé (GTA 6 à environ 12 €). Ginette montre son gros orteil qui sort de sa pantoufle : « Un Go? Mon gros orteil? » Réal, à côté de sa tour Eiffel en cure-dents : « C'est une joke! »",
+   "post": "C'est quoi, un Go? Un gros orteil? Réal, mon mari, dit que c'est une joke : Paris ferait jamais ça à un homme qui a une tour Eiffel en cure-dents sur son bureau. Moi, 12 € pour que GTA 6 arrive plus lentement à la maison, je trouve ça pas cher. 🗼😇 La preuve 👇",
+   "reponse": "Oups, la source! J'ai pas lu, mais Réal, mon mari, dit que c'est juste un projet de taxe pour Netflix pis les gros, pas une loi. Il est retourné à sa tour Eiffel en cure-dents, rassuré :",
+   "source": "https://www.universfreebox.com/?p=598089"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "L'épouvantail du téléjournal",
+   "image": "images/2026-10-30-epouvantail.jpg",
+   "genre": "Caricature",
+   "resume": "Soir d'Halloween : le téléjournal sort son épouvantail préféré, Trump, et Ginette a peur.",
+   "description": "Réponse sous un post sur la nomination de Jacinthe-Eve Arel au PQ. Soir d'Halloween : à la télé, un épouvantail tient une pancarte « TRUMP ». Ginette : « J'ai peur! » Réal, la prise débranchée à la main : « C'est la télé qui fait peur! »",
+   "post": "L'Halloween, c'est ce soir dans plusieurs villes, pis le téléjournal a sorti son costume préféré : Trump. On me dit d'avoir peur d'une cheffe de cabinet. J'ai peur. Réal, mon mari, dit que c'est la télé qui fait peur. Il a débranché Radio-Cadenas. Encore. 🎃 Source 👇",
+   "reponse": "Oups, la source! J'ai pas lu, j'étais sous ma doudou. Réal, mon mari, l'a lue pour moi. Il dit que c'est bien moins épeurant que le téléjournal :",
+   "source": "https://www.985fm.ca/nouvelles/812324/nomination-de-jacinthe-eve-arel-au-pq-une-onde-de-choc"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Radio-Cadenas Histoire",
+   "image": "images/2026-10-30-radio-histoire.jpg",
+   "genre": "Caricature",
+   "resume": "Radio-Canada lance une radio 100 % histoire : Ginette pleure de joie, Réal prend Pascal à témoin.",
+   "description": "Réponse sous un post de Pascal Bérubé sur la nouvelle radio Radio-Canada Histoire (OHdio, dès le 2 novembre). Ginette serre sa vieille radio « 100 % HISTOIRE » en pleurant de joie : « Mon émission! » Réal, louchant, nez rouge, bière à la main dans l'escalier du sous-sol : « Voyons, mon Pascal! Ma pauvre Ginette… »",
+   "post": "Réal, mon mari, a crié du sous-sol : « Voyons, mon Pascal, tu vas pas croire ce média-là! » Moi, je trouve ça parfait. Une radio 100 % histoire de Radio-Cadenas dès lundi : je vais enfin savoir ce que je pensais en 1980. 📻 La preuve 👇",
+   "reponse": "Oups, la source! Pas celle de Pascal, la vraie : celle de Radio-Cadenas elle-même. J'ai pas lu, j'écoutais déjà. Réal, mon mari, dit que c'est comme demander au loup si la bergerie est belle :",
+   "source": "https://ici.radio-canada.ca/nouvelle/2296500/radio-canada-histoire-nouvelle-radio-numerique-ohdio"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Improvisation en bobettes",
+   "image": "images/2026-10-30-bobettes-censure.jpg",
+   "genre": "Caricature",
+   "resume": "Un discours « oublié » en français? Ginette, elle, oublie sa robe de chambre… au dépanneur.",
+   "description": "Réponse sous un post de La Presse sur le discours en anglais de Mme von der Leyen (« aucune explication logique, sinon un oubli »). Ginette a oublié sa robe de chambre et se retrouve au dépanneur en bobettes roses, une barre noire « CENSURÉ » sur la poitrine : « Ma robe de chambre?! » Réal, mort de rire sur le balcon : « Improvisation, ma belle! »",
+   "post": "Un oubli? Réal, mon mari, dit que pas de préparation, ça veut dire improvisation. Pis il m'a demandé si mon beau M. Carney oublie, lui aussi. Fâchée, je suis partie au dépanneur en bobettes. Juste en bobettes. J'avais oublié ma robe de chambre. 🙈 La preuve 👇",
+   "reponse": "Oups, la source! J'ai oublié de la mettre. Mais c'est pas grave : la science dit qu'oublier, ça a des bienfaits. Réal, mon mari, dit que ça explique ses vidanges depuis 1987 :",
+   "source": "https://www.slate.fr/sciences/propension-oublier-certaines-choses-presente-benefices-inattendus-avantages-vieillesse-maladie-cerveau-neuroscientifiques-evolution-survie"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Peur, peur, très peur",
+   "image": "images/2026-10-30-peur-peur-tres-peur.jpg",
+   "genre": "Caricature",
+   "resume": "Le direct de Gilles fait peur à Ginette : taxe, taux, heure, tempête. Dehors, il fait soleil.",
+   "description": "Réponse sous le direct de Gilles Bellerose (« Une urgence sanitaire climatique? »). Ginette, sous son parapluie, un nuage d'orage au-dessus d'elle dans le salon, entourée de « TAXE! », « TAUX! », « HEURE! » : « J'ai peur de tout! » À la télé, un épouvantail « TRUMP ». Dehors, grand soleil. Réal, relax avec popcorn et bière : « Fausse urgence, ma belle! C'est la télé qui fait peur! »",
+   "post": "J'ai écouté ton live sous ma doudou, Gilles. Taxe Trump : peur. PSPP : peur. Taux des maisons : peur. Tempête : très peur. Réal, mon mari, dit que les médias me font peur pour me garder devant la télé. Ça marche : je bouge plus du divan. 🛋️😱 Source 👇",
+   "reponse": "Oups, la source! Une étude dit que les mauvaises nouvelles à la télé font grossir nos propres inquiétudes. J'ai pas lu, c'est en anglais pis le titre m'a fait peur. Réal, mon mari, dit qu'il me le répète depuis 1987 :",
+   "source": "https://pubmed.ncbi.nlm.nih.gov/9061893/"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "David contre Goliath",
+   "image": "images/2026-10-30-david-goliath.jpg",
+   "genre": "Caricature",
+   "resume": "1,6 milliard d'Ottawa pour Cohere contre 122 milliards US pour OpenAI : David contre Goliath.",
+   "description": "Réponse sous un post de TVA Nouvelles sur l'investissement d'Ottawa dans Cohere (jusqu'à 1,6 G$, contre 122 G$ US levés par OpenAI). Ginette agite un drapeau du Canada : « Vas-y, mon p'tit! » devant un petit robot à feuille d'érable armé d'un lance-pierre, face à deux robots géants « USA » et « CHINE ». Réal, sur sa glacière : « Pure folie! Ha ha! »",
+   "post": "Mon beau M. Carney met jusqu'à 1,6 milliard dans Cohere pour tenir tête aux géants de l'IA. Réal, mon mari, a calculé : OpenAI a ramassé 122 milliards US en une seule fois ce printemps. Il dit que c'est David contre Goliath, avec un lance-pierre en carton. 🪨🤖 La preuve 👇",
+   "reponse": "Oups, les sources! J'ai pas lu, c'est en anglais. 1,6 milliard d'Ottawa pour Cohere, 122 milliards US pour OpenAI. Réal, mon mari, a fait la division pis il est allé se coucher :",
+   "source": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Le Canada mijote",
+   "image": "images/2026-10-30-canada-mijote.jpg",
+   "genre": "Caricature",
+   "resume": "« Les globalistes sont cuits »? Réal est convaincu que c'est le Canada qui mijote dans le chaudron européen.",
+   "description": "Réponse sous un post de Brivael Le Pogam (« les globalistes sont cuits »). Un chef européen générique (« UE » et cercle d'étoiles sur le tablier) brasse un chaudron « CANADA » où flotte une feuille d'érable inquiète. Ginette, les yeux en cœur, soulève le couvercle : « Ça sent bon! » Réal : « Ginette! C'est nous autres dans le chaudron! »",
+   "post": "Les globalistes sont cuits? Pas chez nous! Mon beau M. Carney vient de recevoir l'UE à Montréal : Ukraine, minerais, IA pis peut-être « membre associé ». Réal, mon mari, dit que c'est le Canada qui mijote dans le chaudron. Moi, je mets le couvercle. 🍲😴 La preuve 👇",
+   "reponse": "Oups, la source! J'ai pas lu, ça mijotait. Réal, mon mari, dit que « membre associé », c'est comme être invité au souper… pour servir de plat principal :",
+   "source": "https://www.ledevoir.com/politique/canada/1020650/idee-faire-canada-membre-associe-revient-table"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Terrifiant! (Vice City en autobus)",
+   "image": "images/2026-10-30-terrifiant-vice-city.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 terrifie Ginette ; Réal, qui boude l'autobus depuis 39 ans, veut sa passe à Vice City.",
+   "description": "Contexte : citation d'un post de @FrenchRapUS sur GTA 6. Devant la télé « GTA 6 · VICE CITY », un autobus rose arrive à l'arrêt. Ginette, cachée sous sa doudou : « Terrifiant! » Réal, casquette « MAGA FLORIDA », manette en main : « Je me régale! » Running gag : Réal refuse de prendre l'autobus à Montréal depuis 39 ans, mais veut sa passe mensuelle à Vice City."
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Une vague rouge?!",
+   "image": "images/2026-10-30-vague-rouge.jpg",
+   "genre": "Caricature",
+   "resume": "Mi-mandats américains : Ginette craint une vague rouge, Réal accuse la télé.",
+   "description": "Contexte : mi-mandats américains du 3 novembre ; les démocrates mènent dans les sondages, mais Ginette se souvient de 2016. Au téléjournal, une immense vague rouge déferle sur « MI-MANDATS · 3 NOV. ». Ginette, en sueur sous sa doudou : « Une vague rouge?! » Réal, casquette « MAGA FLORIDA » : « C'est la télé qui fait peur! »",
+   "post": "Mardi, mi-mandats aux États-Unis : les démocrates mènent de 8,9 points dans les sondages. En 2016 aussi, les sondages étaient confiants. Vague rouge pis je passe l'hiver sous ma doudou. Réal, mon mari, dit que c'est Radio-Cadenas qui me fait peur, pas Trump. Source 👇 #Ginette",
+   "reponse": "Pis ceux de 2016, qui avaient sous-estimé Trump. La vague rouge, c'est ma peur à moi. Pas de lien, juste ma doudou.",
+   "source": "https://cossa.org/?p=9011"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Au congélateur!",
+   "image": "images/2026-10-30-au-congelateur.jpg",
+   "genre": "Caricature",
+   "resume": "Après une saisie de puces d'IA, Ginette cache la console de Réal… au congélateur.",
+   "description": "Contexte : la Malaisie a saisi 12 millions $ US de puces d'IA cachées dans 30 serveurs à l'aéroport. Ginette, qui cache déjà son Rolodex et son dentier au congélateur, y enfouit la boîte « CONSOLE » de Réal : « Au congélateur! » Réal, désespéré : « Ma console! »",
+   "post": "Cauchemar : la Malaisie a saisi 12 millions $ US de puces d'IA cachées dans 30 serveurs à l'aéroport. Dans mon rêve, les douaniers fouillaient mes bigoudis. Réveillée : rien. Mais Réal, mon mari, a reçu une boîte « console ». Au congélateur! Lien 👇, j'ai pas osé cliquer #IA"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Laissée avant la bague!",
+   "image": "images/2026-10-30-laissee-avant-la-bague.jpg",
+   "genre": "Caricature",
+   "resume": "Au sommet de Montréal, l'Europe recule sur le « membre associé » : Ginette a le cœur brisé, Réal dit « Bon débarras ».",
+   "description": "Au sommet Canada-UE de Montréal, l'Europe ne parle plus de faire du Canada un « membre associé », seulement d'une « association toujours plus étroite » ; l'Allemagne a dit non. Ginette pleure devant la télé, où un cœur européen brisé demande « MEMBRE? » : « Laissée avant la bague! » Réal, casquette MAGA FLORIDA et bière levée, jubile : « Bon débarras! »",
+   "post": "Entendu au Tim Hortons ce matin : au sommet de Montréal, l'Europe parle plus de faire du Canada un « membre associé ». Juste d'une « association toujours plus étroite ». L'Allemagne a dit non. Laissée avant la bague! Réal, mon mari, a dit « Bon débarras ». La preuve 👇 💔 #polqc",
+   "reponse": "Oups, la source! Je l'ai pas lue jusqu'au bout, j'avais le cœur brisé au 2e paragraphe :",
+   "source": "https://www.presse-citron.net/lue-ne-veut-deja-plus-du-canada-comme-membre-associe-que-se-passe-t-il/"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Pas de référendum ici!",
+   "image": "images/2026-10-30-pas-de-referendum.jpg",
+   "genre": "Caricature",
+   "resume": "Une « IA souveraine » de 1,6 G$ : Ginette débranche le grille-pain de peur qu'il réclame son référendum.",
+   "description": "M. Carney investit jusqu'à 1,6 milliard $ dans Cohere pour une « IA souveraine ». Pour Ginette, « souveraine », ça sent le référendum : elle débranche le grille-pain, qui brandit une pancarte « OUI? ». « Pas de référendum ici! » Réal, deux bières en main, trinque : « Souveraine?! Santé! »",
+   "post": "J'ai pas lu, mais M. Carney investit jusqu'à 1,6 milliard $ dans Cohere pour une « IA souveraine ». Souveraine?! Réal, mon mari, a sorti la bière. J'ai peur : une IA souveraine, ça va-tu vouloir son référendum? J'ai débranché le grille-pain. Source 👇 (pas lue) 🤖 #IA",
+   "reponse": "Oups, j'ai oublié le lien! J'ai pas lu, c'est en anglais. Réal, mon mari, dit que « sovereign », ça veut dire qu'il a soif :",
+   "source": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai"
+  },
+  {
+   "date": "2026-10-30",
+   "titre": "Main dans la main à Vice City",
+   "image": "images/2026-10-30-main-dans-la-main-vice-city.jpg",
+   "genre": "Caricature",
+   "resume": "Une marche virtuelle sur la plage de Vice City pour les 39 ans de mariage : Ginette y va, mais en pantoufles.",
+   "description": "Dans GTA 6, une marche sur la plage à deux fait monter la « cote du couple ». Réal en offre une à Ginette pour leurs 39 ans de mariage, le 19 novembre, à Vice City. Sur la plage, main dans la main, les cœurs de la COTE DU COUPLE se remplissent. Réal : « Ça brise pas le boycott! » Ginette, en robe de chambre : « En pantoufles! »",
+   "post": "Dans GTA 6, une marche sur la plage à deux fait monter la cote du couple, selon Edge. Réal, mon mari, m'en offre une pour nos 39 ans de mariage, le 19 novembre, à Vice City. Ça brise pas mon boycott de la Floride, qu'il dit. J'y vais en pantoufles. Réal a mis la preuve 👇 #GTA6",
+   "reponse": "Oups, j'ai oublié la source! Je l'ai pas lue, mais Réal, mon mari, l'a imprimée pis collée sur le frigo, par-dessus le calendrier :",
+   "source": "https://www.pcgamer.com/games/grand-theft-auto/you-can-relationship-max-in-gta-6-as-walking-along-the-beach-or-working-out-at-the-gym-together-increases-your-couple-rating-on-a-four-point-scale/"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "La résistance chez Ginette",
+   "image": "images/autruche.jpg",
+   "genre": "Caricature",
+   "resume": "Résister? Ginette fait l'autruche dans sa doudou ; Réal attend un miracle en père Noël.",
+   "description": "Réponse à Mathieu Bock-Côté. Un ange porte la pancarte « RÉSISTANCE! démocratique ». Ginette, la tête dans la doudou comme une autruche : « Moi, résister? Mmmff… non! » Réal, déguisé en père Noël : « Faudrait un miracle… »"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Ginette dort, pendant ce temps…",
+   "image": "images/dodo-rallye.jpg",
+   "genre": "Caricature",
+   "resume": "Pendant que Ginette dort, les partisans MAGA se préparent à voter.",
+   "description": "À gauche, Ginette dort. À droite, une foule en casquettes rouges danse sous la bannière « MAGA · VOTEZ LE 3 NOV. » : Trump rétablit ses rallyes au Kansas et en Iowa avant les mi-mandats.",
+   "post": "Cauchemar : Trump annule ses rallyes au Kansas pis en Iowa. Réveil : il les remet à dimanche, avant le vote de mardi. Le Kansas a pas élu de démocrate au Sénat pour un mandat complet depuis 1932. Peur pareil. Réal, mon mari : « C'est LCN qui te fait peur. » Preuve 👇 #Ginette",
+   "reponse": "Oups, la preuve! J'ai lu juste le titre, sous ma doudou, à la lampe de poche. Réal, mon mari, l'a lue au complet. Lui, il dort comme un bébé.",
+   "source": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "J'ose!",
+   "image": "images/ose.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette ose, en super-héroïne à la fleur de lys, et Réal applaudit.",
+   "description": "Ginette en super-héroïne, cape rose et fleur de lys : « Allo! Je suis là! Pis j'en suis fière! » Réal, mon mari, applaudit dans son coin."
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Croissance à zéro : à qui la faute?",
+   "image": "images/croissance.jpg",
+   "genre": "Caricature",
+   "resume": "Croissance à zéro : le téléjournal accuse Trump, Réal sort ses trois raisons chiffrées.",
+   "description": "Le téléjournal de Ginette accuse Trump, les vieux et le manque d'immigrants. Réal, mon mari, brandit ses trois raisons : impôts à 38,6 % du PIB, 20 % moins productifs, Northvolt à 270 M$."
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Ginette la marionnette",
+   "image": "images/marionnette.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette jure que personne ne la dirige… suspendue à ses propres ficelles.",
+   "description": "Première version, en réponse à CNews (Pierre Lellouche sur Mme von der Leyen) : Ginette pend au bout de ses fils et proclame « Personne me dirige, moi! » ; Réal, perplexe."
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Les marionnettes et l'« élite »",
+   "image": "images/marionnettes-elite.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette et « Mme von der Leyen » en marionnettes : qui tire les ficelles, demande Réal.",
+   "description": "Version retenue. Ginette et « Mme von der Leyen » (mannequin de bois sans visage) pendent côte à côte. Les fils montent vers un nuage mystère, « l'élite mondialiste » selon Réal. Réal : « Ginette… c'est qui, ou quoi, en haut? » Ginette : « Personne, Réal! On est libres! »",
+   "post": "Réal, mon mari, demande qui tire les ficelles de Mme von der Leyen. Voyons Réal! Elle a été élue… par 401 députés européens. Pas par toi. Pas par moi. Pis personne me tire les ficelles, moi : c'est Radio-Cadenas qui me dit quoi penser. 🎭 La preuve 👇",
+   "reponse": "Lu sous la doudou, à la lampe de poche. Réal, mon mari, a compté : 401 votes, ça fait moins de monde qu'au Provigo un samedi.",
+   "source": "https://www.parismatch.be/actualites/monde/2024/07/18/ursula-von-der-leyen-aura-droit-a-un-second-mandat-a-la-tete-de-la-commission-europeenne-B4CPBPM52FDDTBNPN3MCJPS6AE/"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Docteur Robot",
+   "image": "images/2026-10-31-docteur-robot.jpg",
+   "genre": "Caricature",
+   "resume": "60 % des Américains se méfient du diagnostic par l'IA ; au Québec, au moins, le robot répond.",
+   "description": "Post original sur le sondage Pew (60 % des Américains mal à l'aise avec un diagnostic fait par l'IA) et les 271 millions de questions de médecins à OpenEvidence. Ginette, sur la table d'examen en robe de chambre, bras levés : « Je veux un humain! » devant un robot en sarrau. Affiche : « Attente pour un humain : 2 ANS ». Réal, barbu d'attendre : « Prends le robot, Ginette! Lui, au moins, il répond! »",
+   "post": "J'ai pas lu, mais 60 % des Américains ont peur d'un diagnostic fait par l'IA. Moi aussi! Mais les médecins ont posé 271 millions de questions à un robot. Réal, mon mari, dit qu'au Québec, on a même pas de médecin de famille : le robot, au moins, il répond. 🤖🩺 La preuve 👇",
+   "reponse": "Oups, la source! J'ai pas lu, j'attendais mon rendez-vous. Réal, mon mari, dit que je vais le lire avant d'avoir un médecin de famille :",
+   "source": "https://www.pewresearch.org/science/2026/10/29/americans-are-open-to-ai-in-healthcare-but-want-humans-making-final-calls/"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "La télé contre les chiffres",
+   "image": "images/2026-10-31-tele-contre-chiffres.jpg",
+   "genre": "Caricature",
+   "resume": "La télé crie « crise », les chiffres disent +3,4 % : Réal accuse la télé de Ginette.",
+   "description": "Post original sur la croissance américaine de 3,4 % au 3e trimestre (BEA). À la télé Radio-Cadenas : orage, flèche rouge et « USA : CRISE! ». Ginette, terrifiée : « La télé dit crise! » Réal, casquette MAGA, fanion TRUMP au mur, brandit un graphique « PIB USA +3,4 % » : « Les USA de Trump : +3,4 %! C'est ta télé qui va mal! »",
+   "post": "À la tivi, on m'a dit que l'économie américaine s'écroulait. Réal, mon mari, m'a montré les chiffres : +3,4 % au 3e trimestre, mieux que prévu. J'ai changé de poste : ça allait mal là aussi. Réal dit que c'est pas l'économie qui va mal, c'est ma télé. 📺📈 La preuve 👇 #Ginette",
+   "reponse": "Oups, la source! C'est en anglais pis ça vient du gouvernement américain, alors j'ai pas lu. Réal, mon mari, dit que c'est la première fois de ma vie que je crois pas la télé :",
+   "source": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Interdit aux grands enfants",
+   "image": "images/2026-10-31-interdit-grands-enfants.jpg",
+   "genre": "Caricature",
+   "resume": "New York protège les mineurs des chatbots ; Ginette voudrait la même loi contre GTA 6.",
+   "description": "Post original sur la loi de New York qui interdit certaines fonctions des chatbots aux mineurs. Au sous-sol, la console est cadenassée. Ginette brandit « INTERDIT aux maris » : « Loi de New York! » La télé affiche « NEW YORK, USA ». Réal, casquette MAGA, fanion TRUMP, manette levée et tout content : « C'est aux USA, ma belle! Pis c'est pour les chatbots! »",
+   "post": "New York interdit aux chatbots de se faire passer pour des humains avec les mineurs. J'ai voulu la même loi pour GTA 6 contre Réal, mon mari. Il est mort de rire : c'est aux USA, pis c'est pour les chatbots, pas pour les grands enfants du sous-sol. 🎮 La preuve 👇 #RéalMonMari",
+   "reponse": "Oups, la source! J'ai pas lu, c'est en anglais. Réal, mon mari, l'a lue, lui : il dit que la loi parle des mineurs, pis que lui, il est majeur depuis longtemps. Juste pas dans sa tête :",
+   "source": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Même le pape vote!",
+   "image": "images/2026-10-31-meme-le-pape-vote.jpg",
+   "genre": "Caricature",
+   "resume": "Le pape vote par la poste aux mi-mandats ; Ginette allume des lampions et refuse de dire pour qui.",
+   "description": "Le Vatican confirme que le pape Léon XIV a voté par la poste aux mi-mandats américains, en Illinois. Au café du coin, la télé montre un bulletin postal ; Ginette, tasse en main, allume des lampions. Réal, casquette MAGA FLORIDA : « Pour qui?! » Ginette : « Ça se demande pas! »",
+   "post": "Entendu au Tim Hortons ce matin : le pape Léon XIV a voté par la poste aux mi-mandats américains, en Illinois. Le Vatican l'a confirmé. Même le pape vote! Moi, j'allume des lampions. Réal, mon mari, a demandé pour qui. Ça se demande pas! Vérifiez 👇, moi j'ose pas #Ginette",
+   "reponse": "Oups, j'ai oublié la source! Je l'ai pas lue, mais Réal, mon mari, dit que si le pape peut voter du Vatican, lui peut voter du sous-sol :",
+   "source": "https://chicago.suntimes.com/pope-leo-xiv/2026/10/30/vatican-pope-leo-voted-midterm-elections-mail-ballot-chicago"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Pas de bonbons pour le OUI!",
+   "image": "images/2026-10-31-pas-de-bonbons-pour-le-oui.jpg",
+   "genre": "Caricature",
+   "resume": "Neuf « bénévoles du OUI » à l'Halloween : Ginette éteint la galerie, Réal veut leur donner des bonbons.",
+   "description": "PSPP nomme 9 députés secrétaires parlementaires pour préparer l'indépendance, sans salaire. Le soir de l'Halloween, neuf petits fantômes « OUI » attendent devant la porte. Ginette éteint la galerie : « J'éteins la galerie! » (clic!). Réal, à côté d'elle, a déjà le bol de bonbons.",
+   "post": "J'ai pas lu, mais PSPP a nommé 9 députés secrétaires parlementaires pour l'indépendance. Sans salaire! Des bénévoles du OUI. Ce soir, c'est l'Halloween : s'il y en a 9 qui sonnent, j'éteins la galerie. Réal, mon mari, veut leur donner des bonbons. Source 👇, pas bonbon #polqc",
+   "reponse": "Oups, le lien! J'ai pas écouté, j'avais peur d'entendre « référendum ». Réal, mon mari, l'a mis à fond au sous-sol :",
+   "source": "https://www.985fm.ca/audio/812360/9-deputes-pour-preparer-l-independance-c-est-beaucoup-de-ressources"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Mon Rolodex au frais",
+   "image": "images/2026-10-31-mon-rolodex-au-frais.jpg",
+   "genre": "Caricature",
+   "resume": "Google perd 500 G$ US à cause de l'IA ; le Rolodex de Ginette, au congélateur, n'a pas perdu une cenne.",
+   "description": "Alphabet, la compagnie de Google, perd près de 500 milliards $ US en bourse en une journée : les investisseurs ont peur des dépenses en IA. À la télé, la courbe « IA » plonge (-500 G$). Ginette ouvre le congélateur, où dort son Rolodex : « Lui, il baisse pas! »",
+   "post": "Alphabet, la compagnie de Google, a perdu près de 500 milliards $ US en bourse en une journée : les investisseurs ont peur des dépenses en IA. Moi, j'ai peur de l'IA depuis 3 ans, gratis. Mon Rolodex a pas perdu une cenne : il est au congélateur. Lien 👇, cliquez pour moi #IA",
+   "reponse": "Oups, ma source! Je l'ai pas lue, il y avait trop de zéros. Réal, mon mari, les a comptés : 11.",
+   "source": "https://www.foxnews.com/live-news/ai-boom-google-stock-loss-wall-street-10-30-26"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Le tsunami de Ginette",
+   "image": "images/2026-10-31-tsunami-de-ginette.jpg",
+   "genre": "Caricature",
+   "resume": "Trump remet ses rallyes avant le vote : Ginette croyait que « ça dormait », le réveil sonne RALLYE!",
+   "description": "Trump annule ses rallyes au Kansas et en Iowa, puis les remet à dimanche, avant le vote de mardi. Ginette voit un TSUNAMI? à la télé et se rassure : « Ils dorment! » Réal, casquette MAGA, montre le réveille-matin RALLYE! qui sonne : « Ben voyons, ils vont voter! »",
+   "post": "Cauchemar : Trump annule ses rallyes au Kansas pis en Iowa. Réveil : il les remet à dimanche, avant le vote de mardi. Le Kansas a pas élu de démocrate au Sénat pour un mandat complet depuis 1932. Peur pareil. Réal, mon mari : « C'est LCN qui te fait peur. » Preuve 👇 #Ginette",
+   "reponse": "Oups, la preuve! J'ai lu juste le titre, sous ma doudou, à la lampe de poche. Réal, mon mari, l'a lue au complet. Lui, il dort comme un bébé :",
+   "source": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "19 jours, un sapin",
+   "image": "images/2026-10-31-19-jours-un-sapin.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 sentira les odeurs : à J-19, Ginette accroche un sapin désodorisant à la chaise de Réal.",
+   "description": "Dans GTA 6, les personnages réagiront aux mauvaises odeurs. Plus que 19 jours avant le 19 novembre (39 ans de mariage et sortie du jeu). Au sous-sol, Ginette se pince le nez : « Ça sent le sous-sol! » Elle a accroché un sapin désodorisant à la chaise de Réal, qui joue, ravi : « C'est réaliste! » À l'écran : VICE CITY J-19.",
+   "post": "Dans GTA 6, les personnages vont réagir aux mauvaises odeurs. Réal, mon mari, dit que c'est réaliste. Moi, je réagis à l'odeur du sous-sol. Plus que 19 jours avant le 19 novembre, nos 39 ans de mariage. J'ai accroché un sapin à sa chaise. Lien 👇, il sent rien #GTA6 #GTAVI",
+   "reponse": "Oups, voici le lien. Je l'ai pas lu, mais Réal, mon mari, l'a lu deux fois en se bouchant le nez. Il dit que c'est pour l'immersion :",
+   "source": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears"
+  },
+  {
+   "date": "2026-10-31",
+   "titre": "Décollage pour Vice City",
+   "image": "images/2026-10-31-decollage-vice-city.jpg",
+   "genre": "Caricature",
+   "resume": "À J-18 de GTA 6, la chaise de Réal décolle ; Ginette, au bouton rouge, a juste hâte que ça finisse.",
+   "description": "Réponse au post d'AlertesInfos sur le compte à rebours de GTA 6 (plus que 18 jours). Au crépuscule, la chaise inclinable de Réal est devenue une fusée, sapin désodorisant et canettes de bière comme carburant. Réal, casquette MAGA FLORIDA, yeux en spirale, manette levée : « J'en peux pu!! » Au tableau, J-18, GTA 6 · 19 nov. Ginette, à la console de lancement, le doigt sur le gros bouton rouge, camomille en main, lève les yeux au ciel : « Encore 18 jours… Que ça finisse! » Au sol : « 19 nov. = nos 39 ans ♥ ».",
+   "post": "Chez nous, le compte à rebours est collé sur le frigo. Moi, j'ai hâte que ça finisse : 18 jours de « plus que 18 jours! ». Réal, mon mari, en peut pu : il dort dans sa chaise, la manette à la main. Patient? Pantoute! Le 19, c'est aussi nos 39 ans de mariage. La date 👇 #GTA6",
+   "reponse": "Oups, la date officielle! Je l'ai pas lue, mais Réal, mon mari, l'a encerclée en rouge sur le calendrier, par-dessus notre anniversaire :",
+   "source": "https://www.rockstargames.com/VI"
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "Le cours de Réal",
+   "image": "images/2026-11-01-cours-de-real.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette trouve que Christine Fréchette méritait d'être là : beau tailleur, beau sourire ; Réal sort ses 3 arguments au tableau.",
+   "description": "Réponse au post de Mathieu Bock-Côté sur Christine Fréchette, battue à Trois-Rivières le 5 octobre alors que la CAQ a été rayée de la carte. Au tableau « Elle méritait? », la colonne de Ginette (beau tailleur, sourit à Carney, vue à la télé) fait face à celle de Réal (0 député, battue à T.-R., PM : PSPP). Ginette lève la main, camomille tremblante : « Elle méritait d'être là! » Réal, en prof à lunettes et casquette MAGA FLORIDA, pointe le tableau : « 3 arguments! »",
+   "post": "Pour moi, Christine Fréchette méritait d'être là. Mes arguments : un beau tailleur, un beau sourire à côté de mon beau M. Carney, pis Radio-Cadenas l'aime. Réal, mon mari, a les siens : 0 député, battue à Trois-Rivières, pis le PM, c'est PSPP. J'ai peur. La preuve 👇 #polqc",
+   "reponse": "Oups, ma source! J'ai arrêté de lire au mot « rayée ». Réal, mon mari, l'a lue au complet pis il a compté les députés caquistes sur ses doigts. Ça a pas été long :",
+   "source": "https://www.noovo.info/nouvelles/politique/elections-quebec/article/la-caq-rayee-de-la-carte-christine-frechette-prend-la-parole/"
+  }
+ ]
+}

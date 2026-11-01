@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ginette Pantoufle (parodie) · caricatures et posts de @GinettePantouf</title>
+<meta name="description" content="Ginette de MonRéal, en robe de chambre rose. Pas lu l'article, mais chu contre. La faute à Trump. Caricatures, posts et sources du compte parodique @GinettePantouf.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:site_name" content="Ginette Pantoufle (parodie)">
+<meta property="og:title" content="La vie de Ginette Pantoufle">
+<meta property="og:description" content="Pas lu l'article, mais chu contre. La faute à Trump. Peut-être que l'humour allumera des lumières… ou juste vous fera rire.">
+<meta property="og:url" content="https://ginette.everestinformatique.com/">
+<meta property="og:image" content="https://ginette.everestinformatique.com/images/gta6.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GinettePantouf">
+<meta name="twitter:title" content="La vie de Ginette Pantoufle">
+<meta name="twitter:description" content="Caricatures, posts et sources du compte parodique @GinettePantouf.">
+<meta name="twitter:image" content="https://ginette.everestinformatique.com/images/gta6.jpg">
+<link rel="icon" href="images/pantoufle-maga.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,500&family=Inter:wght@400;600;800&display=swap">
+<style>
+:root{
+  --papier:#fff8fb; --carte:#ffffff; --encre:#2b1d33; --doux:#6d5a72; --rose:#d94f8c; --mauve:#7a3d8c;
+  --sarcelle:#1f8a82; --trait:#f1d3e2; --oups:#eef8f6; --oups-trait:#bfe3dd;
+  --couv:linear-gradient(160deg,#ffd6e6 0%,#fff1d6 55%,#d9f2ef 100%);
+  --jour:linear-gradient(135deg,#d94f8c,#7a3d8c);
+  --titre:"Fraunces",Georgia,serif; --texte:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --papier:#1c1420; --carte:#271c2c; --encre:#f6e9f0; --doux:#c3aeca; --rose:#ff8cbf; --mauve:#d9a6ff;
+  --sarcelle:#5fd0c5; --trait:#3d2c43; --oups:#18302d; --oups-trait:#2c5650;
+  --couv:linear-gradient(160deg,#3a1f33 0%,#33291c 55%,#173331 100%); --jour:linear-gradient(135deg,#a8336a,#55286a); color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papier);color:var(--encre);font-family:var(--texte);font-size:17px;line-height:1.55}
+img{max-width:100%;display:block}
+a{color:var(--sarcelle);overflow-wrap:anywhere}
+h1,h2,h3{font-family:var(--titre);font-weight:800;text-wrap:balance;margin:0}
+.page{max-width:880px;margin:0 auto;padding:0 16px 48px}
+
+header.profil{background:var(--couv);margin:0 -16px;padding:36px max(16px,calc((100% - 820px)/2)) 32px;border-radius:0 0 28px 28px;display:grid;gap:16px}
+.identite{display:flex;gap:18px;align-items:center}
+.identite img{width:104px;height:104px;border-radius:50%;object-fit:cover;border:5px solid var(--carte);flex:none}
+.identite h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.05}
+.identite h1 span{color:var(--rose)}
+.handle{margin:4px 0 0;color:var(--sarcelle);font-weight:800}
+.bio{margin:0;font-size:1.15rem;max-width:40rem}
+.bio em{color:var(--mauve)}
+.couv{width:100%;border-radius:16px;border:5px solid var(--carte);box-shadow:0 10px 28px rgba(80,30,60,.22)}
+.stats{margin:0;color:var(--doux)}
+.stats b{color:var(--rose);font-family:var(--titre);font-size:1.25rem}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--encre);color:var(--papier);text-decoration:none;font-weight:800;border-radius:99px;padding:10px 18px;font-size:.95rem}
+.btn.rose{background:var(--rose);color:#fff}
+.btn.contour{background:transparent;color:var(--rose);border:2px solid var(--rose)}
+
+section.bloc{margin-top:44px;display:grid;gap:14px}
+section.bloc>h2{color:var(--rose);font-size:1.8rem}
+.persos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.persos div{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:14px 16px}
+.persos h3{color:var(--sarcelle);font-size:1.15rem;margin-bottom:4px}
+.persos p{margin:0;font-size:.95rem}
+details.gags{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:12px 16px}
+details.gags summary{cursor:pointer;font-weight:800;color:var(--mauve)}
+details.gags ul{margin:10px 0 0;padding-left:1.1em;display:grid;gap:8px;font-size:.95rem}
+
+.jour{margin-top:48px;background:var(--jour);color:#fff;border-radius:18px;padding:18px 22px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.jour h2{color:#fff;font-size:1.5rem}
+.jour span{opacity:.9;font-weight:600}
+article{margin-top:30px;display:grid;gap:12px;scroll-margin-top:12px}
+.ehead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+article h3{font-size:clamp(1.35rem,4.5vw,1.8rem);line-height:1.15}
+.cadre{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px}
+.cadre img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:9px}
+.resume{margin:0;font-family:var(--titre);font-style:italic;font-weight:500;font-size:1.15rem;color:var(--mauve);line-height:1.4}
+.lib{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800;color:var(--doux);margin-bottom:3px}
+.boite{border-radius:12px;padding:10px 14px}
+.boite p{margin:0;font-size:.97rem}
+.boite.post{background:var(--carte);border:1.5px solid var(--trait)}
+.boite.oups{background:var(--oups);border:1.5px solid var(--oups-trait)}
+.boite.oups a{font-size:.88rem}
+details.contexte summary{cursor:pointer;color:var(--doux);font-size:.9rem;font-weight:600}
+details.contexte p{margin:6px 0 0;font-size:.95rem}
+.partage{display:flex;gap:14px;flex-wrap:wrap;font-size:.88rem}
+.partage a{color:var(--doux);font-weight:600;text-decoration:none}
+.partage a:hover{color:var(--rose)}
+.plus{margin:36px auto 0;display:block;font:inherit;font-weight:800;color:var(--rose);background:transparent;border:2px solid var(--rose);border-radius:99px;padding:10px 22px;cursor:pointer}
+footer{margin-top:56px;border-top:3px dashed var(--trait);padding-top:22px;display:grid;gap:10px;color:var(--doux);font-size:.9rem}
+footer p{margin:0}
+.etat{color:var(--doux)}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="profil">
+    <div class="identite">
+      <img src="images/pantoufle-maga.jpg" alt="La pantoufle de Ginette" width="104" height="104">
+      <div>
+        <h1>Ginette <span>Pantoufle</span></h1>
+        <p class="handle">@GinettePantouf · parodie ⚜️</p>
+      </div>
+    </div>
+    <p class="bio">Ginette de MonRéal, en robe de chambre rose. Pas lu l'article, mais chu contre. La faute à Trump. <em>Peut-être que l'humour allumera des lumières… ou juste vous fera rire.</em></p>
+    <img class="couv" src="images/gta6.jpg" alt="Ginette et Réal, mon mari, devant Vice City">
+    <p class="stats" id="stats">&nbsp;</p>
+    <div class="actions">
+      <a class="btn" href="https://x.com/intent/follow?screen_name=GinettePantouf" target="_blank" rel="noopener">Suivre @GinettePantouf sur X</a>
+      <a class="btn rose" href="#caricatures">Les caricatures</a>
+      <a class="btn contour" href="#personnages">Les personnages</a>
+    </div>
+  </header>
+
+  <main id="caricatures"><p class="etat" style="margin-top:32px">Chargement des caricatures…</p></main>
+  <button class="plus" id="plus" hidden>Voir les caricatures plus anciennes</button>
+
+  <section class="bloc" id="personnages">
+    <h2>Les personnages</h2>
+    <div class="persos">
+      <div><h3>Ginette</h3><p>Ginette de MonRéal. Robe de chambre rose, bigoudis bleus, pantoufles roses à pompon. Debout pas avant 10 h. Endormie par le téléjournal de « Radio-Cadenas », mais cultivée : elle connaît les vrais faits et en tire toujours la mauvaise conclusion. Admire « mon beau M. Carney », a peur de PSPP, de Trump, de l'IA… et de presque tout.</p></div>
+      <div><h3>Réal, mon mari</h3><p>Marié à Ginette depuis le 19 novembre 1987. Chaise inclinable, chemise hawaïenne, casquette « MAGA FLORIDA », bière à la main. Gamer, fan de CNews et de croisières au départ de Miami. Vit surtout au sous-sol. Sa phrase fétiche : « C'est la télé qui te fait peur! »</p></div>
+      <div><h3>Lise et la cousine</h3><p>Lise, la sœur de Réal, passe l'hiver en Floride : Ginette lui reproche d'avoir « choisi Trump ». La cousine, elle, se fait bronzer à la plage pendant que Réal compte les condos.</p></div>
+    </div>
+    <details class="gags"><summary>Les running gags</summary>
+      <ul>
+        <li><b>Le 19 novembre :</b> 39 ans de mariage… et sortie de GTA 6. Réal a encerclé la date en rouge, pour le jeu.</li>
+        <li><b>Le boycott de la Floride :</b> Ginette boycotte la Floride de Trump ; Réal rêve de Miami et de Vice City.</li>
+        <li><b>Le sous-sol :</b> Réal y dort, y joue et y regarde CNews.</li>
+        <li><b>Le congélateur :</b> la cachette de Ginette pour son Rolodex, son dentier… et la console de Réal.</li>
+        <li><b>« J'ai pas lu, mais… » :</b> Ginette donne toujours sa source, sans jamais la lire.</li>
+        <li><b>Le cours de Réal :</b> pointeur en main, Réal devient « prof » de sociologie, de Floride, de jeux vidéo ou d'IA.</li>
+        <li><b>Pantouf? Pantoute!</b></li>
+      </ul>
+    </details>
+  </section>
+
+  <footer>
+    <p><b>Compte parodique.</b> Ginette et Réal sont des personnages inventés. Les faits publics cités sont réels et chaque post donne sa source ; les anecdotes du couple sont inventées. Aucun visage de personne réelle n'est dessiné. Ce site n'est affilié à aucune des personnes, aucun des partis ni aucun des médias mentionnés.</p>
+    <p>Suivez Ginette sur X : <a href="https://x.com/GinettePantouf" target="_blank" rel="noopener">@GinettePantouf</a> · <span id="maj"></span></p>
+    <p>Une réalisation <a href="https://everestinformatique.com" target="_blank" rel="noopener">Everest Informatique</a></p>
+  </footer>
+</div>
+
+<script>
+const SITE='https://ginette.everestinformatique.com/';
+const PAGE=12;
+const moisFr=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const joursFr=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+function parts(iso){const [a,m,j]=iso.split('-').map(Number);return {a,m,j,w:new Date(Date.UTC(a,m-1,j)).getUTCDay()}}
+function dateFr(iso){const p=parts(iso);return `${p.j===1?'1er':p.j} ${moisFr[p.m-1]} ${p.a}`}
+function jourFr(iso){const w=joursFr[parts(iso).w];return w[0].toUpperCase()+w.slice(1)}
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function slug(t){return t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60)}
+
+let liste=[],montrees=0,dernierJour=null;
+function carte(e){
+  const id=slug(e.date+'-'+e.titre);
+  const art=el('article');art.id=id;
+  const h=el('div','ehead');h.append(el('h3',null,e.titre));art.append(h);
+  const c=el('div','cadre');const img=el('img');img.src=e.image;img.alt=e.titre;img.loading='lazy';img.width=1600;img.height=900;c.append(img);art.append(c);
+  if(e.resume)art.append(el('p','resume',e.resume));
+  if(e.post){const b=el('div','boite post');b.append(el('span','lib','Le post de Ginette'),el('p',null,e.post));art.append(b)}
+  if(e.reponse||e.source){const b=el('div','boite oups');b.append(el('span','lib','Sa réponse avec la source'));
+    const p=el('p',null,(e.reponse||'')+' ');if(e.source){const a=el('a',null,e.source);a.href=e.source;a.target='_blank';a.rel='noopener';p.append(a)}b.append(p);art.append(b)}
+  if(e.description){const d=el('details','contexte');d.append(el('summary',null,'Le contexte'),el('p',null,e.description));art.append(d)}
+  const pa=el('div','partage');
+  const lien=SITE+'#'+id;
+  const x=el('a',null,'Partager sur X');x.href='https://x.com/intent/post?text='+encodeURIComponent(`« ${e.titre} » par @GinettePantouf`)+'&url='+encodeURIComponent(lien);x.target='_blank';x.rel='noopener';
+  const fb=el('a',null,'Partager sur Facebook');fb.href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(lien);fb.target='_blank';fb.rel='noopener';
+  const cp=el('a',null,'Copier le lien');cp.href='#'+id;cp.addEventListener('click',ev=>{ev.preventDefault();try{navigator.clipboard.writeText(lien);cp.textContent='Lien copié!'}catch(_){location.hash=id}});
+  pa.append(x,fb,cp);art.append(pa);
+  return art;
+}
+function montrer(n){
+  const zone=document.getElementById('caricatures');
+  const fin=Math.min(liste.length,montrees+n);
+  for(let i=montrees;i<fin;i++){
+    const e=liste[i];
+    if(e.date!==dernierJour){dernierJour=e.date;const j=el('div','jour');j.append(el('h2',null,`${jourFr(e.date)} ${dateFr(e.date)}`));
+      const nb=liste.filter(x=>x.date===e.date).length;j.append(el('span',null,`${nb} caricature${nb>1?'s':''}`));zone.append(j)}
+    zone.append(carte(e));
+  }
+  montrees=fin;document.getElementById('plus').hidden=montrees>=liste.length;
+}
+fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
+  const E=(d.entrees||[]).filter(e=>e.statut!=='propose').map((e,i)=>({...e,_i:i}));
+  liste=E.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b._i-a._i); // plus récentes d'abord
+  const jours=new Set(liste.map(e=>e.date)).size;
+  document.getElementById('stats').innerHTML='';
+  const s=document.getElementById('stats');s.append(el('b',null,`${liste.length} caricatures`),` en ${jours} jours, avec leurs posts et leurs sources.`);
+  if(d.mis_a_jour)document.getElementById('maj').textContent='Mis à jour le '+dateFr(d.mis_a_jour);
+  document.getElementById('caricatures').textContent='';
+  // lien direct vers une caricature : tout afficher jusqu'à elle
+  const cible=location.hash.slice(1);
+  let n=PAGE;if(cible){const k=liste.findIndex(e=>slug(e.date+'-'+e.titre)===cible);if(k>=0)n=Math.max(PAGE,k+1)}
+  montrer(n);
+  if(cible){const t=document.getElementById(cible);if(t)t.scrollIntoView()}
+}).catch(()=>{document.getElementById('caricatures').textContent="Les caricatures n'ont pas pu être chargées. Rechargez la page."});
+document.getElementById('plus').addEventListener('click',()=>montrer(PAGE));
+</script>
+</body>
+</html>
