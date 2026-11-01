@@ -71,6 +71,7 @@ nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
 .seg button{background:transparent;border:0;color:var(--rose);font-weight:800;padding:5px 14px;font-size:.88rem}
 .seg button[aria-pressed="true"]{background:var(--rose);color:#fff}
 .carrousel{display:flex;align-items:center;gap:6px}
+.carrousel[hidden]{display:none}
 .piste{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:2px;flex:1}
 .piste::-webkit-scrollbar{display:none}
 .pastille{scroll-snap-align:start;flex:none;background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px 12px;text-align:left;color:var(--encre);min-width:118px}
@@ -287,10 +288,14 @@ function dessinerPeriode(){
   if(etat.sujet!=='Tous'&&!dans.some(e=>e._sujets.includes(etat.sujet)))etat.sujet='Tous';
   dessinerSujets();
   const l=libelle(etat.cle,etat.mode);
-  document.getElementById('titre-periode').textContent=l.t;
+  const SUR={'Trump':'Trump','Québec':'le Québec','IA':"l'IA",'GTA 6':'GTA 6','Carney':'M. Carney'};
+  const filtre=etat.sujet!=='Tous';
+  const nVue=filtre?dans.filter(e=>e._sujets.includes(etat.sujet)).length:dans.length;
+  document.getElementById('titre-periode').textContent=filtre?(etat.mode==='tout'?`Toutes les caricatures sur ${SUR[etat.sujet]}`:`${l.t} · ${etat.sujet}`):l.t;
+  document.querySelector('.carrousel').hidden=etat.mode==='tout';
   const rp=document.getElementById('resume-periode'),rj=document.getElementById('resumes-jours');rj.textContent='';
   if(etat.mode==='jour'){rp.textContent=(D.jours||{})[etat.cle]||'';rp.hidden=!rp.textContent}
-  else if(etat.mode==='tout'){rp.hidden=false;rp.textContent='Des plus récentes aux plus anciennes. Touchez une caricature pour la voir en grand.'}
+  else if(etat.mode==='tout'){rp.hidden=false;rp.textContent=`${nVue} caricature${nVue>1?'s':''}, des plus récentes aux plus anciennes. Touchez-en une pour la voir en grand.`}
   else{rp.hidden=true;const jours=[...new Set(dans.map(e=>e.date))].sort().reverse();
     jours.forEach(j=>{const r=(D.jours||{})[j];if(!r)return;const li=el('li');li.append(el('b',null,jourLong(j)+' : '),r);rj.append(li)})}
   etat.vue=etat.sujet==='Tous'?dans:dans.filter(e=>e._sujets.includes(etat.sujet));
