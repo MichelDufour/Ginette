@@ -3,7 +3,7 @@
 # À lancer une seule fois : sudo bash installer.sh
 set -euo pipefail
 DOSSIER=/var/www/ginette
-DEPOT=https://github.com/MichelDufour/ginette.git
+DEPOT=https://github.com/MichelDufour/Ginette.git
 
 command -v git >/dev/null || apt-get install -y git
 if [ ! -d "$DOSSIER/.git" ]; then
