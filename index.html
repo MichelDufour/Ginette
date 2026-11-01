@@ -96,6 +96,16 @@ main .large{padding-top:24px;padding-bottom:40px}
 .resumes-jours{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:6px;max-width:60rem}
 .resumes-jours li{font-size:.95rem;color:var(--doux)}
 .resumes-jours b{color:var(--encre)}
+.sections{margin-top:16px}
+.sec-mois{color:var(--rose);font-size:1.6rem;margin:28px 0 4px}
+.sec-semaine{margin-top:22px}
+.sec-titre{font-size:1.15rem;color:var(--mauve);border-bottom:2px solid var(--trait);padding-bottom:4px;margin:0 0 4px}
+.sec-jour{margin-top:16px;background:var(--carte);border:2px solid var(--trait);border-radius:16px;padding:12px 14px}
+.sec-tete{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sec-tete h4{margin:0;font-family:var(--titre);font-size:1.1rem;color:var(--sarcelle)}
+.voir-jour{background:var(--rose);color:#fff;border:0;border-radius:99px;padding:5px 14px;font-weight:800;font-size:.85rem}
+.sec-resume{margin:6px 0 0;font-family:var(--titre);font-style:italic;color:var(--mauve)}
+.sec-jour .grille{margin-top:12px}
 .grille{margin-top:20px;display:grid;gap:14px;grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (min-width:700px){.grille{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (min-width:1050px){.grille{grid-template-columns:repeat(4,minmax(0,1fr))}}
@@ -301,17 +311,34 @@ function dessinerPeriode(){
   document.querySelector('.carrousel').hidden=etat.mode==='tout';
   const rp=document.getElementById('resume-periode'),rj=document.getElementById('resumes-jours');rj.textContent='';
   if(etat.mode==='jour'){rp.textContent=(D.jours||{})[etat.cle]||'';rp.hidden=!rp.textContent}
-  else if(etat.mode==='tout'){rp.hidden=false;rp.textContent=`${nVue} caricature${nVue>1?'s':''}, des plus récentes aux plus anciennes. Touchez-en une pour la voir en grand.`}
-  else{rp.hidden=true;const jours=[...new Set(dans.map(e=>e.date))].sort().reverse();
-    jours.forEach(j=>{const r=(D.jours||{})[j];if(!r)return;const li=el('li');li.append(el('b',null,jourLong(j)+' : '),r);rj.append(li)})}
+  else{rp.hidden=false;rp.textContent=`${nVue} caricature${nVue>1?'s':''}, des plus récentes aux plus anciennes. Touchez une image pour la voir en grand, ou « Voir cette journée » pour la journée complète.`}
   etat.vue=etat.sujet==='Tous'?dans:dans.filter(e=>e._sujets.includes(etat.sujet));
   const g=document.getElementById('grille');g.textContent='';
-  etat.vue.forEach((e,i)=>{
-    const b=el('button','vignette');b.type='button';
+  const vignette=(e,i,avecDate)=>{const b=el('button','vignette');b.type='button';
     const img=el('img');img.src=e.image;img.alt='';img.loading='lazy';img.width=480;img.height=270;b.append(img);
-    b.append(el('h3',null,e.titre));if(etat.mode!=='jour')b.append(el('small',null,jourLong(e.date)));
-    b.addEventListener('click',()=>ouvrir(i));g.append(b);
-  });
+    b.append(el('h3',null,e.titre));if(avecDate)b.append(el('small',null,jourLong(e.date)));
+    b.addEventListener('click',()=>ouvrir(i));return b};
+  if(etat.mode==='jour'){g.className='grille';etat.vue.forEach((e,i)=>g.append(vignette(e,i,false)))}
+  else{
+    g.className='sections';
+    const blocJour=(jour,items)=>{
+      const sec=el('section','sec-jour');const h=el('div','sec-tete');
+      h.append(el('h4',null,`${jourLong(jour)} · ${items.length} caricature${items.length>1?'s':''}`));
+      const bv=el('button','voir-jour','Voir cette journée ›');bv.type='button';
+      bv.addEventListener('click',()=>{setMode('jour');etat.cle=jour;dessinerPiste();dessinerPeriode();document.getElementById('caricatures').scrollIntoView({behavior:'smooth'})});
+      h.append(bv);sec.append(h);
+      const r=(D.jours||{})[jour];if(r)sec.append(el('p','sec-resume',r));
+      const gr=el('div','grille');items.forEach(({e,i})=>gr.append(vignette(e,i,false)));sec.append(gr);return sec};
+    const indexes=etat.vue.map((e,i)=>({e,i}));
+    const grouper=(arr,f)=>{const m=new Map();arr.forEach(x=>{const k=f(x.e);if(!m.has(k))m.set(k,[]);m.get(k).push(x)});return [...m.entries()]};
+    const blocSemaine=(lun,items)=>{
+      const sec=el('section','sec-semaine');
+      if(etat.mode!=='semaine'){const p=parts(lun);sec.append(el('h3','sec-titre',`Semaine du ${p.j===1?'1er':p.j} ${moisFr[p.m-1]} · ${items.length} caricature${items.length>1?'s':''}`))}
+      grouper(items,e=>e.date).forEach(([j,its])=>sec.append(blocJour(j,its)));return sec};
+    const parSemaine=arr=>grouper(arr,e=>lundi(e.date)).forEach(([l,its])=>g.append(blocSemaine(l,its)));
+    if(etat.mode==='tout'){grouper(indexes,e=>e.date.slice(0,7)).forEach(([m,its])=>{const [a,mm]=m.split('-').map(Number);const n=moisFr[mm-1];g.append(el('h2','sec-mois',`${n[0].toUpperCase()+n.slice(1)} ${a}`));parSemaine(its)})}
+    else parSemaine(indexes);
+  }
   document.getElementById('vide').hidden=etat.vue.length>0;
 }
 function setMode(m){
