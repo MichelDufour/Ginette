@@ -6,7 +6,7 @@
   "2026-10-29": "Cauchemar au sommet Canada-UE, 39 ans de mariage le jour de GTA 6, panique à la clinique et à la traduction simultanée. Tout a augmenté, sauf le sucre à la crème de bébé Ginette.",
   "2026-10-30": "Grosse journée : Ginette se fait canceller, le téléjournal sort son épouvantail Trump, elle improvise en bobettes et a peur d'une vague rouge. L'Europe la laisse avant la bague, et une IA « souveraine » lui fait débrancher le grille-pain.",
   "2026-10-31": "Halloween chez Ginette : elle éteint la galerie devant 9 fantômes du OUI, cache son Rolodex au congélateur et allume des lampions parce que même le pape vote. Pendant ce temps, la chaise de Réal décolle pour Vice City.",
-  "2026-11-01": "Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France pendant que Réal n'en peut plus d'attendre GTA 6, et elle réclame un bouton anti-aspiration… contre Réal, qui aspire ses biscuits depuis 1987."
+  "2026-11-01": "Grosse journée : Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France, réclame un bouton anti-aspiration contre les biscuits volés, refuse de répondre à Trump avant 10 h, boycotte la photo de famille du G20… et Réal lui offre une boîte vide pour GTA 6."
  },
  "entrees": [
   {
@@ -432,6 +432,39 @@
    "post": "Entendu au Tim Hortons ce matin : OpenAI, Google, Microsoft pis Anthropic promettent aux médias un bouton anti-aspiration contre leurs IA qui avalent tout. J'en veux un pour le garde-manger : Réal, mon mari, aspire mes biscuits depuis 1987. Lien 👇, lu à moitié #IA",
    "reponse": "Trouvé entre deux camomilles. Réal, mon mari, dit que le bouton, c'est pour les robots, pas pour lui :",
    "source": "https://lalibre.be/economie/digital/2026/10/31/les-geants-de-lia-font-une-promesse-L5XMP6NYKNCKVKVN3GKDCNFSRI"
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "Pas avant 10 h!",
+   "image": "images/2026-11-01-pas-avant-10-h.jpg",
+   "genre": "Caricature",
+   "resume": "Trump fait des télérallyes dans 19 États ; à 9 h 58, Ginette refuse de répondre, et Réal accuse la télé.",
+   "description": "Avant les mi-mandats du 3 novembre, Trump participe à des « télérallyes » dans 19 États. En gros plan, Ginette terrifiée, bras en l'air, devant le téléphone mural qui sonne « USA ×19 » à 9 h 58 ; dans le cadre de la porte, Réal lui lance que c'est la télé qui lui fait peur.",
+   "post": "Trump fait des « télérallyes » au téléphone dans 19 États avant mardi. Ça a sonné à 9 h 58 : pas répondu. Je me lève pour mes droits, pas avant 10 h. Réal, mon mari : « Le Québec est pas un des 19 États. C'est la télé qui te fait peur! » Pas encore… Source 👇 #Trump",
+   "reponse": "J'ai lu le titre, c'est déjà beaucoup. Réal, mon mari, l'a lu au complet sans trembler. Lui, le téléphone, il le répond jamais",
+   "source": "https://www.yahoo.com/news/politics/articles/trump-join-tele-rallies-19-010257493.html"
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "Pas de photo de famille!",
+   "image": "images/2026-11-01-pas-de-photo-de-famille.jpg",
+   "genre": "Caricature",
+   "resume": "Pas de photo de famille au G20 à cause de Lavrov, ni à Noël quand Lise arrive ; Miami, boycott!",
+   "description": "Au G20 d'Atlanta, les États-Unis ont annulé la photo de groupe après que des diplomates européens eurent refusé de poser avec le ministre russe Sergueï Lavrov ; le sommet du G20 de décembre aura lieu au club de golf de Trump à Miami. Deux cadres au mur : la photo du G20 « ANNULÉE » et le Noël chez Ginette où Lise est découpée ; Ginette tamponne « BOYCOTT! » sur une carte postale de Miami.",
+   "post": "Au G20 d'Atlanta, les Européens voulaient pas poser avec le ministre russe : pas de photo de famille! Chez nous, c'est pareil à Noël quand Lise, la sœur de Réal, arrive de Floride. Pis le sommet du G20 de décembre? Au golf de Trump, à Miami. Boycott! Source 👇 pour Lise #Ginette",
+   "reponse": "Réal, mon mari, l'a imprimé pis collé sur le frigo, à côté de la photo de Noël où Lise est coupée",
+   "source": "https://www.cbsnews.com/atlanta/news/g20-diplomats-including-from-china-and-russia-face-deep-rifts-as-they-prepare-to-meet-in-atlanta-2/"
+  },
+  {
+   "date": "2026-11-01",
+   "titre": "La boîte vide",
+   "image": "images/2026-11-01-la-boite-vide.jpg",
+   "genre": "Caricature",
+   "resume": "Cauchemar : le cadeau des 39 ans est une boîte vide avec un code ; réveil, c'est GTA 6.",
+   "description": "GTA 6 sort le 19 novembre ; selon les données des serveurs de Sony, le jeu pèserait 210 Go et la boîte physique ne contiendrait qu'un code de téléchargement. Bande dessinée en 3 cases : Réal offre une grosse boîte « 39 ANS », Ginette découvre qu'elle est vide avec un code à gratter, puis Réal fait le ménage… de la console, devant une pile de boîtes de pizza.",
+   "post": "Cauchemar : Réal, mon mari, m'offre mon cadeau des 39 ans de mariage. Une boîte vide, juste un code à gratter. Réveil : c'est GTA 6! Pas de disque, juste un code pis 210 Go à télécharger, paraît-il. Réal fait du ménage… dans la console. Lien 👇 #GTA6 #GTAVI",
+   "reponse": "Mes lunettes sont au congélateur, lisez-le pour moi. Réal, mon mari, dit que 210 Go, c'est plus gros que toutes mes recettes. J'ai rien compris. Lui : « Pantoute, Pantouf! »",
+   "source": "https://www.generation-nt.com/actualites/taille-telechargement-gta-6-prechargement-2083589"
   },
   {
    "date": "2026-11-01",
