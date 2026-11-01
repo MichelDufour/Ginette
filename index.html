@@ -67,6 +67,9 @@ header.profil{background:var(--couv)}
 nav.periodes{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--papier) 92%,transparent);backdrop-filter:blur(8px);border-bottom:2px solid var(--trait)}
 nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
 .ligne{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.accueil{display:inline-flex;align-items:center;gap:6px;background:var(--encre);color:var(--papier);border:0;border-radius:99px;padding:6px 14px;font-weight:800;font-size:.88rem}
+.haut-flottant{position:fixed;right:16px;bottom:16px;z-index:6;width:48px;height:48px;border-radius:50%;border:0;background:var(--rose);color:#fff;font-size:1.4rem;font-weight:800;box-shadow:0 6px 18px rgba(80,30,60,.3);display:none}
+.haut-flottant.visible{display:block}
 .seg{display:inline-flex;border:2px solid var(--rose);border-radius:99px;overflow:hidden}
 .seg button{background:transparent;border:0;color:var(--rose);font-weight:800;padding:5px 14px;font-size:.88rem}
 .seg button[aria-pressed="true"]{background:var(--rose);color:#fff}
@@ -165,6 +168,7 @@ footer p{margin:0}
 <nav class="periodes" id="caricatures" aria-label="Choisir une période">
   <div class="large">
     <div class="ligne">
+      <button type="button" class="accueil" id="accueil" aria-label="Retour à l'accueil">⌂ Accueil</button>
       <div class="seg" role="group" aria-label="Regrouper par">
         <button type="button" data-mode="jour" aria-pressed="true">Jours</button>
         <button type="button" data-mode="semaine" aria-pressed="false">Semaines</button>
@@ -214,6 +218,8 @@ footer p{margin:0}
     </footer>
   </div>
 </main>
+
+<button type="button" class="haut-flottant" id="haut-flottant" aria-label="Retour à l'accueil">↑</button>
 
 <div class="fiche" id="fiche" role="dialog" aria-modal="true" aria-labelledby="fiche-titre">
   <div class="fiche-in" id="fiche-in">
@@ -336,6 +342,10 @@ function fermer(){document.getElementById('fiche').classList.remove('ouverte');d
 function aller(d){const n=etat.index+d;if(n>=0&&n<etat.vue.length){etat.index=n;remplirFiche()}}
 
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+function accueil(){setMode('jour');window.scrollTo({top:0,behavior:'smooth'})}
+document.getElementById('accueil').addEventListener('click',accueil);
+document.getElementById('haut-flottant').addEventListener('click',accueil);
+window.addEventListener('scroll',()=>{document.getElementById('haut-flottant').classList.toggle('visible',scrollY>700)},{passive:true});
 document.getElementById('btn-toutes').addEventListener('click',ev=>{ev.preventDefault();setMode('tout');document.getElementById('caricatures').scrollIntoView({behavior:'smooth'})});
 document.getElementById('gauche').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:-300,behavior:'smooth'}));
 document.getElementById('droite').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:300,behavior:'smooth'}));
