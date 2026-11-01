@@ -23,182 +23,343 @@
 <style>
 :root{
   --papier:#fff8fb; --carte:#ffffff; --encre:#2b1d33; --doux:#6d5a72; --rose:#d94f8c; --mauve:#7a3d8c;
-  --sarcelle:#1f8a82; --trait:#f1d3e2; --oups:#eef8f6; --oups-trait:#bfe3dd;
+  --sarcelle:#1f8a82; --trait:#f1d3e2; --oups:#eef8f6; --oups-trait:#bfe3dd; --voile:rgba(28,14,30,.72);
   --couv:linear-gradient(160deg,#ffd6e6 0%,#fff1d6 55%,#d9f2ef 100%);
-  --jour:linear-gradient(135deg,#d94f8c,#7a3d8c);
   --titre:"Fraunces",Georgia,serif; --texte:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{
   --papier:#1c1420; --carte:#271c2c; --encre:#f6e9f0; --doux:#c3aeca; --rose:#ff8cbf; --mauve:#d9a6ff;
-  --sarcelle:#5fd0c5; --trait:#3d2c43; --oups:#18302d; --oups-trait:#2c5650;
-  --couv:linear-gradient(160deg,#3a1f33 0%,#33291c 55%,#173331 100%); --jour:linear-gradient(135deg,#a8336a,#55286a); color-scheme:dark}}
+  --sarcelle:#5fd0c5; --trait:#3d2c43; --oups:#18302d; --oups-trait:#2c5650; --voile:rgba(0,0,0,.8);
+  --couv:linear-gradient(160deg,#3a1f33 0%,#33291c 55%,#173331 100%); color-scheme:dark}}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
 body{margin:0;background:var(--papier);color:var(--encre);font-family:var(--texte);font-size:17px;line-height:1.55}
+body.fige{overflow:hidden}
 img{max-width:100%;display:block}
 a{color:var(--sarcelle);overflow-wrap:anywhere}
+button{font:inherit;cursor:pointer}
 h1,h2,h3{font-family:var(--titre);font-weight:800;text-wrap:balance;margin:0}
-.page{max-width:880px;margin:0 auto;padding:0 16px 48px}
+.large{max-width:1180px;margin:0 auto;padding:0 16px}
 
-header.profil{background:var(--couv);margin:0 -16px;padding:36px max(16px,calc((100% - 820px)/2)) 32px;border-radius:0 0 28px 28px;display:grid;gap:16px}
-.identite{display:flex;gap:18px;align-items:center}
-.identite img{width:104px;height:104px;border-radius:50%;object-fit:cover;border:5px solid var(--carte);flex:none}
-.identite h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.05}
+/* profil */
+header.profil{background:var(--couv)}
+.profil .large{padding-top:28px;padding-bottom:26px;display:grid;gap:22px;grid-template-columns:1fr}
+@media (min-width:900px){.profil .large{grid-template-columns:1fr 1.15fr;align-items:center}}
+.identite{display:flex;gap:16px;align-items:center}
+.identite img{width:92px;height:92px;border-radius:50%;object-fit:cover;border:5px solid var(--carte);flex:none}
+.identite h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.05}
 .identite h1 span{color:var(--rose)}
 .handle{margin:4px 0 0;color:var(--sarcelle);font-weight:800}
-.bio{margin:0;font-size:1.15rem;max-width:40rem}
+.bio{margin:14px 0;font-size:1.1rem}
 .bio em{color:var(--mauve)}
-.couv{width:100%;border-radius:16px;border:5px solid var(--carte);box-shadow:0 10px 28px rgba(80,30,60,.22)}
-.stats{margin:0;color:var(--doux)}
-.stats b{color:var(--rose);font-family:var(--titre);font-size:1.25rem}
 .actions{display:flex;gap:10px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;background:var(--encre);color:var(--papier);text-decoration:none;font-weight:800;border-radius:99px;padding:10px 18px;font-size:.95rem}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--encre);color:var(--papier);text-decoration:none;font-weight:800;border-radius:99px;padding:10px 18px;font-size:.95rem;border:0}
 .btn.rose{background:var(--rose);color:#fff}
-.btn.contour{background:transparent;color:var(--rose);border:2px solid var(--rose)}
+.stats{margin:12px 0 0;color:var(--doux);font-size:.95rem}
+.stats b{color:var(--rose)}
+.une{background:var(--carte);border-radius:18px;padding:10px;box-shadow:0 10px 28px rgba(80,30,60,.2);display:grid;gap:8px;text-align:left;border:0;color:inherit;width:100%}
+.une img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:12px}
+.une .k{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--rose);padding:0 6px}
+.une h2{font-size:1.35rem;padding:0 6px}
+.une p{margin:0;padding:0 6px 6px;font-family:var(--titre);font-style:italic;color:var(--mauve)}
 
-section.bloc{margin-top:44px;display:grid;gap:14px}
-section.bloc>h2{color:var(--rose);font-size:1.8rem}
-.persos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.persos div{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:14px 16px}
-.persos h3{color:var(--sarcelle);font-size:1.15rem;margin-bottom:4px}
-.persos p{margin:0;font-size:.95rem}
-details.gags{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:12px 16px}
-details.gags summary{cursor:pointer;font-weight:800;color:var(--mauve)}
-details.gags ul{margin:10px 0 0;padding-left:1.1em;display:grid;gap:8px;font-size:.95rem}
+/* barre de navigation collante */
+nav.periodes{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--papier) 92%,transparent);backdrop-filter:blur(8px);border-bottom:2px solid var(--trait)}
+nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
+.ligne{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.seg{display:inline-flex;border:2px solid var(--rose);border-radius:99px;overflow:hidden}
+.seg button{background:transparent;border:0;color:var(--rose);font-weight:800;padding:5px 14px;font-size:.88rem}
+.seg button[aria-pressed="true"]{background:var(--rose);color:#fff}
+.carrousel{display:flex;align-items:center;gap:6px}
+.piste{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:2px;flex:1}
+.piste::-webkit-scrollbar{display:none}
+.pastille{scroll-snap-align:start;flex:none;background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px 12px;text-align:left;color:var(--encre);min-width:118px}
+.pastille b{display:block;font-size:.92rem;white-space:nowrap}
+.pastille span{font-size:.78rem;color:var(--doux)}
+.pastille[aria-current="true"]{background:var(--rose);border-color:var(--rose);color:#fff}
+.pastille[aria-current="true"] span{color:#fff}
+.fleche{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--trait);background:var(--carte);color:var(--encre);font-weight:800;display:none}
+@media (min-width:700px){.fleche{display:block}}
+.sujets{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.sujets::-webkit-scrollbar{display:none}
+.sujet{flex:none;border:1.5px solid var(--trait);background:transparent;color:var(--doux);border-radius:99px;padding:3px 12px;font-size:.85rem;font-weight:600}
+.sujet[aria-pressed="true"]{border-color:var(--sarcelle);background:var(--sarcelle);color:#fff}
 
-.jour{margin-top:48px;background:var(--jour);color:#fff;border-radius:18px;padding:18px 22px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
-.jour h2{color:#fff;font-size:1.5rem}
-.jour span{opacity:.9;font-weight:600}
-article{margin-top:30px;display:grid;gap:12px;scroll-margin-top:12px}
-.ehead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-article h3{font-size:clamp(1.35rem,4.5vw,1.8rem);line-height:1.15}
-.cadre{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px}
-.cadre img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:9px}
-.resume{margin:0;font-family:var(--titre);font-style:italic;font-weight:500;font-size:1.15rem;color:var(--mauve);line-height:1.4}
+/* contenu de la période */
+main .large{padding-top:24px;padding-bottom:40px}
+.entete h2{color:var(--rose);font-size:clamp(1.5rem,4vw,2rem)}
+.resume-periode{margin:8px 0 0;font-family:var(--titre);font-style:italic;font-size:1.15rem;color:var(--mauve);max-width:60rem}
+.resumes-jours{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:6px;max-width:60rem}
+.resumes-jours li{font-size:.95rem;color:var(--doux)}
+.resumes-jours b{color:var(--encre)}
+.grille{margin-top:20px;display:grid;gap:14px;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.grille{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1050px){.grille{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.vignette{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px;text-align:left;color:inherit;display:grid;gap:6px;align-content:start;transition:transform .15s,border-color .15s}
+.vignette:hover{transform:translateY(-2px);border-color:var(--rose)}
+.vignette img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:9px}
+.vignette h3{font-size:.98rem;line-height:1.2;padding:0 4px 4px}
+.vignette small{display:block;padding:0 4px 4px;color:var(--doux);font-size:.75rem}
+.vide{color:var(--doux);margin-top:20px}
+
+/* fiche en grand */
+.fiche{position:fixed;inset:0;z-index:20;background:var(--voile);display:none;align-items:center;justify-content:center;padding:0}
+.fiche.ouverte{display:flex}
+.fiche-in{background:var(--papier);width:100%;max-width:980px;max-height:100%;overflow:auto;border-radius:0;position:relative;padding:14px 16px 24px}
+@media (min-width:760px){.fiche{padding:24px}.fiche-in{border-radius:20px;max-height:calc(100vh - 48px)}}
+.fiche-barre{display:flex;align-items:center;gap:8px;position:sticky;top:-14px;background:var(--papier);padding:8px 0;z-index:2}
+.fiche-barre .pos{color:var(--doux);font-size:.85rem;margin-right:auto}
+.rond{width:40px;height:40px;border-radius:50%;border:2px solid var(--trait);background:var(--carte);color:var(--encre);font-size:1.1rem;font-weight:800}
+.fiche h2{font-size:clamp(1.4rem,4vw,2rem);margin:6px 0 2px}
+.fiche .date{color:var(--doux);font-size:.88rem;margin:0 0 10px}
+.fiche .cadre{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px}
+.fiche .cadre img{width:100%;height:auto;border-radius:9px}
+.fiche .resume{margin:12px 0;font-family:var(--titre);font-style:italic;font-size:1.15rem;color:var(--mauve)}
 .lib{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800;color:var(--doux);margin-bottom:3px}
-.boite{border-radius:12px;padding:10px 14px}
+.boite{border-radius:12px;padding:10px 14px;margin-top:10px}
 .boite p{margin:0;font-size:.97rem}
 .boite.post{background:var(--carte);border:1.5px solid var(--trait)}
 .boite.oups{background:var(--oups);border:1.5px solid var(--oups-trait)}
 .boite.oups a{font-size:.88rem}
+details.contexte{margin-top:10px}
 details.contexte summary{cursor:pointer;color:var(--doux);font-size:.9rem;font-weight:600}
 details.contexte p{margin:6px 0 0;font-size:.95rem}
-.partage{display:flex;gap:14px;flex-wrap:wrap;font-size:.88rem}
-.partage a{color:var(--doux);font-weight:600;text-decoration:none}
+.partage{display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem;margin-top:14px}
+.partage a{color:var(--doux);font-weight:700;text-decoration:none}
 .partage a:hover{color:var(--rose)}
-.plus{margin:36px auto 0;display:block;font:inherit;font-weight:800;color:var(--rose);background:transparent;border:2px solid var(--rose);border-radius:99px;padding:10px 22px;cursor:pointer}
-footer{margin-top:56px;border-top:3px dashed var(--trait);padding-top:22px;display:grid;gap:10px;color:var(--doux);font-size:.9rem}
+
+/* bas de page */
+section.bloc{display:grid;gap:14px;padding-top:10px}
+section.bloc h2{color:var(--rose);font-size:1.6rem}
+.persos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.persos div{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:14px 16px}
+.persos h3{color:var(--sarcelle);font-size:1.1rem;margin-bottom:4px}
+.persos p{margin:0;font-size:.95rem}
+details.gags{background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:12px 16px}
+details.gags summary{cursor:pointer;font-weight:800;color:var(--mauve)}
+details.gags ul{margin:10px 0 0;padding-left:1.1em;display:grid;gap:8px;font-size:.95rem}
+footer{border-top:3px dashed var(--trait);margin-top:40px;padding:22px 0 40px;display:grid;gap:10px;color:var(--doux);font-size:.9rem}
 footer p{margin:0}
-.etat{color:var(--doux)}
 </style>
 </head>
 <body>
-<div class="page">
-  <header class="profil">
-    <div class="identite">
-      <img src="images/pantoufle-maga.jpg" alt="La pantoufle de Ginette" width="104" height="104">
-      <div>
-        <h1>Ginette <span>Pantoufle</span></h1>
-        <p class="handle">@GinettePantouf · parodie ⚜️</p>
+<header class="profil">
+  <div class="large">
+    <div>
+      <div class="identite">
+        <img src="images/pantoufle-maga.jpg" alt="La pantoufle de Ginette" width="92" height="92">
+        <div><h1>Ginette <span>Pantoufle</span></h1><p class="handle">@GinettePantouf · parodie ⚜️</p></div>
+      </div>
+      <p class="bio">Ginette de MonRéal. Pas lu l'article, mais chu contre. La faute à Trump. <em>Peut-être que l'humour allumera des lumières… ou juste vous fera rire.</em></p>
+      <div class="actions">
+        <a class="btn" href="https://x.com/intent/follow?screen_name=GinettePantouf" target="_blank" rel="noopener">Suivre @GinettePantouf sur X</a>
+        <a class="btn rose" href="#caricatures">Toutes les caricatures</a>
+      </div>
+      <p class="stats" id="stats">&nbsp;</p>
+    </div>
+    <button class="une" id="une" type="button" hidden></button>
+  </div>
+</header>
+
+<nav class="periodes" id="caricatures" aria-label="Choisir une période">
+  <div class="large">
+    <div class="ligne">
+      <div class="seg" role="group" aria-label="Regrouper par">
+        <button type="button" data-mode="jour" aria-pressed="true">Jours</button>
+        <button type="button" data-mode="semaine" aria-pressed="false">Semaines</button>
+        <button type="button" data-mode="mois" aria-pressed="false">Mois</button>
       </div>
     </div>
-    <p class="bio">Ginette de MonRéal. Pas lu l'article, mais chu contre. La faute à Trump. <em>Peut-être que l'humour allumera des lumières… ou juste vous fera rire.</em></p>
-    <img class="couv" src="images/gta6.jpg" alt="Ginette et Réal, mon mari, devant Vice City">
-    <p class="stats" id="stats">&nbsp;</p>
-    <div class="actions">
-      <a class="btn" href="https://x.com/intent/follow?screen_name=GinettePantouf" target="_blank" rel="noopener">Suivre @GinettePantouf sur X</a>
-      <a class="btn rose" href="#caricatures">Les caricatures</a>
-      <a class="btn contour" href="#personnages">Les personnages</a>
+    <div class="carrousel">
+      <button class="fleche" type="button" id="gauche" aria-label="Périodes plus récentes">‹</button>
+      <div class="piste" id="piste"></div>
+      <button class="fleche" type="button" id="droite" aria-label="Périodes plus anciennes">›</button>
     </div>
-  </header>
+    <div class="sujets" id="sujets" role="group" aria-label="Filtrer par sujet"></div>
+  </div>
+</nav>
 
-  <main id="caricatures"><p class="etat" style="margin-top:32px">Chargement des caricatures…</p></main>
-  <button class="plus" id="plus" hidden>Voir les caricatures plus anciennes</button>
+<main>
+  <div class="large">
+    <div class="entete"><h2 id="titre-periode">Chargement…</h2><p class="resume-periode" id="resume-periode"></p><ul class="resumes-jours" id="resumes-jours"></ul></div>
+    <div class="grille" id="grille"></div>
+    <p class="vide" id="vide" hidden>Aucune caricature sur ce sujet pour cette période.</p>
 
-  <section class="bloc" id="personnages">
-    <h2>Les personnages</h2>
-    <div class="persos">
-      <div><h3>Ginette</h3><p>Ginette de MonRéal. Robe de chambre rose, bigoudis bleus, pantoufles roses à pompon. Debout pas avant 10 h. Endormie par le téléjournal de « Radio-Cadenas », mais cultivée : elle connaît les vrais faits et en tire toujours la mauvaise conclusion. Admire « mon beau M. Carney », a peur de PSPP, de Trump, de l'IA… et de presque tout.</p></div>
-      <div><h3>Réal, mon mari</h3><p>Marié à Ginette depuis le 19 novembre 1987. Chaise inclinable, chemise hawaïenne, casquette « MAGA FLORIDA », bière à la main. Gamer, fan de CNews et de croisières au départ de Miami. Vit surtout au sous-sol. Sa phrase fétiche : « C'est la télé qui te fait peur! »</p></div>
-      <div><h3>Lise et la cousine</h3><p>Lise, la sœur de Réal, passe l'hiver en Floride : Ginette lui reproche d'avoir « choisi Trump ». La cousine, elle, se fait bronzer à la plage pendant que Réal compte les condos.</p></div>
+    <section class="bloc" id="personnages" style="margin-top:48px">
+      <h2>Les personnages</h2>
+      <div class="persos">
+        <div><h3>Ginette</h3><p>Ginette de MonRéal. Robe de chambre rose, bigoudis bleus, pantoufles roses à pompon. Debout pas avant 10 h. Endormie par le téléjournal de « Radio-Cadenas », mais cultivée : elle connaît les vrais faits et en tire toujours la mauvaise conclusion. Admire « mon beau M. Carney », a peur de PSPP, de Trump, de l'IA… et de presque tout.</p></div>
+        <div><h3>Réal, mon mari</h3><p>Marié à Ginette depuis le 19 novembre 1987. Chaise inclinable, chemise hawaïenne, casquette « MAGA FLORIDA », bière à la main. Gamer, fan de CNews et de croisières au départ de Miami. Vit surtout au sous-sol. Sa phrase fétiche : « C'est la télé qui te fait peur! »</p></div>
+        <div><h3>Lise et la cousine</h3><p>Lise, la sœur de Réal, passe l'hiver en Floride : Ginette lui reproche d'avoir « choisi Trump ». La cousine, elle, se fait bronzer à la plage pendant que Réal compte les condos.</p></div>
+      </div>
+      <details class="gags"><summary>Les running gags</summary>
+        <ul>
+          <li><b>Le 19 novembre :</b> 39 ans de mariage… et sortie de GTA 6. Réal a encerclé la date en rouge, pour le jeu.</li>
+          <li><b>Le boycott de la Floride :</b> Ginette boycotte la Floride de Trump ; Réal rêve de Miami et de Vice City.</li>
+          <li><b>Le sous-sol :</b> Réal y dort, y joue et y regarde CNews.</li>
+          <li><b>Le congélateur :</b> la cachette de Ginette pour son Rolodex, son dentier… et la console de Réal.</li>
+          <li><b>« J'ai pas lu, mais… » :</b> Ginette donne toujours sa source, sans jamais la lire.</li>
+          <li><b>Le cours de Réal :</b> pointeur en main, Réal devient « prof » de sociologie, de Floride, de jeux vidéo ou d'IA.</li>
+          <li><b>Pantouf? Pantoute!</b></li>
+        </ul>
+      </details>
+    </section>
+
+    <footer>
+      <p><b>Compte parodique.</b> Ginette et Réal sont des personnages inventés. Les faits publics cités sont réels et chaque post donne sa source ; les anecdotes du couple sont inventées. Aucun visage de personne réelle n'est dessiné. Ce site n'est affilié à aucune des personnes, aucun des partis ni aucun des médias mentionnés.</p>
+      <p>Suivez Ginette sur X : <a href="https://x.com/GinettePantouf" target="_blank" rel="noopener">@GinettePantouf</a> · <span id="maj"></span></p>
+      <p>Une réalisation <a href="https://everestinformatique.com" target="_blank" rel="noopener">Everest Informatique</a></p>
+    </footer>
+  </div>
+</main>
+
+<div class="fiche" id="fiche" role="dialog" aria-modal="true" aria-labelledby="fiche-titre">
+  <div class="fiche-in" id="fiche-in">
+    <div class="fiche-barre">
+      <span class="pos" id="fiche-pos"></span>
+      <button class="rond" type="button" id="prec" aria-label="Caricature précédente">‹</button>
+      <button class="rond" type="button" id="suiv" aria-label="Caricature suivante">›</button>
+      <button class="rond" type="button" id="fermer" aria-label="Fermer">✕</button>
     </div>
-    <details class="gags"><summary>Les running gags</summary>
-      <ul>
-        <li><b>Le 19 novembre :</b> 39 ans de mariage… et sortie de GTA 6. Réal a encerclé la date en rouge, pour le jeu.</li>
-        <li><b>Le boycott de la Floride :</b> Ginette boycotte la Floride de Trump ; Réal rêve de Miami et de Vice City.</li>
-        <li><b>Le sous-sol :</b> Réal y dort, y joue et y regarde CNews.</li>
-        <li><b>Le congélateur :</b> la cachette de Ginette pour son Rolodex, son dentier… et la console de Réal.</li>
-        <li><b>« J'ai pas lu, mais… » :</b> Ginette donne toujours sa source, sans jamais la lire.</li>
-        <li><b>Le cours de Réal :</b> pointeur en main, Réal devient « prof » de sociologie, de Floride, de jeux vidéo ou d'IA.</li>
-        <li><b>Pantouf? Pantoute!</b></li>
-      </ul>
-    </details>
-  </section>
-
-  <footer>
-    <p><b>Compte parodique.</b> Ginette et Réal sont des personnages inventés. Les faits publics cités sont réels et chaque post donne sa source ; les anecdotes du couple sont inventées. Aucun visage de personne réelle n'est dessiné. Ce site n'est affilié à aucune des personnes, aucun des partis ni aucun des médias mentionnés.</p>
-    <p>Suivez Ginette sur X : <a href="https://x.com/GinettePantouf" target="_blank" rel="noopener">@GinettePantouf</a> · <span id="maj"></span></p>
-    <p>Une réalisation <a href="https://everestinformatique.com" target="_blank" rel="noopener">Everest Informatique</a></p>
-  </footer>
+    <div id="fiche-corps"></div>
+  </div>
 </div>
 
 <script>
 const SITE='https://ginette.everestinformatique.com/';
-const PAGE=12;
 const moisFr=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const moisCourt=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 const joursFr=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const joursCourt=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
+const SUJETS=[
+  ['Trump',/trump|maga|\busa\b|états-unis|mi-mandats|midterms|vague rouge|maison-blanche|floride/i],
+  ['Québec',/#polqc|pspp|québec|référendum|\bcaq\b|fréchette|souverain|assemblée nationale/i],
+  ['IA',/\bia\b|#ia|robot|chatbot|intelligence artificielle|cohere|alphabet|google/i],
+  ['GTA 6',/gta|vice city|rockstar|console|manette/i],
+  ['Carney',/carney/i],
+];
 function parts(iso){const [a,m,j]=iso.split('-').map(Number);return {a,m,j,w:new Date(Date.UTC(a,m-1,j)).getUTCDay()}}
 function dateFr(iso){const p=parts(iso);return `${p.j===1?'1er':p.j} ${moisFr[p.m-1]} ${p.a}`}
-function jourFr(iso){const w=joursFr[parts(iso).w];return w[0].toUpperCase()+w.slice(1)}
+function jourLong(iso){const w=joursFr[parts(iso).w];return w[0].toUpperCase()+w.slice(1)+' '+dateFr(iso)}
+function lundi(iso){const p=parts(iso);const d=new Date(Date.UTC(p.a,p.m-1,p.j));d.setUTCDate(d.getUTCDate()-((p.w+6)%7));return d.toISOString().slice(0,10)}
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
 function slug(t){return t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60)}
 
-let liste=[],montrees=0,dernierJour=null;
-function carte(e){
-  const id=slug(e.date+'-'+e.titre);
-  const art=el('article');art.id=id;
-  const h=el('div','ehead');h.append(el('h3',null,e.titre));art.append(h);
-  const c=el('div','cadre');const img=el('img');img.src=e.image;img.alt=e.titre;img.loading='lazy';img.width=1600;img.height=900;c.append(img);art.append(c);
-  if(e.resume)art.append(el('p','resume',e.resume));
-  if(e.post){const b=el('div','boite post');b.append(el('span','lib','Le post de Ginette'),el('p',null,e.post));art.append(b)}
-  if(e.reponse||e.source){const b=el('div','boite oups');b.append(el('span','lib','Sa réponse avec la source'));
-    const p=el('p',null,(e.reponse||'')+' ');if(e.source){const a=el('a',null,e.source);a.href=e.source;a.target='_blank';a.rel='noopener';p.append(a)}b.append(p);art.append(b)}
-  if(e.description){const d=el('details','contexte');d.append(el('summary',null,'Le contexte'),el('p',null,e.description));art.append(d)}
-  const pa=el('div','partage');
-  const lien=SITE+'#'+id;
+const etat={mode:'jour',cle:null,sujet:'Tous',liste:[],vue:[],index:-1};
+let D={entrees:[],jours:{}};
+
+function cleDe(e,mode){return mode==='jour'?e.date:mode==='semaine'?lundi(e.date):e.date.slice(0,7)}
+function libelle(cle,mode){
+  if(mode==='jour'){const p=parts(cle);return {b:`${joursCourt[p.w]} ${p.j===1?'1er':p.j} ${moisCourt[p.m-1]}`,t:jourLong(cle)}}
+  if(mode==='semaine'){const p=parts(cle);return {b:`Sem. du ${p.j===1?'1er':p.j} ${moisCourt[p.m-1]}`,t:`Semaine du ${dateFr(cle)}`}}
+  const [a,m]=cle.split('-').map(Number);const n=moisFr[m-1];return {b:`${n[0].toUpperCase()+n.slice(1)} ${a}`,t:`${n[0].toUpperCase()+n.slice(1)} ${a}`};
+}
+function periodes(){
+  const g=new Map();
+  etat.liste.forEach(e=>{const k=cleDe(e,etat.mode);if(!g.has(k))g.set(k,[]);g.get(k).push(e)});
+  return [...g.entries()].sort((a,b)=>a[0]<b[0]?1:-1); // plus récentes d'abord
+}
+function dessinerPiste(){
+  const piste=document.getElementById('piste');piste.textContent='';
+  periodes().forEach(([k,es])=>{
+    const l=libelle(k,etat.mode);
+    const b=el('button','pastille');b.type='button';b.append(el('b',null,l.b),el('span',null,`${es.length} caricature${es.length>1?'s':''}`));
+    b.setAttribute('aria-current',String(k===etat.cle));
+    b.addEventListener('click',()=>{etat.cle=k;dessinerPiste();dessinerPeriode()});
+    piste.append(b);
+  });
+  const act=piste.querySelector('[aria-current="true"]');if(act)act.scrollIntoView({block:'nearest',inline:'nearest'});
+}
+function dessinerSujets(){
+  const z=document.getElementById('sujets');z.textContent='';
+  const dans=etat.liste.filter(e=>cleDe(e,etat.mode)===etat.cle);
+  [['Tous',null],...SUJETS].forEach(([nom])=>{
+    const n=nom==='Tous'?dans.length:dans.filter(e=>e._sujets.includes(nom)).length;
+    if(nom!=='Tous'&&!n)return;
+    const b=el('button','sujet',`${nom} (${n})`);b.type='button';b.setAttribute('aria-pressed',String(etat.sujet===nom));
+    b.addEventListener('click',()=>{etat.sujet=nom;dessinerPeriode()});z.append(b);
+  });
+}
+function dessinerPeriode(){
+  const dans=etat.liste.filter(e=>cleDe(e,etat.mode)===etat.cle);
+  if(etat.sujet!=='Tous'&&!dans.some(e=>e._sujets.includes(etat.sujet)))etat.sujet='Tous';
+  dessinerSujets();
+  const l=libelle(etat.cle,etat.mode);
+  document.getElementById('titre-periode').textContent=l.t;
+  const rp=document.getElementById('resume-periode'),rj=document.getElementById('resumes-jours');rj.textContent='';
+  if(etat.mode==='jour'){rp.textContent=(D.jours||{})[etat.cle]||'';rp.hidden=!rp.textContent}
+  else{rp.hidden=true;const jours=[...new Set(dans.map(e=>e.date))].sort().reverse();
+    jours.forEach(j=>{const r=(D.jours||{})[j];if(!r)return;const li=el('li');li.append(el('b',null,jourLong(j)+' : '),r);rj.append(li)})}
+  etat.vue=etat.sujet==='Tous'?dans:dans.filter(e=>e._sujets.includes(etat.sujet));
+  const g=document.getElementById('grille');g.textContent='';
+  etat.vue.forEach((e,i)=>{
+    const b=el('button','vignette');b.type='button';
+    const img=el('img');img.src=e.image;img.alt='';img.loading='lazy';img.width=480;img.height=270;b.append(img);
+    b.append(el('h3',null,e.titre));if(etat.mode!=='jour')b.append(el('small',null,jourLong(e.date)));
+    b.addEventListener('click',()=>ouvrir(i));g.append(b);
+  });
+  document.getElementById('vide').hidden=etat.vue.length>0;
+}
+function setMode(m){
+  etat.mode=m;document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===m)));
+  const ps=periodes();etat.cle=ps.length?ps[0][0]:null;etat.sujet='Tous';dessinerPiste();dessinerPeriode();
+}
+function remplirFiche(){
+  const e=etat.vue[etat.index];const c=document.getElementById('fiche-corps');c.textContent='';
+  document.getElementById('fiche-pos').textContent=`${etat.index+1} sur ${etat.vue.length}`;
+  document.getElementById('prec').disabled=etat.index<=0;document.getElementById('suiv').disabled=etat.index>=etat.vue.length-1;
+  const h=el('h2',null,e.titre);h.id='fiche-titre';c.append(h,el('p','date',jourLong(e.date)));
+  const cd=el('div','cadre');const img=el('img');img.src=e.image;img.alt=e.titre;cd.append(img);c.append(cd);
+  if(e.resume)c.append(el('p','resume',e.resume));
+  if(e.post){const b=el('div','boite post');b.append(el('span','lib','Le post de Ginette'),el('p',null,e.post));c.append(b)}
+  if(e.reponse||e.source){const b=el('div','boite oups');b.append(el('span','lib','Sa réponse avec la source'));const p=el('p',null,(e.reponse||'')+' ');
+    if(e.source){const a=el('a',null,e.source);a.href=e.source;a.target='_blank';a.rel='noopener';p.append(a)}b.append(p);c.append(b)}
+  if(e.description){const d=el('details','contexte');d.append(el('summary',null,'Le contexte'),el('p',null,e.description));c.append(d)}
+  const lien=SITE+'#'+e._id;const pa=el('div','partage');
   const x=el('a',null,'Partager sur X');x.href='https://x.com/intent/post?text='+encodeURIComponent(`« ${e.titre} » par @GinettePantouf`)+'&url='+encodeURIComponent(lien);x.target='_blank';x.rel='noopener';
   const fb=el('a',null,'Partager sur Facebook');fb.href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(lien);fb.target='_blank';fb.rel='noopener';
-  const cp=el('a',null,'Copier le lien');cp.href='#'+id;cp.addEventListener('click',ev=>{ev.preventDefault();try{navigator.clipboard.writeText(lien);cp.textContent='Lien copié!'}catch(_){location.hash=id}});
-  pa.append(x,fb,cp);art.append(pa);
-  return art;
+  const cp=el('a',null,'Copier le lien');cp.href='#'+e._id;cp.addEventListener('click',ev=>{ev.preventDefault();try{navigator.clipboard.writeText(lien);cp.textContent='Lien copié!'}catch(_){}});
+  pa.append(x,fb,cp);c.append(pa);
+  document.getElementById('fiche-in').scrollTop=0;
+  history.replaceState(null,'','#'+e._id);
 }
-function montrer(n){
-  const zone=document.getElementById('caricatures');
-  const fin=Math.min(liste.length,montrees+n);
-  for(let i=montrees;i<fin;i++){
-    const e=liste[i];
-    if(e.date!==dernierJour){dernierJour=e.date;const j=el('div','jour');j.append(el('h2',null,`${jourFr(e.date)} ${dateFr(e.date)}`));
-      const nb=liste.filter(x=>x.date===e.date).length;j.append(el('span',null,`${nb} caricature${nb>1?'s':''}`));zone.append(j)}
-    zone.append(carte(e));
-  }
-  montrees=fin;document.getElementById('plus').hidden=montrees>=liste.length;
-}
+function ouvrir(i){etat.index=i;remplirFiche();document.getElementById('fiche').classList.add('ouverte');document.body.classList.add('fige');document.getElementById('fermer').focus()}
+function fermer(){document.getElementById('fiche').classList.remove('ouverte');document.body.classList.remove('fige');history.replaceState(null,'',location.pathname)}
+function aller(d){const n=etat.index+d;if(n>=0&&n<etat.vue.length){etat.index=n;remplirFiche()}}
+
+document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+document.getElementById('gauche').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:-300,behavior:'smooth'}));
+document.getElementById('droite').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:300,behavior:'smooth'}));
+document.getElementById('prec').addEventListener('click',()=>aller(-1));
+document.getElementById('suiv').addEventListener('click',()=>aller(1));
+document.getElementById('fermer').addEventListener('click',fermer);
+document.getElementById('fiche').addEventListener('click',ev=>{if(ev.target.id==='fiche')fermer()});
+document.addEventListener('keydown',ev=>{if(!document.getElementById('fiche').classList.contains('ouverte'))return;
+  if(ev.key==='Escape')fermer();else if(ev.key==='ArrowLeft')aller(-1);else if(ev.key==='ArrowRight')aller(1)});
+let x0=null;const fin=document.getElementById('fiche-in');
+fin.addEventListener('touchstart',ev=>{x0=ev.touches[0].clientX},{passive:true});
+fin.addEventListener('touchend',ev=>{if(x0==null)return;const dx=ev.changedTouches[0].clientX-x0;if(Math.abs(dx)>60)aller(dx<0?1:-1);x0=null});
+
 fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
-  const E=(d.entrees||[]).filter(e=>e.statut!=='propose').map((e,i)=>({...e,_i:i}));
-  liste=E.sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b._i-a._i); // plus récentes d'abord
-  const jours=new Set(liste.map(e=>e.date)).size;
-  document.getElementById('stats').innerHTML='';
-  const s=document.getElementById('stats');s.append(el('b',null,`${liste.length} caricatures`),` en ${jours} jours, avec leurs posts et leurs sources.`);
+  D=d;
+  etat.liste=(d.entrees||[]).filter(e=>e.statut!=='propose').map((e,i)=>{
+    const txt=[e.titre,e.post,e.resume,e.description].join(' ');
+    return {...e,_i:i,_id:slug(e.date+'-'+e.titre),_sujets:SUJETS.filter(([,re])=>re.test(txt)).map(([n])=>n)};
+  }).sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b._i-a._i);
+  const nj=new Set(etat.liste.map(e=>e.date)).size;
+  const s=document.getElementById('stats');s.textContent='';s.append(el('b',null,`${etat.liste.length} caricatures`),` en ${nj} jours, avec leurs posts et leurs sources.`);
   if(d.mis_a_jour)document.getElementById('maj').textContent='Mis à jour le '+dateFr(d.mis_a_jour);
-  document.getElementById('caricatures').textContent='';
-  // lien direct vers une caricature : tout afficher jusqu'à elle
+  // à la une : la plus récente
+  const u=etat.liste[0];
+  if(u){const b=document.getElementById('une');b.hidden=false;const img=el('img');img.src=u.image;img.alt=u.titre;
+    b.append(img,el('span','k','À la une · '+jourLong(u.date)),el('h2',null,u.titre));if(u.resume)b.append(el('p',null,u.resume));
+    b.addEventListener('click',()=>{setMode('jour');etat.cle=u.date;dessinerPiste();dessinerPeriode();ouvrir(etat.vue.findIndex(e=>e._id===u._id))})}
+  setMode('jour');
+  // lien direct vers une caricature
   const cible=location.hash.slice(1);
-  let n=PAGE;if(cible){const k=liste.findIndex(e=>slug(e.date+'-'+e.titre)===cible);if(k>=0)n=Math.max(PAGE,k+1)}
-  montrer(n);
-  if(cible){const t=document.getElementById(cible);if(t)t.scrollIntoView()}
-}).catch(()=>{document.getElementById('caricatures').textContent="Les caricatures n'ont pas pu être chargées. Rechargez la page."});
-document.getElementById('plus').addEventListener('click',()=>montrer(PAGE));
+  if(cible){const e=etat.liste.find(x=>x._id===cible);
+    if(e){etat.cle=e.date;dessinerPiste();dessinerPeriode();ouvrir(etat.vue.findIndex(x=>x._id===cible))}}
+}).catch(()=>{document.getElementById('titre-periode').textContent="Les caricatures n'ont pas pu être chargées. Rechargez la page."});
 </script>
 </body>
 </html>

@@ -31,7 +31,9 @@ for e in publiees:
     elif not dst.exists():
         manquantes.append(nom)
 
-sortie = {"mis_a_jour": donnees.get("mis_a_jour"), "entrees": publiees}
+dates = {e["date"] for e in publiees}
+jours = {k: v for k, v in (donnees.get("jours") or {}).items() if k in dates}
+sortie = {"mis_a_jour": donnees.get("mis_a_jour"), "jours": jours, "entrees": publiees}
 (racine / "journal.json").write_text(json.dumps(sortie, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"{len(publiees)} caricatures publiées écrites dans journal.json")
 if manquantes:
