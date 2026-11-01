@@ -153,7 +153,7 @@ footer p{margin:0}
       <p class="bio">Ginette de MonRéal. Pas lu l'article, mais chu contre. La faute à Trump. <em>Peut-être que l'humour allumera des lumières… ou juste vous fera rire.</em></p>
       <div class="actions">
         <a class="btn" href="https://x.com/intent/follow?screen_name=GinettePantouf" target="_blank" rel="noopener">Suivre @GinettePantouf sur X</a>
-        <a class="btn rose" href="#caricatures">Toutes les caricatures</a>
+        <a class="btn rose" href="#caricatures" id="btn-toutes">Toutes les caricatures</a>
       </div>
       <p class="stats" id="stats">&nbsp;</p>
     </div>
@@ -168,6 +168,7 @@ footer p{margin:0}
         <button type="button" data-mode="jour" aria-pressed="true">Jours</button>
         <button type="button" data-mode="semaine" aria-pressed="false">Semaines</button>
         <button type="button" data-mode="mois" aria-pressed="false">Mois</button>
+        <button type="button" data-mode="tout" aria-pressed="false">Toutes</button>
       </div>
     </div>
     <div class="carrousel">
@@ -248,8 +249,9 @@ function slug(t){return t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().
 const etat={mode:'jour',cle:null,sujet:'Tous',liste:[],vue:[],index:-1};
 let D={entrees:[],jours:{}};
 
-function cleDe(e,mode){return mode==='jour'?e.date:mode==='semaine'?lundi(e.date):e.date.slice(0,7)}
+function cleDe(e,mode){return mode==='tout'?'tout':mode==='jour'?e.date:mode==='semaine'?lundi(e.date):e.date.slice(0,7)}
 function libelle(cle,mode){
+  if(mode==='tout')return {b:'Toutes',t:'Toutes les caricatures'};
   if(mode==='jour'){const p=parts(cle);return {b:`${joursCourt[p.w]} ${p.j===1?'1er':p.j} ${moisCourt[p.m-1]}`,t:jourLong(cle)}}
   if(mode==='semaine'){const p=parts(cle);return {b:`Sem. du ${p.j===1?'1er':p.j} ${moisCourt[p.m-1]}`,t:`Semaine du ${dateFr(cle)}`}}
   const [a,m]=cle.split('-').map(Number);const n=moisFr[m-1];return {b:`${n[0].toUpperCase()+n.slice(1)} ${a}`,t:`${n[0].toUpperCase()+n.slice(1)} ${a}`};
@@ -288,6 +290,7 @@ function dessinerPeriode(){
   document.getElementById('titre-periode').textContent=l.t;
   const rp=document.getElementById('resume-periode'),rj=document.getElementById('resumes-jours');rj.textContent='';
   if(etat.mode==='jour'){rp.textContent=(D.jours||{})[etat.cle]||'';rp.hidden=!rp.textContent}
+  else if(etat.mode==='tout'){rp.hidden=false;rp.textContent='Des plus récentes aux plus anciennes. Touchez une caricature pour la voir en grand.'}
   else{rp.hidden=true;const jours=[...new Set(dans.map(e=>e.date))].sort().reverse();
     jours.forEach(j=>{const r=(D.jours||{})[j];if(!r)return;const li=el('li');li.append(el('b',null,jourLong(j)+' : '),r);rj.append(li)})}
   etat.vue=etat.sujet==='Tous'?dans:dans.filter(e=>e._sujets.includes(etat.sujet));
@@ -328,6 +331,7 @@ function fermer(){document.getElementById('fiche').classList.remove('ouverte');d
 function aller(d){const n=etat.index+d;if(n>=0&&n<etat.vue.length){etat.index=n;remplirFiche()}}
 
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+document.getElementById('btn-toutes').addEventListener('click',ev=>{ev.preventDefault();setMode('tout');document.getElementById('caricatures').scrollIntoView({behavior:'smooth'})});
 document.getElementById('gauche').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:-300,behavior:'smooth'}));
 document.getElementById('droite').addEventListener('click',()=>document.getElementById('piste').scrollBy({left:300,behavior:'smooth'}));
 document.getElementById('prec').addEventListener('click',()=>aller(-1));
