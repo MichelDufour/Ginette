@@ -1,12 +1,13 @@
 {
- "mis_a_jour": "2026-11-01",
+ "mis_a_jour": "2026-11-02",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
   "2026-10-29": "Cauchemar au sommet Canada-UE, 39 ans de mariage le jour de GTA 6, panique à la clinique et à la traduction simultanée. Tout a augmenté, sauf le sucre à la crème de bébé Ginette.",
   "2026-10-30": "Grosse journée : Ginette se fait canceller, le téléjournal sort son épouvantail Trump, elle improvise en bobettes et a peur d'une vague rouge. L'Europe la laisse avant la bague, et une IA « souveraine » lui fait débrancher le grille-pain.",
   "2026-10-31": "Halloween chez Ginette : elle éteint la galerie devant 9 fantômes du OUI, cache son Rolodex au congélateur et allume des lampions parce que même le pape vote. Pendant ce temps, la chaise de Réal décolle pour Vice City.",
-  "2026-11-01": "Grosse journée : Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France, réclame un bouton anti-aspiration contre les biscuits volés, refuse de répondre à Trump avant 10 h, boycotte la photo de famille du G20, range l'entente de M. Carney au congélateur, pleure son téléjournal piégé par un satiriste… et Réal lui offre une boîte vide pour GTA 6."
+  "2026-11-01": "Grosse journée : Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France, réclame un bouton anti-aspiration contre les biscuits volés, refuse de répondre à Trump avant 10 h, boycotte la photo de famille du G20, range l'entente de M. Carney au congélateur, pleure son téléjournal piégé par un satiriste… et Réal lui offre une boîte vide pour GTA 6.",
+  "2026-11-02": "Lundi chargé : Ginette compte 3 000 moutons rouges avant les élections américaines, sort ses bigoudis du dimanche pour M. Carney, rend son jugement sans lire le dossier, réclame un bravo pour Réal, astronaute du sous-sol… et l'anniversaire de mariage reste à 0 % pendant que GTA 6 précharge."
  },
  "entrees": [
   {
@@ -498,6 +499,61 @@
    "post": "Mon téléjournal! Radio-Canada a cité comme vraie une fausse publication de Jacinthe-Eve Arel, inventée par un satiriste. Mise au point après. Je pleure dans ma robe de chambre. Moi au moins, c'est écrit « parodie »! Réal, mon mari, a 3 arguments 👇 #polqc",
    "reponse": "Réal l'a lue à voix haute, deux fois, à 3 h du matin. Moi, pas avant 10 h : j'ai appris le faux pis le vrai en même temps.",
    "source": "https://ici.radio-canada.ca/nouvelle/2297280/mise-au-point-jacinthe-eve-arel-fausse-citation"
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "3 000 moutons rouges",
+   "image": "images/2026-11-02-moutons-rouges.jpg",
+   "genre": "Caricature",
+   "resume": "La veille des mi-mandats, Ginette compte les bulletins comme des moutons ; Réal, tablette en main, lui jure que c'est la télé qui lui fait peur.",
+   "description": "Fait du jour : plus de 53 millions d'Américains avaient déjà voté par anticipation le 1er novembre (plus de 11 millions de démocrates inscrits contre environ 8 millions de républicains), selon l'Université de Floride. On voit Ginette en robe de chambre, debout près de son lit, camomille qui tremble, devant un rêve où des moutons-bulletins presque tous rouges sautent une clôture « USA » ; Réal, casquette MAGA FLORIDA, lui montre ses chiffres à la porte.",
+   "post": "53 millions d'Américains ont voté avant mardi. Cette nuit, je les ai comptés comme des moutons. Rendue à 3 000, j'avais peur qu'ils soient tous rouges. Réal, mon mari : « 11 millions de démocrates, 8 de républicains. C'est la télé qui te fait peur! » Comptez avec moi 👇 #Trump",
+   "reponse": "Lu à 3 h du matin, entre deux moutons rouges. Réal, mon mari, a dormi comme une bûche : lui, les bulletins, il les compte pas, il les regarde sur CNews :",
+   "source": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Ici, y a pas de loi!",
+   "image": "images/2026-11-02-bigoudis-du-dimanche.jpg",
+   "genre": "Caricature",
+   "resume": "PSPP exige que la rencontre avec M. Carney ait lieu à Québec ; Ginette, tourtière en main, l'attend quand même à MonRéal.",
+   "description": "Fait du jour : le 1er novembre, Paul St-Pierre Plamondon a accepté l'invitation de Mark Carney, à condition que la rencontre se tienne à Québec comme le prévoit la loi, avant le Sommet de la Francophonie. On voit Ginette sur le balcon de son triplex sous une banderole « BIENVENUE M. CARNEY », pendant qu'une auto file vers « QUÉBEC 250 km – C'EST LA LOI » et que Réal cache ses bières au soupirail du sous-sol.",
+   "post": "PSPP accepte de rencontrer mon beau @MarkJCarney… à condition que ce soit à Québec, parce que la loi le dit. Moi, j'ai pas de loi : qu'il vienne à MonRéal, j'ai mis mes bigoudis du dimanche. Réal, mon mari, a caché sa bière : à la 3e, il vote PQ. L'invitation 👇 #polqc",
+   "reponse": "Mon mari m'a obligée à mettre le lien. Il le lira pas : Québec, c'est trop loin du sous-sol. Moi, je l'ai rangé à côté de ma robe de chambre des grandes occasions :",
+   "source": "https://www.lesoleil.com/actualites/politique/2026/11/01/paul-st-pierre-plamondon-accepte-une-invitation-a-rencontrer-mark-carney-LKDZYJCFD5E2DB53F7LPG6WDLE/"
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Juge Ginette",
+   "image": "images/2026-11-02-juge-ginette.jpg",
+   "genre": "Caricature",
+   "resume": "Pendant qu'en Corée l'IA invente des jugements, la juge Ginette rend les siens sans lire le dossier, maillet-pantoufle en l'air.",
+   "description": "Fait du jour : selon un sondage de la Cour suprême de Corée du Sud publié le 2 novembre, environ 8 juges sur 10 ont vu des précédents inventés par l'IA cités dans des causes. On voit Ginette, en robe de chambre, au Tribunal de MonRéal, brandissant un maillet en forme de pantoufle devant une pile de dossiers « PAS LU », pendant qu'un robot avocat montre un jugement estampillé « FAUX ».",
+   "post": "En Corée du Sud, 8 juges sur 10 ont vu passer des jugements inventés par l'IA. Des faux! Mes sources à moi sont vraies : je les lis pas, mais elles sont vraies. Réal, mon mari, dit que je ferais une bonne juge : « Pas lu le dossier, mais chu contre. » Le dossier 👇 #IA",
+   "reponse": "Pour Lise qui me croit jamais : c'est un vrai journal coréen, en anglais. Réal, mon mari, l'a vérifié trois fois. Moi, j'ai rendu mon jugement sans l'ouvrir :",
+   "source": "https://www.koreatimes.co.kr/southkorea/20261102/about-80-of-korean-judges-encounter-ai-generated-fake-legal-precedents-survey"
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Mission sous-sol",
+   "image": "images/2026-11-02-mission-sous-sol.jpg",
+   "genre": "Caricature",
+   "resume": "La NASA applaudit 378 jours sur un faux Mars ; Réal, casque de scaphandre au sous-sol depuis des années, répond au walkie-talkie 22 minutes plus tard.",
+   "description": "Fait du jour : le 31 octobre, les 4 bénévoles de la mission CHAPEA 2 de la NASA sont sortis de leur habitat martien simulé de 158 m² à Houston, après 378 jours d'isolement. On voit la maison de Ginette en coupe : elle appelle Réal au walkie-talkie depuis la cuisine, pendant qu'au sous-sol « Mission sous-sol », il trône dans sa chaise avec un casque d'astronaute, des traits au mur et des boîtes de pizza ; à côté, un dôme rouge sous les confettis.",
+   "post": "Entendu au Tim Hortons : 4 bénévoles de la NASA sortent d'un faux Mars de 158 m² à Houston après 378 jours. Applaudis en héros! Réal, mon mari, vit au sous-sol depuis des années : pas un bravo. On se parle au walkie-talkie, 22 minutes de délai. Houston, la preuve 👇 #RéalMonMari",
+   "reponse": "Message du sous-sol, reçu 22 minutes plus tard : « Mets le lien, Ginette. » Le voilà, Réal. Pis remonte, la soupe refroidit depuis 378 jours :",
+   "source": "https://weather.com/2026/10/31/science/space/video/nasa-chapea-mars-habitat-crew-completes-378-days"
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "Ça charge-tu?",
+   "image": "images/2026-11-02-ca-charge-tu.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 est préchargé à 100 % pour Réal ; leurs 39 ans de mariage, eux, restent bloqués à 0 %.",
+   "description": "Fait du jour : le préchargement de GTA 6 commence le 12 novembre, une semaine avant la sortie du 19 novembre, jour des 39 ans de mariage de Ginette et Réal. On voit deux immenses barres de chargement sur fond de coucher de soleil néon : Réal danse sur celle de GTA 6, pleine à 100 %, et Ginette, carte de souhaits à la main, attend sur celle du mariage, vide à 0 % avec une toile d'araignée.",
+   "post": "Le préchargement de GTA 6 commence le 12 novembre, une semaine avant la sortie. Réal, mon mari, a déjà mis son cadran. Le 19, c'est aussi nos 39 ans de mariage. Notre anniversaire, lui, il l'a pas préchargé : 0 %. J'ai acheté une carte. La barre de progression 👇 #GTA6 #GTAVI",
+   "reponse": "Trouvé sous la manette rose qu'il m'a donnée en avance. Réal, mon mari, dit que c'est la seule date qu'il oubliera jamais. Je pense qu'il parlait pas de la nôtre :",
+   "source": "https://www.tomsguide.fr/gta-6-date-heure-de-sortie-taille-du-jeu-et-prechargement-quand-pourrez-vous-jouer/"
   }
  ]
 }
