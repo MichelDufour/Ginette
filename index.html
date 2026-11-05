@@ -262,12 +262,48 @@ const SUJETS=[
   ['GTA 6',  /#gta|\bgta|vice city|rockstar/i, /console|manette/i],
   ['Carney', /carney/i, null],
 ];
-const NOMS_SUJETS=new Set(SUJETS.map(([n])=>n));
+// Sujets créés automatiquement à partir des mots-clics des posts.
+// Un mot-clic devient un bouton s'il revient dans au moins MIN_MOTCLIC caricatures publiées.
+// Les mots-clics qui veulent dire un sujet déjà connu y sont rattachés (#GTAVI → GTA 6).
+const MIN_MOTCLIC=3;
+const MOTCLIC_IGNORE=new Set(['ginette','ginettepantouf','réalmonmari','realmonmari','pantoute']);
+const MOTCLIC_VERS={trump:'Trump',polqc:'Québec',québec:'Québec',ia:'IA',gta6:'GTA 6',gtavi:'GTA 6',gta:'GTA 6',carney:'Carney'};
+let SUJETS_DYN=[];
+function motsClics(e){return [...new Set(((e.post||'').match(/#[\p{L}\p{N}_]+/gu)||[]).map(h=>h.slice(1)))]}
 function sujetsDe(e){
-  if(Array.isArray(e.sujets))return e.sujets.filter(n=>NOMS_SUJETS.has(n));
-  const fort=[e.titre,e.resume,e.post].filter(Boolean).join(' ');
-  const faible=[e.titre,e.resume].filter(Boolean).join(' ');
-  return SUJETS.filter(([,f,w])=>f.test(fort)||(w&&w.test(faible))).map(([n])=>n);
+  const fixes=SUJETS.map(([n])=>n);
+  let r;
+  if(Array.isArray(e.sujets))r=[...e.sujets];
+  else{
+    const fort=[e.titre,e.resume,e.post].filter(Boolean).join(' ');
+    const faible=[e.titre,e.resume].filter(Boolean).join(' ');
+    r=SUJETS.filter(([,f,w])=>f.test(fort)||(w&&w.test(faible))).map(([n])=>n);
+    for(const h of motsClics(e)){
+      const k=h.toLowerCase();
+      if(MOTCLIC_IGNORE.has(k))continue;
+      const nom=MOTCLIC_VERS[k]||SUJETS_DYN.find(n=>n.toLowerCase()===k);
+      if(nom&&!r.includes(nom))r.push(nom);
+    }
+  }
+  return r;
+}
+function preparerSujets(entrees){
+  const compte=new Map(),forme=new Map();
+  for(const e of entrees){
+    const vus=new Set();
+    for(const h of motsClics(e)){
+      const k=h.toLowerCase();
+      if(MOTCLIC_IGNORE.has(k)||MOTCLIC_VERS[k]||vus.has(k))continue;
+      vus.add(k);compte.set(k,(compte.get(k)||0)+1);
+      const f=forme.get(k)||{};f[h]=(f[h]||0)+1;forme.set(k,f);
+    }
+    if(Array.isArray(e.sujets))for(const n of e.sujets){
+      const k=n.toLowerCase();if(SUJETS.some(([m])=>m.toLowerCase()===k))continue;
+      compte.set(k,Math.max(compte.get(k)||0,MIN_MOTCLIC));const f=forme.get(k)||{};f[n]=(f[n]||0)+99;forme.set(k,f);
+    }
+  }
+  SUJETS_DYN=[...compte].filter(([,n])=>n>=MIN_MOTCLIC).sort((x,y)=>y[1]-x[1])
+    .map(([k])=>Object.entries(forme.get(k)).sort((x,y)=>y[1]-x[1])[0][0]);
 }
 function parts(iso){const [a,m,j]=iso.split('-').map(Number);return {a,m,j,w:new Date(Date.UTC(a,m-1,j)).getUTCDay()}}
 function dateFr(iso){const p=parts(iso);return `${p.j===1?'1er':p.j} ${moisFr[p.m-1]} ${p.a}`}
@@ -305,7 +341,7 @@ function dessinerPiste(){
 function dessinerSujets(){
   const z=document.getElementById('sujets');z.textContent='';
   const dans=etat.liste.filter(e=>cleDe(e,etat.mode)===etat.cle);
-  [['Tous',null],...SUJETS].forEach(([nom])=>{
+  [['Tous'],...SUJETS,...SUJETS_DYN.map(n=>[n])].forEach(([nom])=>{
     const n=nom==='Tous'?dans.length:dans.filter(e=>e._sujets.includes(nom)).length;
     if(nom!=='Tous'&&!n)return;
     const b=el('button','sujet',`${nom} (${n})`);b.type='button';b.setAttribute('aria-pressed',String(etat.sujet===nom));
@@ -320,7 +356,7 @@ function dessinerPeriode(){
   const SUR={'Trump':'Trump','Québec':'le Québec','IA':"l'IA",'GTA 6':'GTA 6','Carney':'M. Carney'};
   const filtre=etat.sujet!=='Tous';
   const nVue=filtre?dans.filter(e=>e._sujets.includes(etat.sujet)).length:dans.length;
-  document.getElementById('titre-periode').textContent=filtre?(etat.mode==='tout'?`Toutes les caricatures sur ${SUR[etat.sujet]}`:`${l.t} · ${etat.sujet}`):l.t;
+  document.getElementById('titre-periode').textContent=filtre?(etat.mode==='tout'?`Toutes les caricatures sur ${SUR[etat.sujet]||etat.sujet}`:`${l.t} · ${etat.sujet}`):l.t;
   document.querySelector('.carrousel').hidden=etat.mode==='tout';
   const rp=document.getElementById('resume-periode'),rj=document.getElementById('resumes-jours');rj.textContent='';
   if(etat.mode==='jour'){rp.textContent=(D.jours||{})[etat.cle]||'';rp.hidden=!rp.textContent}
@@ -401,7 +437,8 @@ fin.addEventListener('touchend',ev=>{if(x0==null)return;const dx=ev.changedTouch
 
 fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
   D=d;
-  etat.liste=(d.entrees||[]).filter(e=>e.statut!=='propose').map((e,i)=>{
+  const pub=(d.entrees||[]).filter(e=>e.statut!=='propose');preparerSujets(pub);
+  etat.liste=pub.map((e,i)=>{
     return {...e,_i:i,_id:slug(e.date+'-'+e.titre),_sujets:sujetsDe(e)};
   }).sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b._i-a._i);
   const nj=new Set(etat.liste.map(e=>e.date)).size;
