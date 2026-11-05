@@ -249,13 +249,26 @@ const moisFr=['janvier','février','mars','avril','mai','juin','juillet','août'
 const moisCourt=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 const joursFr=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
 const joursCourt=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
+// Classement par sujet. Ordre de priorité :
+// 1) le champ « sujets » de l'entrée, s'il existe (ex. ["Trump","IA"]) : il a toujours le dernier mot;
+// 2) les mots-clics du post (#Trump, #polqc, #IA, #GTA6, #Carney);
+// 3) les mots « forts » n'importe où dans le titre, le résumé ou le post;
+// 4) les mots « faibles » seulement dans le titre ou le résumé (ce dont la caricature parle vraiment).
+// La description (le dessin : casquette MAGA de Réal, etc.) n'est jamais lue.
 const SUJETS=[
-  ['Trump',/trump|maga|\busa\b|états-unis|mi-mandats|midterms|vague rouge|maison-blanche|floride/i],
-  ['Québec',/#polqc|pspp|québec|référendum|\bcaq\b|fréchette|souverain|assemblée nationale/i],
-  ['IA',/\bia\b|#ia|robot|chatbot|intelligence artificielle|cohere|alphabet|google/i],
-  ['GTA 6',/gta|vice city|rockstar|console|manette/i],
-  ['Carney',/carney/i],
+  ['Trump',  /#trump|\btrump|maison-blanche|vague rouge|républicain|démocrate/i, /mi-mandats|midterms|états-unis|américain|floride|maga/i],
+  ['Québec', /#polqc|\bpspp\b|\bcaq\b|fréchette|legault|référendum|souveraineté du québec|souverainiste|assemblée nationale|parti québécois/i, /québec/i],
+  ['IA',     /#ia\b|\bia\b|intelligence artificielle|chatbot|cohere/i, /robot/i],
+  ['GTA 6',  /#gta|\bgta|vice city|rockstar/i, /console|manette/i],
+  ['Carney', /carney/i, null],
 ];
+const NOMS_SUJETS=new Set(SUJETS.map(([n])=>n));
+function sujetsDe(e){
+  if(Array.isArray(e.sujets))return e.sujets.filter(n=>NOMS_SUJETS.has(n));
+  const fort=[e.titre,e.resume,e.post].filter(Boolean).join(' ');
+  const faible=[e.titre,e.resume].filter(Boolean).join(' ');
+  return SUJETS.filter(([,f,w])=>f.test(fort)||(w&&w.test(faible))).map(([n])=>n);
+}
 function parts(iso){const [a,m,j]=iso.split('-').map(Number);return {a,m,j,w:new Date(Date.UTC(a,m-1,j)).getUTCDay()}}
 function dateFr(iso){const p=parts(iso);return `${p.j===1?'1er':p.j} ${moisFr[p.m-1]} ${p.a}`}
 function jourLong(iso){const w=joursFr[parts(iso).w];return w[0].toUpperCase()+w.slice(1)+' '+dateFr(iso)}
@@ -389,8 +402,7 @@ fin.addEventListener('touchend',ev=>{if(x0==null)return;const dx=ev.changedTouch
 fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
   D=d;
   etat.liste=(d.entrees||[]).filter(e=>e.statut!=='propose').map((e,i)=>{
-    const txt=[e.titre,e.post,e.resume,e.description].join(' ');
-    return {...e,_i:i,_id:slug(e.date+'-'+e.titre),_sujets:SUJETS.filter(([,re])=>re.test(txt)).map(([n])=>n)};
+    return {...e,_i:i,_id:slug(e.date+'-'+e.titre),_sujets:sujetsDe(e)};
   }).sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:b._i-a._i);
   const nj=new Set(etat.liste.map(e=>e.date)).size;
   const s=document.getElementById('stats');s.textContent='';s.append(el('b',null,`${etat.liste.length} caricatures`),` en ${nj} jours, avec leurs posts et leurs sources.`);

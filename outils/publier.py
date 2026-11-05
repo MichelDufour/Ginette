@@ -12,7 +12,7 @@ source_json = pathlib.Path(sys.argv[1])
 source_images = pathlib.Path(sys.argv[2])
 
 donnees = json.loads(source_json.read_text(encoding="utf-8"))
-champs = ["date", "titre", "image", "genre", "resume", "description", "post", "reponse", "source"]
+champs = ["date", "titre", "image", "genre", "resume", "description", "post", "reponse", "source", "sujets"]
 publiees = []
 for e in donnees.get("entrees", []):
     if e.get("statut") == "propose":
