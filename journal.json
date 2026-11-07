@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-05",
+ "mis_a_jour": "2026-11-07",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -8,7 +8,8 @@
   "2026-10-31": "Halloween chez Ginette : elle éteint la galerie devant 9 fantômes du OUI, cache son Rolodex au congélateur et allume des lampions parce que même le pape vote. Pendant ce temps, la chaise de Réal décolle pour Vice City.",
   "2026-11-01": "Grosse journée : Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France, réclame un bouton anti-aspiration contre les biscuits volés, refuse de répondre à Trump avant 10 h, boycotte la photo de famille du G20, range l'entente de M. Carney au congélateur, pleure son téléjournal piégé par un satiriste… et Réal lui offre une boîte vide pour GTA 6.",
   "2026-11-02": "Lundi chargé : Ginette compte 3 000 moutons rouges avant les élections américaines, sort ses bigoudis du dimanche pour M. Carney, rend son jugement sans lire le dossier, réclame un bravo pour Réal, astronaute du sous-sol… et l'anniversaire de mariage reste à 0 % pendant que GTA 6 précharge.",
-  "2026-11-05": "Jeudi d'été en novembre : les moutons rouges de Ginette virent bleus, elle colle des NON sur l'aspirateur-robot, prend « la maison en désordre » au pied de la lettre et boycotte la chaleur en robe de chambre. Réal précharge GTA 6 et cherche l'édition Ultimate du souper des 39 ans, Ginette cherche son interrupteur, invite M. Carney dans la grande région, tend la tourtière à un Réal soudé à son casque de réalité virtuelle… et branche ses bigoudis sur Réal, qui sort du sous-sol pour lui donner raison d'avoir peur de l'IA."
+  "2026-11-05": "Jeudi d'été en novembre : les moutons de Ginette virent bleus, elle colle des NON sur l'aspirateur-robot, boycotte la chaleur en robe de chambre et s'assoit sur la télécommande, son droit de veto. Réal précharge GTA 6, promet de s'occuper d'elle « presque autant » que de Lucia et proclame la souveraineté du sous-sol… avant de s'y noyer sous 300 millions en billets de 100 $, pendant que Ginette cherche l'interrupteur de sa seule copie, édition 1987, pas remboursable.",
+  "2026-11-06": "Vendredi de monuments : Ginette se proclame « Monument no 2 » en robe de chambre, coche camomille et bigoudis sur sa liste d'urgence, espionne le garage bleu du voisin et adopte une vache pour la consigne. Pendant ce temps, Lise paie les taxes de la Floride et Réal zoome sur les pores de Lucia… sans jamais remarquer la mise en plis."
  },
  "entrees": [
   {
@@ -657,6 +658,61 @@
   },
   {
    "date": "2026-11-05",
+   "titre": "Le veto de Ginette",
+   "image": "images/2026-11-05-veto.jpg",
+   "genre": "Caricature",
+   "resume": "Ginette découvre qu'elle a un droit de veto depuis 1987 : la télécommande, et Réal sort son tableau des deux tiers.",
+   "description": "Le 4 novembre, Trump a dit qu'une destitution « détruirait le Parti démocrate » et s'est dit prêt à mettre son veto sur leurs lois. En deux cases : Ginette tremble devant le téléjournal, puis brandit une télécommande géante « VETO » pendant que Réal, mon mari, montre au tableau qu'aux deux tiers du Congrès, on passe par-dessus.",
+   "post": "Trump dit qu'une destitution « détruirait le Parti démocrate » pis qu'il est prêt à mettre son veto sur leurs lois. Peur! J'ai caché la télécommande. Chez nous, le veto, c'est moi. Réal, mon mari, au tableau : « Aux deux tiers du Congrès, on passe par-dessus. » Le veto 👇 #Trump",
+   "reponse": "Le téléjournal l'a pas dit, mais ça, oui. J'ai lu ça assise sur la télécommande, juste au cas :",
+   "source": "https://fr.qz.com/trump-destitution-detruirait-parti-democrate-guerre-iran-110526"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Retour le 19",
+   "image": "images/2026-11-05-carney-19.jpg",
+   "genre": "Caricature",
+   "resume": "M. Carney part faire le tour du monde et revient le 19, comme GTA 6 et les 39 ans de mariage.",
+   "description": "Le bureau du premier ministre a annoncé un voyage de Mark Carney du 11 au 19 novembre : Dublin, Manille, Phnom Penh et Shenzhen. À l'aéroport, Ginette brandit « Bon voyage M. Carney! Reviens le 19! » sous le tableau des départs, tandis que Réal, dans sa chaise inclinable, part lui aussi le 19 : direction Vice City, sans valise.",
+   "post": "Mon beau @MarkJCarney part du 11 au 19 novembre : Dublin, Manille, Phnom Penh pis Shenzhen. Il revient le 19, le jour de nos 39 ans pis de GTA 6. Réal, mon mari : « Le 19, moi aussi je pars en voyage. » À Vice City. Au sous-sol. Sans valise. Son itinéraire 👇 #Carney",
+   "reponse": "J'ai lu le titre trois fois, c'est déjà beaucoup. J'ai cherché « Vice City » dans la liste des villes : y est pas. Fiou :",
+   "source": "https://www.pm.gc.ca/fr/nouvelles/communiques/2026/11/04/premier-ministre-carney-se-rendra-europe-et-asie-diversifier-les"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "1,2 milliard de jasettes",
+   "image": "images/2026-11-05-chatgpt.jpg",
+   "genre": "Caricature",
+   "resume": "Un milliard deux cents millions de jasettes avec un robot chaque semaine, et Réal parle seulement de bière.",
+   "description": "OpenAI affirme que ChatGPT compte 1,2 milliard d'utilisateurs par semaine, dont 250 millions qui lui parlent à voix haute. Ginette jase avec un téléphone géant « Robot-Jasette » sous un compteur de 1 200 000 000, pendant que Réal, à la porte du sous-sol, demande s'il reste de la bière.",
+   "post": "Entendu au Tim Hortons : 1,2 milliard de personnes parlent à ChatGPT chaque semaine, pis 250 millions lui parlent à voix haute. J'ai eu peur que Réal, mon mari, soit dans le lot. Non. Lui, il me parle une fois par jour : « Y reste-tu de la bière? » Le chiffre, en anglais 👇 #IA",
+   "reponse": "Réal me l'a traduit pendant que sa bière refroidissait. Moi, j'ai juste compris « billion ». Lisez-le pour moi :",
+   "source": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "L'offensive des muffins",
+   "image": "images/2026-11-05-offensive-diplomatique.jpg",
+   "genre": "Caricature",
+   "resume": "PSPP lance une offensive diplomatique; Ginette sort le casque, Lise les muffins et Réal la liste des buffets.",
+   "description": "Après la vague bleue au Congrès, Paul St-Pierre Plamondon a annoncé une offensive diplomatique aux États-Unis. Écran partagé : au Québec, Ginette serre un casque de vélo en criant « Une offensive?! » ; en Floride, Lise accueille le gouverneur avec des muffins et Réal s'improvise guide des buffets de Miami.",
+   "post": "PSPP annonce une « offensive diplomatique » aux États-Unis. Une OFFENSIVE?! J'ai mis mon casque. Fiou : c'est des rencontres avec des gouverneurs. Lise offre des muffins à celui de Floride. Réal, mon mari, veut être guide : il connaît tous les buffets de Miami. Lien 👇 #polqc",
+   "reponse": "Lu sous la doudou, à la lampe de poche. Le politologue dit que Trump est imprévisible. Comme Réal devant un buffet à volonté :",
+   "source": "https://www.canadafrancais.com/nouvelles-nationales/la-vague-bleue-aux-etats-unis-pourrait-entrainer-des-effets-benefiques-pour-le-quebec/"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Une seule copie",
+   "image": "images/2026-11-05-une-seule-copie.jpg",
+   "genre": "Caricature",
+   "resume": "Quinze séries à cinq millions de copies pour Take-Two, mais une seule copie de Réal depuis 1987, pas remboursable.",
+   "description": "Au WSJ Tech, le patron de Take-Two, Strauss Zelnick, a rappelé que son entreprise possède plus de 15 séries ayant chacune un jeu vendu à plus de 5 millions de copies. Devant une tablette de jeux inventés, Ginette présente sa seule série : Réal, dans une boîte géante « Édition 1987 », 1 copie, 0 mise à jour, pas remboursable.",
+   "post": "J'ai pas lu, mais le patron de GTA dit qu'il a plus de 15 séries vendues à 5 millions de copies chacune. Moi, j'ai une seule série : Réal, mon mari. Une copie, depuis 1987. Pas de mise à jour, pas de remboursement. Pis il précharge encore. Preuve 👇 (pas osé cliquer) #GTA6",
+   "reponse": "Trouvé sous la pile de boîtes de pizza du sous-sol. C'est en anglais. Réal dit que ça veut dire « regardez les faits ». Moi, je regarde le calendrier :",
+   "source": "https://www.playstationinfo.de/en/2026/11/05/gta-6-executive-reacts-in-disbelief-to-a-journalists-question-and-fires-back-with-15-hit-games/"
+  },
+  {
+   "date": "2026-11-05",
    "titre": "Mode VR permanent",
    "image": "images/2026-11-05-mode-vr-permanent.jpg",
    "genre": "Caricature",
@@ -665,6 +721,102 @@
    "post": "Sony a retiré son casque PS VR2 de sa boutique aux États-Unis pis au Japon, pis les stocks reviennent pas. Réal, mon mari, joue à Gran Turismo avec le sien depuis. Il veut pu l'enlever : « C'est peut-être le dernier! » La tourtière refroidit. La preuve 👇 #PSVR2 #PS5",
    "reponse": "Réal a pas pu le lire, il avait le casque sur les yeux. Je lui ai lu le titre pendant qu'il prenait une courbe. Il a crié « Pantoute, Pantouf! » pis il a fait un tête-à-queue :",
    "source": "https://www.journaldugeek.com/2026/11/04/clap-de-fin-pour-le-playstation-vr2/"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Presque autant!",
+   "image": "images/2026-11-05-presque-autant.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 sort le jour de leurs 39 ans : Réal promet de s'occuper de Ginette presque autant que de Lucia.",
+   "description": "Le contexte : JV demande si les couples survivront à la sortie de GTA 6, le 19 novembre, le jour même des 39 ans de mariage de Ginette et Réal. Sur l'affiche de Réal, « L'attention de Réal » : Lucia, l'héroïne du jeu, 100 % ; Ginette, 97 %. Ginette pleure : « C'est qui, Lucia?! » ; Réal, manette en main : « Inquiète-toi pas! »",
+   "post": "Mon couple va-tu survivre à GTA 6? J'en ai eu des sueurs froides : le 19, c'est nos 39 ans de mariage. Réal, mon mari, m'a rassurée : « Inquiète-toi pas, je vais m'occuper de toi presque autant que de Lucia. » Presque. Je sais pas c'est qui, Lucia, mais je l'aime déjà pas. #GTA6"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Souverain… sur la PS5",
+   "image": "images/2026-11-05-souverain-ps5.jpg",
+   "genre": "Caricature",
+   "resume": "Le budget Carney parle de souveraineté : Ginette accorde la sienne à Réal, mais seulement sur la PS5.",
+   "description": "Le contexte : le budget fédéral 2026, présenté sous le slogan « Maîtres chez nous », vise selon le gouvernement à « garantir la souveraineté économique ». Dans l'image, une frontière jaune sépare la cuisine du sous-sol : Ginette brandit un parchemin « Souveraineté — PS5 seulement » près de la douane, et Réal, debout sur sa chaise, agite le drapeau du sous-sol en criant « Vive le sous-sol libre! ».",
+   "post": "« Maîtres chez nous », pis le gouvernement de mon beau M. Carney parle de « souveraineté économique » dans son budget! S'il le dit, je peux le dire : j'ai accordé la souveraineté à Réal, mon mari… sur la PS5. Le sous-sol a son drapeau. Pas sa monnaie, j'espère. Preuve 👇 #polqc",
+   "reponse": "Réal me l'a lu debout sur sa chaise, la main sur le cœur. C'est écrit noir sur blanc : « souveraineté économique ». Là, il demande un siège à l'ONU pour le sous-sol :",
+   "source": "https://www.noovo.info/nouvelles/politique/article/voici-ce-quil-faut-savoir-sur-le-budget-federal-qui-sera-depose-jeudi-apres-midi/"
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Le sous-sol à 300 M$",
+   "image": "images/2026-11-05-300-millions.jpg",
+   "resume": "Ginette ignore combien c'est, 300 millions, jusqu'à ce que le sous-sol de Réal se remplisse de billets de 100 $.",
+   "description": "Le budget fédéral de 2026 prévoit 300 millions de dollars, le Fonds Canada 160, pour fêter le 160e anniversaire du Canada en 2027. Dans le rêve de Ginette, 3 millions de billets de 100 $ inondent le sous-sol ; Réal, mon mari, enfoui jusqu'aux épaules, brandit au tableau trois meilleures idées pour la classe moyenne.",
+   "post": "300 M$ pour les 160 ans du Canada. C'est combien? J'ai rêvé : 3 millions de billets de 100 $ ont inondé le sous-sol. Réal, mon mari, étouffait : « 100 $ d'épicerie à 3 millions de familles! 15 fois l'aide aux banques alimentaires! 1 000 $ de loyer à 300 000 familles! » 👇 #Carney",
+   "reponse": "J'ai lu ça avec mes gants de vaisselle, au cas où les billets seraient encore mouillés. Le 300 millions est dans le budget, juste à côté du chèque d'épicerie :",
+   "source": "https://ici.radio-canada.ca/nouvelle/2298578/budget-carney-champagne-epicerie-itinerance"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Monument no 2",
+   "image": "images/2026-11-06-monument-robe-de-chambre.jpg",
+   "genre": "Caricature",
+   "resume": "Trump fait du Bureau ovale un monument national ; Ginette réplique en se proclamant « Monument no 2 », robe de chambre comprise.",
+   "description": "Le 5 novembre, deux jours après la défaite républicaine aux mi-mandats, Trump signe une proclamation qui fait du Bureau ovale et de la salle du Cabinet des monuments nationaux ; ses successeurs pourront quand même redécorer. Dans un musée, Ginette trône sur un piédestal de marbre « Monument no 2 · Robe de chambre · MonRéal 1987 », derrière un cordon de velours, à côté du tableau doré du « Monument no 1 », pendant que Réal croque des chips sous l'affiche « Interdit de manger ».",
+   "post": "Trump a perdu le Congrès, pis sa 1re décision : faire du Bureau ovale un monument national. Défense d'y toucher. Peur! Y compte rester? Réal, mon mari, a lu le texte : le prochain président pourra redécorer pareil. Moi, je proclame ma robe de chambre monument. Le décret 👇 #Trump",
+   "reponse": "Proclamation no 2 : ce lien est un monument national. Touchez-y pas, cliquez juste dessus :",
+   "source": "https://fr.qz.com/trump-proclamation-bureau-ovale-salle-du-cabinet-monuments-110526"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "La liste d'urgence",
+   "image": "images/2026-11-06-liste-urgence.jpg",
+   "genre": "Caricature",
+   "resume": "Chèque d'épicerie bonifié : Ginette coche camomille et bigoudis, Réal cherche les croisières à la loupe dans 142 milliards.",
+   "description": "Le budget fédéral du 5 novembre ajoute 142,1 milliards $ de nouvelles mesures sur cinq ans, dont une bonification de 50 % de l'allocation pour l'épicerie versée au début de 2027. Ginette, crayon géant en main, coche sa « liste d'urgence » (camomille, bigoudis, pompon de rechange) à côté du coupon « Chèque d'épicerie +50 % en 2027 », tandis que Réal, à la loupe sur le livre rouge du budget, découvre « Croisières : 0 $ ».",
+   "post": "Le budget de mon beau @MarkJCarney hausse de 50 % le montant du chèque d'épicerie, en 2027. Ma liste d'urgence : camomille, bigoudis, pompon. Réal, mon mari, a fouillé les 142 milliards $ : pas une cenne pour les croisières. Le chèque 👇 (pas encore arrivé) #Carney",
+   "reponse": "J'ai découpé le lien comme un coupon-rabais. Valide en 2027, non transférable à Réal :",
+   "source": "https://www.narcity.com/fr/budget-federal-2026-cheque-epicerie-2027"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Le garage du voisin",
+   "image": "images/2026-11-06-garage-du-voisin.jpg",
+   "genre": "Caricature",
+   "resume": "OpenAI paiera son électricité ; Ginette, aux jumelles sur son balcon, soupçonne le garage bleu du voisin d'être un centre de données.",
+   "description": "Après le rejet ou l'encadrement des centres de données dans 40 des 41 votes locaux des mi-mandats américains, OpenAI promet de payer toute l'électricité de ses futurs centres de données. La nuit, rue de MonRéal : Ginette, aux jumelles sur le balcon de son triplex, tremble devant le garage du voisin qui clignote en bleu, couvert de lumières de Noël et d'une pancarte « Pas un centre de données! », sous le titre « Lettre ouverte à OpenAI ».",
+   "post": "Lettre ouverte à OpenAI : pourquoi vous payiez pas l'électricité de vos centres de données avant? Réal, mon mari, dit que c'est le mécontentement des électeurs qui a tout changé. Moi je dis que le garage du voisin clignote en bleu, pis c'est louche. 👇 #IA",
+   "reponse": "Écrite à la main, timbrée, pis tapée par Réal parce que mon écriture fait peur à l'IA :",
+   "source": "https://fr.dataconomy.com/2026/11/06/openai-sengage-a-couvrir-les-couts-delectricite-des-centres-de-donnees-apres-le-mecontentement-des-electeurs/"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Pas d'exemption pour Lise!",
+   "image": "images/2026-11-06-pas-d-exemption.jpg",
+   "genre": "Caricature",
+   "resume": "La Floride baisse ses taxes, sauf pour les snowbirds ; Ginette, boycott oblige, savoure son exemption totale à 0 $.",
+   "description": "Les Floridiens ont approuvé l'amendement 3 : l'exemption de taxe foncière des résidences principales passe à 150 000 $ US en 2027 et à 250 000 $ US en 2028, mais pas pour les résidences secondaires comme celles des snowbirds. Écran partagé : au Québec, Ginette sourit à côté de sa camomille et d'une pancarte « 0 $ de taxes en Floride » ; en Floride, Lise, bouche bée, tient une facture de taxes qui se déroule jusqu'au sable, devant un palmier « Résidents seulement ».",
+   "post": "Texto de Lise, en Floride : « Ils ont voté une baisse de taxes : jusqu'à 250 000 $ US d'exemption en 2028. Pas pour les maisons secondaires! » Lise va payer pour les Floridiens. Moi, mon exemption est totale : je mets pas les pieds là. Le vote, en anglais 👇 #Floride",
+   "reponse": "Lise m'a envoyé le lien en lettres majuscules. Je l'ai lu avec mes lunettes de soleil, par solidarité :",
+   "source": "https://www.cbsnews.com/miami/news/florida-amendment-3-property-tax-election-results-2026/"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "On voit les pores!",
+   "image": "images/2026-11-06-on-voit-les-pores.jpg",
+   "genre": "Caricature",
+   "resume": "Francine montre les pores de GTA 6 ; Réal les zoome toute la soirée, et la mise en plis de Ginette attend toujours.",
+   "description": "Le 5 novembre, à deux semaines de la sortie, Rockstar publie 39 nouvelles images de GTA 6, si détaillées qu'on y voit les pores de la peau. Bande dessinée en deux cases : au salon « Chez Francine », Ginette sous le séchoir regarde la tablette de sa coiffeuse (« On voit les pores! ») ; le soir, Réal colle sa loupe sur une télé géante « Zoom x 39 » pendant que Ginette, mise en plis toute neuve, fulmine : « Pis ma mise en plis? »",
+   "post": "Au salon, sous le séchoir, Francine m'a montré les 39 nouvelles images de GTA 6. On voit les pores de la peau! Réal, mon mari, zoome sur ceux de Lucia depuis hier. En 39 ans de mariage, y a jamais remarqué ma mise en plis. Le 19, c'est dans 13 jours. Zoomez 👇 #GTA6 #GTAVI",
+   "reponse": "Francine me l'a envoyé par texto, avec trois loupes pis un cœur. Mettez de la crème avant de cliquer :",
+   "source": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/"
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Zéro carton, zéro consigne",
+   "image": "images/2026-11-06-zero-carton-zero-consigne.jpg",
+   "genre": "Caricature",
+   "resume": "Les cartons de lait seront consignés ; Réal boit du lait en jouant à GTA 6 pour sa bonne conscience, Ginette adopte une vache.",
+   "description": "Radio-Canada souligne le nouveau défi de la consigne pour la pinte de lait : la consigne de 10 ¢ s'étendra aux cartons de lait le 1er mars 2027. À gauche, Ginette tient sa vache en laisse devant la pancarte « Zéro carton, zéro consigne » ; à droite, Réal, dans sa chaise inclinable devant un écran « Vice City », boit du lait « pour la bonne conscience » pendant GTA 6.",
+   "post": "Dès le 1er mars 2027, les cartons de lait seront consignés (10 ¢). Réal, mon mari, boira du lait en jouant à GTA 6 pour se donner bonne conscience : il sera magané par ses choix dans le jeu. Moi, j'adopte une vache. Zéro carton, zéro consigne. La preuve 👇 #GTA6 #GTAVI",
+   "reponse": "Mon mari m'a obligée à mettre le lien. Pour Lise qui me croit jamais, la preuve en français : :",
+   "source": "https://www.protegez-vous.ca/nouvelles/maison-et-environnement/modernisation-de-la-consigne-10-cents-pour-chaque-canette-en-alu"
   }
  ]
 }
