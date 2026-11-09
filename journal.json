@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-07",
+ "mis_a_jour": "2026-11-09",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -9,7 +9,9 @@
   "2026-11-01": "Grosse journée : Réal devient prof contre Christine Fréchette, Ginette salue les cousins de France, réclame un bouton anti-aspiration contre les biscuits volés, refuse de répondre à Trump avant 10 h, boycotte la photo de famille du G20, range l'entente de M. Carney au congélateur, pleure son téléjournal piégé par un satiriste… et Réal lui offre une boîte vide pour GTA 6.",
   "2026-11-02": "Lundi chargé : Ginette compte 3 000 moutons rouges avant les élections américaines, sort ses bigoudis du dimanche pour M. Carney, rend son jugement sans lire le dossier, réclame un bravo pour Réal, astronaute du sous-sol… et l'anniversaire de mariage reste à 0 % pendant que GTA 6 précharge.",
   "2026-11-05": "Jeudi d'été en novembre : les moutons de Ginette virent bleus, elle colle des NON sur l'aspirateur-robot, boycotte la chaleur en robe de chambre et s'assoit sur la télécommande, son droit de veto. Réal précharge GTA 6, promet de s'occuper d'elle « presque autant » que de Lucia et proclame la souveraineté du sous-sol… avant de s'y noyer sous 300 millions en billets de 100 $, pendant que Ginette cherche l'interrupteur de sa seule copie, édition 1987, pas remboursable.",
-  "2026-11-06": "Vendredi de monuments : Ginette se proclame « Monument no 2 » en robe de chambre, coche camomille et bigoudis sur sa liste d'urgence, espionne le garage bleu du voisin et adopte une vache pour la consigne. Pendant ce temps, Lise paie les taxes de la Floride et Réal zoome sur les pores de Lucia… sans jamais remarquer la mise en plis."
+  "2026-11-06": "Vendredi de monuments : Ginette se proclame « Monument no 2 » en robe de chambre, coche camomille et bigoudis sur sa liste d'urgence, espionne le garage bleu du voisin et adopte une vache pour la consigne. Pendant ce temps, Lise paie les taxes de la Floride et Réal zoome sur les pores de Lucia… sans jamais remarquer la mise en plis.",
+  "2026-11-07": "Samedi de cauchemars : Ginette vide ses armoires pour traquer un chef américain, vote au sondage maison avec Doug Ford (qui a perdu sa peur de PSPP), cache son argent au congélateur loin de l'IA, rentre sa corde à linge devant l'arche de Trump… et planque le passeport de Réal dans sa pantoufle, parce que Dubaï, c'est pas la Floride.",
+  "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City."
  },
  "entrees": [
   {
@@ -817,6 +819,127 @@
    "post": "Dès le 1er mars 2027, les cartons de lait seront consignés (10 ¢). Réal, mon mari, boira du lait en jouant à GTA 6 pour se donner bonne conscience : il sera magané par ses choix dans le jeu. Moi, j'adopte une vache. Zéro carton, zéro consigne. La preuve 👇 #GTA6 #GTAVI",
    "reponse": "Mon mari m'a obligée à mettre le lien. Pour Lise qui me croit jamais, la preuve en français : :",
    "source": "https://www.protegez-vous.ca/nouvelles/maison-et-environnement/modernisation-de-la-consigne-10-cents-pour-chaque-canette-en-alu"
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "Un chef dans mes armoires",
+   "image": "images/2026-11-07-chef-de-cabinet.jpg",
+   "genre": "Caricature",
+   "resume": "Trump change de chef de cabinet ; Ginette vide ses armoires de cuisine pour s'assurer qu'aucun chef américain ne s'y cache.",
+   "description": "Le 6 novembre, trois jours après la défaite républicaine aux mi-mandats, Trump annonce que Stephen Miller remplace Susie Wiles comme chef de cabinet de la Maison-Blanche, à compter de lundi. Dans sa cuisine, Ginette, à genoux devant ses armoires grandes ouvertes, chaudrons et malaxeur éparpillés autour d'elle, découvre un minuscule chef cuisinier sans visage coiffé d'une toque « USA » ; Réal, Pepsi diète à la main, lui montre que « cabinet » n'est pas une armoire.",
+   "post": "À la radio : « Trump change de chef de cabinet. » J'ai vidé mes armoires : pas de chef américain. Fiou. Réal, mon mari : Wiles part, Miller arrive, et certains le disent d'extrême droite. Un cabinet, c'est pas une armoire. Le remaniement 👇 #Trump",
+   "reponse": "Lu en vidant l'armoire à épices. Pas de chef, juste un pot de paprika de 1987 :",
+   "source": "https://www.parismatch.be/actualites/monde/2026/11/07/donald-trump-nomme-son-proche-conseiller-stephen-miller-au-poste-de-directeur-de-cabinet-de-la-maison-blanche-I5XW4EON5JG3PNYV5M4XVTQHX4/"
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "Sondage maison",
+   "image": "images/2026-11-07-sondage-maison.jpg",
+   "genre": "Caricature",
+   "resume": "Même Doug Ford trouve PSPP « productif » : au sondage maison, Ginette est la dernière à avoir peur.",
+   "description": "Le 6 novembre à Queen's Park, Paul St-Pierre Plamondon et Doug Ford tiennent leur première rencontre, qualifiée d'« excellente » et de « productive » ; ils parlent commerce, États-Unis et TGV Alto. Ford avait déjà qualifié de « désastre » un gouvernement péquiste. Parodie d'infographie de sondage « Léger-Pantoufle » : une barre géante « OUI » où grimpe Ginette, une barre « NON » où Réal se prélasse, et une barre « Plus maintenant » coiffée d'une petite pancarte « ONTARIO », sous un train TGV miniature qui fonce vers une porte « Sous-sol ».",
+   "post": "Sondage maison : qui a peur de PSPP? Moi : oui. Réal, mon mari : non. Doug Ford : plus maintenant! Y avait parlé de « désastre », pis hier à Queen's Park, c'était une rencontre « productive ». Ils ont jasé TGV Alto. Réal veut un arrêt au sous-sol. Les résultats 👇 #polqc",
+   "reponse": "Réal a voté pour le lien. Moi, je me suis abstenue : j'avais peur de cliquer :",
+   "source": "https://www.lesoleil.com/actualites/politique/2026/11/07/paul-st-pierre-plamondon-et-doug-ford-ont-eu-une-premiere-rencontre-productive-XA2GV452SJHDJEL6LF4YFZNK5M/"
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "Cher journal",
+   "image": "images/2026-11-07-cher-journal.jpg",
+   "genre": "Caricature",
+   "resume": "Une IA lit maintenant les comptes de banque des Américains ; Ginette, elle, garde ses économies au congélateur sous les tuques.",
+   "description": "Le 5 novembre, Anthropic lance en bêta, aux États-Unis seulement, « Personal Finance » dans Claude : l'IA peut lire, sans pouvoir y toucher, jusqu'à deux ans de transactions bancaires. Page du journal intime de Ginette, à cœurs et pompons, à côté d'un congélateur entrouvert où des liasses de billets dorment sous les tuques ; un petit robot à loupe lit un relevé interminable de Réal (« CHIPS · CHIPS · MANETTE · CHIPS ») pendant que Réal, blême, tente de cacher le rouleau.",
+   "post": "Cher journal, Claude, l'IA d'Anthropic, peut lire 2 ans de transactions bancaires. Aux États-Unis seulement, fiou. Moi, mon argent est au congélateur, sous les tuques. Réal, mon mari, est devenu blême : 2 ans de chips du dépanneur pis de manettes, ça se lit mal. La preuve 👇 #IA",
+   "reponse": "Je l'ai lu avec mes mitaines de four, au cas où l'IA verrait mes tuques :",
+   "source": "https://www.infomagazine.ma/intelligence-artificielle-ia/anthropic-lance-un-assistant-de-suivi-budgetaire-dans-claude-18551-2026/"
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "L'arche de ma galerie",
+   "image": "images/2026-11-07-arche-geante.jpg",
+   "genre": "Caricature",
+   "resume": "L'arche de Trump est suspendue ; dans le cauchemar de Ginette, elle poussait sur sa galerie, à côté de la corde à linge.",
+   "description": "Dans la nuit du 5 au 6 novembre, la juge Tanya Chutkan suspend pour 14 jours les travaux de l'arc de triomphe de plus de 76 mètres voulu par Trump près d'Arlington ; l'administration plaidait qu'il servirait notamment de base de drones. Scène de cauchemar en contre-plongée : une arche gigantesque « TRUMP » sort du balcon du triplex de Ginette, minuscule en robe de chambre, tandis que des drones jouent avec sa corde à linge et qu'un marteau de juge géant tombe du ciel.",
+   "post": "Cauchemar : l'arche de Trump, 76 mètres, poussait sur ma galerie. Plus haute que celle de Paris! Réveillée : une juge a suspendu les travaux 14 jours. Fiou. Réal, mon mari, dit que le gouvernement voulait une base de drones. J'ai rentré ma corde à linge. Le jugement 👇 #Trump",
+   "reponse": "Je l'ai mesuré avec mon ruban à couture : 76 mètres, ça rentre pas sur ma galerie :",
+   "source": "https://fr.qz.com/juge-suspend-travaux-arc-triomphe-trump-washington-110626"
+  },
+  {
+   "date": "2026-11-07",
+   "titre": "Dubaï, c'est pas la Floride",
+   "image": "images/2026-11-07-dubai.jpg",
+   "genre": "Caricature",
+   "resume": "Réal a trouvé une faille au boycott : un lancement de GTA 6 à Dubaï ; Ginette a caché son passeport dans sa pantoufle.",
+   "description": "Le 6 novembre, le détaillant Geekay Games annonce des événements de lancement de GTA 6 dans ses magasins de Dubaï et des Émirats, le 11 novembre au soir, huit jours avant la sortie mondiale du 19. À l'aéroport, devant un tableau des départs (« MIAMI : BOYCOTT » en rouge, « DUBAÏ : GTA 6 » en vert), Réal tire une valise débordante de manettes pendant que Ginette, en robe de chambre et pantoufles, brandit triomphalement le passeport qui dépasse de son pompon.",
+   "post": "Réal, mon mari, a trouvé : à Dubaï, des magasins lancent GTA 6 le 11 novembre au soir. Y a sorti sa valise : « C'est pas la Floride, boycott respecté! » Nos 39 ans, c'est le 19. Lui veut fêter le 11. J'ai caché son passeport dans ma pantoufle. Le lancement 👇 #GTA6 #GTAVI",
+   "reponse": "Réal me l'a écrit au feutre sur sa valise. En anglais, pis à l'envers :",
+   "source": "https://beebom.com/gta-6-gets-midnight-launch-events-across-dubai/amp/"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Recherchés : 20 républicains",
+   "image": "images/2026-11-08-petite-annonce.jpg",
+   "genre": "Caricature",
+   "resume": "Les démocrates cherchent des républicains contre le veto de Trump ; Ginette punaise une annonce, Réal pêche avec sa casquette MAGA.",
+   "description": "Les démocrates, qui contrôleront le Congrès, veulent abolir les tarifs de 50 % de Trump sur le Canada (Ron Wyden prépare un projet de loi, et M. Carney salue « toute initiative »), mais il leur faudrait plus de 20 républicains à la Chambre et 10 à 12 au Sénat pour battre un veto. Devant le babillard de l'épicerie, Ginette punaise sa petite annonce rose « RECHERCHÉS » (récompense : sucre à la crème), entre un chat perdu et une souffleuse jamais servie, pendant que Réal, café à la main, laisse pendre sa casquette MAGA FLORIDA au bout d'une canne à pêche : « Ça mord toujours! »",
+   "post": "PETITE ANNONCE : Recherchés, 20 républicains à la Chambre pis 10 à 12 au Sénat, pour aider les démocrates à battre le veto de Trump pis abolir ses tarifs de 50 % sur le Canada. Récompense : sucre à la crème. Réal, mon mari, offre sa casquette MAGA en appât. Détails 👇 #Trump",
+   "reponse": "Annonce épinglée au babillard du Provigo, entre un chat perdu pis une souffleuse à vendre :",
+   "source": "https://www.noovo.info/nouvelles/economie/guerre-commerciale/article/carney-salue-toute-initiative-pour-un-accord-de-libre-echange-avec-les-etats-unis/"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "48 piles pour ma télécommande",
+   "image": "images/2026-11-08-piles-lithium.jpg",
+   "genre": "Caricature",
+   "resume": "Québec coupe les vivres à Nemaska Lithium ; Ginette vide l'étagère des piles au lithium du dépanneur pour sauver sa télécommande.",
+   "description": "Le 6 novembre, le gouvernement de Paul St-Pierre Plamondon annonce qu'il ne mettra « pas une cenne de plus » dans Nemaska Lithium, à Bécancour, où l'ancien gouvernement avait investi 1,2 milliard $ de fonds publics. Au dépanneur, Ginette, tremblante, serre une tour de paquets de piles « LITHIUM » devant l'étagère en rupture de stock ; le caissier déroule un reçu de « 48 PILES » jusqu'au plancher, et Réal, lait au chocolat en main, brandit une carte : « C'est une usine, pas tes piles! »",
+   "post": "Au dépanneur, j'ai acheté toutes les piles au lithium. Le Québec de PSPP mettra pas « une cenne de plus » dans Nemaska Lithium, après 1,2 G$ de fonds publics. Peur pour ma télécommande! Réal, mon mari : « C'est une usine à Bécancour, pas tes piles. » J'en ai 48. Reçu 👇 #polqc",
+   "reponse": "Réal l'a imprimé pis collé sur le frigo, à côté de mes 48 piles :",
+   "source": "https://www.noovo.info/nouvelles/politique/article/nemaska-lithium-le-gouvernement-st-pierre-plamondon-ne-jouera-plus-dans-ce-mauvais-film/"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Bingo à 1 250 milliards",
+   "image": "images/2026-11-08-bingo.jpg",
+   "genre": "Caricature",
+   "resume": "OpenAI vaut 1 250 milliards mais n'a levé que 11 milliards sur 30 ; au bingo, Ginette a 11 cases sur 30 et un robot IA sur les talons.",
+   "description": "OpenAI a bouclé une levée de 11 milliards $ qui la valorise à 1 250 milliards $, loin des 30 milliards visés au départ (Reuters, 6 novembre). Au bingo de la paroisse, le tableau lumineux affiche « 1 250 000 000 000 » ; Ginette, daubeur rose géant en main, n'a que « 11 sur 30 » cases, tandis qu'un robot « IA » à carte presque pleine lève la main (« B-I-N… »), sous l'œil du jambon du 1er prix : « Pas avant moi! »",
+   "post": "Au bingo de la paroisse, j'ai entendu « 1 250 milliards »! Pas un numéro : c'est la valeur d'OpenAI. Ils visaient jusqu'à 30 milliards $, ils en ont levé 11. Moi aussi : 11 cases sur 30, pis j'ai même pas gagné le jambon. Peur que l'IA crie BINGO avant moi. Le tirage 👇 #IA",
+   "reponse": "Trouvé entre deux cartes de bingo. J'ai mis un jeton sur chaque chiffre, pour être sûre :",
+   "source": "https://www.zonebourse.com/actualite-bourse/openai-obtient-un-financement-de-11-milliards-de-dollars-pour-une-valorisation-de-1-250-milliards-de-ce785fd2dc8bf622"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Dans ma tête, j'ai 15 ans",
+   "image": "images/2026-11-08-ado-sous-sol.jpg",
+   "genre": "Caricature",
+   "resume": "70 % des ados avec une console veulent GTA 6 ; Réal se rassoit au pupitre, casquette à l'envers, et Ginette lui rappelle leurs 39 ans de mariage.",
+   "description": "Un sondage de Piper Sandler auprès d'environ 9 000 adolescents indique que 70 % de ceux qui ont une console comptent acheter GTA 6, qui sort le 19 novembre, le jour des 39 ans de mariage de Ginette et Réal. Dans une classe imaginaire, Réal, casquette à l'envers, coincé à un petit pupitre avec sa manette et sa boisson énergisante, a coché « OUI » au sondage (« J'ai 15 ans! ») ; dans la porte, Ginette brandit le calendrier : « Pis 39 ans de mariage! »",
+   "post": "Texto de Réal, mon mari, du sous-sol : « 70 % des ados qui ont une console vont acheter GTA 6. J'en fais partie. » Le sondage, c'est 9 000 ados, pas un monsieur marié depuis 39 ans. Y m'a répondu : « Dans ma tête, j'ai 15 ans. » Sortie le 19, le jour de nos noces 👇 #GTA6",
+   "reponse": "Mon mari m'a obligée à mettre le lien. Y l'a signé « Réal, 15 ans » :",
+   "source": "https://ad-hoc-news.de/boerse/news/unternehmensnachrichten/take-two-s-gta-vi-math-70-prozent-purchase-intent-a-november-19-debut-and-the-online-question-wall/70477286"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Bonne retraite, Cybertruck",
+   "image": "images/2026-11-08-retraite-cybertruck.jpg",
+   "genre": "Caricature",
+   "resume": "Tesla met le Cybertruck à la retraite ; Ginette apporte le gâteau, Réal pleure sa Floride, et le boycott est sauvé.",
+   "description": "Tesla arrêtera la production du Cybertruck au Texas vers la mi-2027 pour fabriquer des Cybercab ; 20 237 exemplaires ont été vendus aux États-Unis en 2025, 48 % de moins qu'en 2024. Devant le triplex enneigé, sous la bannière « BONNE RETRAITE CYBERTRUCK 2023 – 2027 », le camion triste porte un chapeau de fête et une montre en or ; Ginette lui apporte un gâteau à la bougie « 4 », Réal pleure à chaudes larmes avec sa brochure « FLORIDE » (« Pis ma Floride? ») et la pancarte du terrain annonce « Boycott de la Floride : sauvé ».",
+   "post": "Carte de retraite : Tesla arrête le Cybertruck vers la mi-2027. 20 237 vendus aux États-Unis en 2025, 48 % de moins qu'en 2024. Y prend sa retraite avant 4 ans. À 4 ans, j'avais pas mes bigoudis. Réal, mon mari, pleure : y en voulait un pour la Floride. Boycott sauvé 👇 #Tesla",
+   "reponse": "Lise me l'a envoyé de la Floride avec trois émojis qui pleurent. Moi, j'ai envoyé un gâteau :",
+   "source": "https://mobidevices.com/fr/tesla-discontinuing-cybertruck-favor-cybercab"
+  },
+  {
+   "date": "2026-11-08",
+   "titre": "Grippe de Vice City",
+   "image": "images/2026-11-08-grippe-vice-city.jpg",
+   "genre": "Caricature",
+   "resume": "1,5 million d'Américains manqueraient le travail le 19 novembre pour GTA 6 ; Réal veut son billet du docteur, Ginette a un vrai rhume.",
+   "description": "Selon une estimation de l'International Business Times reprise en octobre et en novembre, 1,5 million d'Américains manqueraient le travail le jeudi 19 novembre, jour de la sortie de GTA 6. Dans la salle d'attente d'une clinique, Ginette, thermomètre géant dans la bouche, regarde Réal, au comptoir avec sa manette et un faux billet du docteur « Grippe de Vice City · Absent le 19 nov. », sous l'horloge qui marque « 19 » et l'affiche « Virus GTA 6 ».",
+   "post": "Salle d'attente de la clinique : on estime que 1,5 million d'Américains manqueront le travail le 19 novembre pour GTA 6. Réal, mon mari, veut un billet du docteur : « grippe de Vice City ». Le 19, c'est nos 39 ans de mariage. Moi, j'ai un vrai rhume. L'estimation 👇 #GTA6 #GTAVI",
+   "reponse": "Réal a imprimé son billet avant de lire l'article. Moi, je l'ai lu avec le thermomètre dans la bouche :",
+   "source": "https://www.fox5ny.com/news/gta-6-could-cause-1-billion-sick-day-1-5-million-estimated-skip-work-reports"
   }
  ]
 }
