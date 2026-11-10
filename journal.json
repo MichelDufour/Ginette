@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-09",
+ "mis_a_jour": "2026-11-10",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -11,7 +11,8 @@
   "2026-11-05": "Jeudi d'été en novembre : les moutons de Ginette virent bleus, elle colle des NON sur l'aspirateur-robot, boycotte la chaleur en robe de chambre et s'assoit sur la télécommande, son droit de veto. Réal précharge GTA 6, promet de s'occuper d'elle « presque autant » que de Lucia et proclame la souveraineté du sous-sol… avant de s'y noyer sous 300 millions en billets de 100 $, pendant que Ginette cherche l'interrupteur de sa seule copie, édition 1987, pas remboursable.",
   "2026-11-06": "Vendredi de monuments : Ginette se proclame « Monument no 2 » en robe de chambre, coche camomille et bigoudis sur sa liste d'urgence, espionne le garage bleu du voisin et adopte une vache pour la consigne. Pendant ce temps, Lise paie les taxes de la Floride et Réal zoome sur les pores de Lucia… sans jamais remarquer la mise en plis.",
   "2026-11-07": "Samedi de cauchemars : Ginette vide ses armoires pour traquer un chef américain, vote au sondage maison avec Doug Ford (qui a perdu sa peur de PSPP), cache son argent au congélateur loin de l'IA, rentre sa corde à linge devant l'arche de Trump… et planque le passeport de Réal dans sa pantoufle, parce que Dubaï, c'est pas la Floride.",
-  "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City."
+  "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City.",
+  "2026-11-09": "Lundi de météo et de conserves : Ginette annonce des averses de 212 Go sur MonRéal pour le préchargement de GTA 6, pendant que Réal s'enferme au sous-sol avec ses laits au chocolat… et elle vide ses pêches au sirop par précaution, au cas où « impeachment » voudrait dire autre chose."
  },
  "entrees": [
   {
@@ -940,6 +941,28 @@
    "post": "Salle d'attente de la clinique : on estime que 1,5 million d'Américains manqueront le travail le 19 novembre pour GTA 6. Réal, mon mari, veut un billet du docteur : « grippe de Vice City ». Le 19, c'est nos 39 ans de mariage. Moi, j'ai un vrai rhume. L'estimation 👇 #GTA6 #GTAVI",
    "reponse": "Réal a imprimé son billet avant de lire l'article. Moi, je l'ai lu avec le thermomètre dans la bouche :",
    "source": "https://www.fox5ny.com/news/gta-6-could-cause-1-billion-sick-day-1-5-million-estimated-skip-work-reports"
+  },
+  {
+   "date": "2026-11-09",
+   "titre": "Par précaution, les pêches",
+   "image": "images/2026-11-09-peches.jpg",
+   "genre": "Caricature",
+   "resume": "« Impeachment » contre le chef du Pentagone : Ginette comprend « pêches » et vide ses conserves, par précaution.",
+   "description": "Selon l'AFP, le républicain Thomas Massie veut faire voter la Chambre des États-Unis, dès cette semaine, sur la destitution (« impeachment ») de Pete Hegseth, chef du Pentagone fragilisé par la défaite aux mi-mandats, que Trump dit faire du « très bon travail ». Dans sa cuisine vue de haut, Ginette, joues pleines et cuillère levée, trône derrière une pyramide de conserves « Pêches au sirop » ; le chat du voisin lèche la boîte « Lot 1987 », et Réal brandit son ardoise « IMPEACHMENT ≠ PÊCHES ».",
+   "post": "Mes 3 peurs du jour :\n1. La Chambre US pourrait voter c'te semaine sur la destitution de Hegseth, chef du Pentagone.\n2. Trump dit qu'y fait du « très bon travail ».\n3. « Impeachment ». Réal, mon mari, jure que ça parle pas de pêches. J'ai mangé mes pêches pareil.\nPreuve 👇 #Trump",
+   "reponse": "Lu à la cuillère, entre deux pêches au sirop. Ça colle un peu :",
+   "source": "https://www.noovo.info/nouvelles/international/article/hegseth-le-chef-du-pentagone-fragilise-par-la-debacle-electorale/"
+  },
+  {
+   "date": "2026-11-09",
+   "titre": "Averses de 212 Go",
+   "image": "images/2026-11-09-meteo.jpg",
+   "genre": "Caricature",
+   "resume": "Météo de Ginette : averses de 212 Go sur MonRéal dès minuit pour GTA 6 ; Réal introuvable jusqu'au 19.",
+   "description": "Le préchargement numérique de GTA 6 commence le 10 novembre à minuit, avec jusqu'à 212 Go d'espace requis, avant la sortie du 19 novembre, jour des 39 ans de mariage. En présentatrice météo, parapluie rose ouvert, Ginette montre une carte de MonRéal où des nuages « 212 Go » foudroient un modem ; au sous-sol du triplex, Réal en casque de jeu est entouré de laits au chocolat, et les prévisions annoncent « 11-18 nov. : Réal introuvable » puis « 19 nov. : 39 ans ».",
+   "post": "MÉTÉO DE GINETTE pour demain, 10 novembre : averses de 212 Go dès minuit sur MonRéal : préchargement de GTA 6. Risque d'orages sur le modem. Réal, mon mari, est déjà en casque, avec 6 laits au chocolat. Moi, je garde mon parapluie : nos 39 ans, c'est le 19. Prévisions 👇 #GTA6",
+   "reponse": "Bulletin spécial capté sur la radio de Réal, par erreur. Fortes rafales de pixels :",
+   "source": "https://www.actugaming.net/?p=832277"
   }
  ]
 }
