@@ -12,7 +12,7 @@
   "2026-11-06": "Vendredi de monuments : Ginette se proclame « Monument no 2 » en robe de chambre, coche camomille et bigoudis sur sa liste d'urgence, espionne le garage bleu du voisin et adopte une vache pour la consigne. Pendant ce temps, Lise paie les taxes de la Floride et Réal zoome sur les pores de Lucia… sans jamais remarquer la mise en plis.",
   "2026-11-07": "Samedi de cauchemars : Ginette vide ses armoires pour traquer un chef américain, vote au sondage maison avec Doug Ford (qui a perdu sa peur de PSPP), cache son argent au congélateur loin de l'IA, rentre sa corde à linge devant l'arche de Trump… et planque le passeport de Réal dans sa pantoufle, parce que Dubaï, c'est pas la Floride.",
   "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City.",
-  "2026-11-09": "Lundi de météo, de conserves et de bulletins : Ginette annonce des averses de 212 Go pour le préchargement de GTA 6, vide ses pêches au sirop par précaution, poste son vote pour Phnom Penh à la Francophonie, remonte le coucou de ses noces à l'heure de Paris… et se demande si elle gagne vraiment au bingo dans les vidéos de l'IA."
+  "2026-11-09": "Lundi de météo et de conserves : Ginette annonce des averses de 212 Go sur MonRéal pour le préchargement de GTA 6, pendant que Réal s'enferme au sous-sol avec ses laits au chocolat… et elle vide ses pêches au sirop par précaution, au cas où « impeachment » voudrait dire autre chose."
  },
  "entrees": [
   {
@@ -952,39 +952,6 @@
    "post": "Mes 3 peurs du jour :\n1. La Chambre US pourrait voter c'te semaine sur la destitution de Hegseth, chef du Pentagone.\n2. Trump dit qu'y fait du « très bon travail ».\n3. « Impeachment ». Réal, mon mari, jure que ça parle pas de pêches. J'ai mangé mes pêches pareil.\nPreuve 👇 #Trump",
    "reponse": "Lu à la cuillère, entre deux pêches au sirop. Ça colle un peu :",
    "source": "https://www.noovo.info/nouvelles/international/article/hegseth-le-chef-du-pentagone-fragilise-par-la-debacle-electorale/"
-  },
-  {
-   "date": "2026-11-09",
-   "titre": "Express pour Phnom Penh",
-   "image": "images/2026-11-09-bureau-de-poste.jpg",
-   "genre": "Caricature",
-   "resume": "Le Québec vote pour la Francophonie ; Ginette veut poster son bulletin à Phnom Penh, le commis la renvoie à PSPP.",
-   "description": "Quatre candidats briguent le secrétariat général de la Francophonie ; le Québec a droit de vote et le gagnant sera annoncé le 16 novembre au Sommet de Phnom Penh. Au « Poste de MonRéal », vue du guichet, Ginette pousse une énorme enveloppe « PHNOM PENH — URGENT — Vote de Ginette » couverte de timbres et d'un autocollant NON, sous la pancarte « Seul le Québec vote. Pas Ginette. », pendant que le commis moustachu lui répond que c'est PSPP qui vote.",
-   "post": "Réal, mon mari, dit que la Francophonie, c'est plate. Ben 4 candidats se bataillent pour être secrétaire général : c'est une vraie course! J'ai posté mon vote pour Phnom Penh. Réal : « Ginette, c'est pas les citoyens qui votent. » Le bulletin 👇 #polqc",
-   "reponse": "Timbré, oblitéré, retourné à l'expéditrice. Lisez-le à ma place, j'ai plus de timbres :",
-   "source": "https://www.noovo.info/nouvelles/politique/article/quatre-candidats-saffrontent-pour-le-poste-de-secretaire-general-de-loif/"
-  },
-  {
-   "date": "2026-11-09",
-   "titre": "La plus belle fiction",
-   "image": "images/2026-11-09-salle-attente.jpg",
-   "genre": "Caricature",
-   "resume": "L'IA fait des vidéos de 15 secondes ; à la 4e heure d'attente, Ginette se fait appeler par le médecin… en vidéo.",
-   "description": "Google rend Gemini Omni 1.2 Flash disponible : des vidéos IA de 15 secondes au lieu de 10, 30 % moins chères. Bande dessinée en deux cases : à gauche, « Réalité : 4e heure », Ginette ticket 87 en main et toile d'araignée au bigoudi, pendant que l'écran affiche le 12 ; à droite, « IA : 15 secondes », tapis rouge, confettis, café gratuit et médecin qui lance « Madame Pantoufle, c'est à vous! ».",
-   "post": "Au bingo, Lucette m'a montré une vidéo de moi en train de gagner le gros lot. J'étais même pas là! Y a des machines qui fabriquent des vidéos de n'importe qui, astheure. Réal, mon mari, dit que c'est « juste pour le fun ». Preuve 👇 #IA",
-   "reponse": "Réal pis ses « c'est juste pour le fun »... Moi j'ai juste hâte de voir si on va encore pouvoir se fier à nos yeux. Lis ça, toi:",
-   "source": "https://www.briefia.fr/article/google-gemini-omni-1-2-flash-disponible-videos-15-secondes"
-  },
-  {
-   "date": "2026-11-09",
-   "titre": "Le coucou de nos noces",
-   "image": "images/2026-11-09-coucou.jpg",
-   "genre": "Caricature",
-   "resume": "Le G7 se réunit dans le « salon de l'Horloge » ; Ginette, sur l'escabeau, remonte le coucou de 1987 par précaution.",
-   "description": "Les ministres des Affaires étrangères du G7, dont Anita Anand, se réunissent les 9 et 10 novembre à Paris, au Quai d'Orsay, dans le salon de l'Horloge, sur fond de tensions avec l'Iran et de détroit d'Ormuz bloqué. Sur un mur couvert d'horloges (Paris, MonRéal, « Ormuz ? »), Ginette, perchée sur un escabeau qui tremble, remonte l'énorme coucou-chalet « 1987 » dont l'oiseau crie « Coucou… G7! », pendant que Réal, pop-corn en main, tient l'escabeau et montre la carte d'Ormuz.",
-   "post": "J'ai pas lu, mais y paraît que le Québec change d'heure deux fois par année. J'ai remonté tous mes cadrans, même le coucou de nos noces. Réal, mon mari : « Ginette, y a juste l'heure d'été qui change, pis c'est le téléphone qui le fait tout seul. » L'heure juste 👇 #polqc",
-   "reponse": "Moi, j'ai remis mon coucou à l'heure de Paris, y a chanté 6 fois à minuit. Le lien, lui, est à l'heure :",
-   "source": "https://www.noovo.info/nouvelles/international/article/les-ministres-du-g7-reunis-en-france-sur-fond-de-tensions-avec-liran/"
   },
   {
    "date": "2026-11-09",
