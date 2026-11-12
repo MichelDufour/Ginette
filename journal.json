@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-11",
+ "mis_a_jour": "2026-11-12",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -13,7 +13,8 @@
   "2026-11-07": "Samedi de cauchemars : Ginette vide ses armoires pour traquer un chef américain, vote au sondage maison avec Doug Ford (qui a perdu sa peur de PSPP), cache son argent au congélateur loin de l'IA, rentre sa corde à linge devant l'arche de Trump… et planque le passeport de Réal dans sa pantoufle, parce que Dubaï, c'est pas la Floride.",
   "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City.",
   "2026-11-09": "Lundi de météo et de conserves : Ginette annonce des averses de 212 Go sur MonRéal pour le préchargement de GTA 6, pendant que Réal s'enferme au sous-sol avec ses laits au chocolat… et elle vide ses pêches au sirop par précaution, au cas où « impeachment » voudrait dire autre chose.",
-  "2026-11-10": "Mardi de mauvais coups : Ginette postule comme porte-parole de la Maison-Blanche (expérience : porte-parole de Réal depuis 1987), joue gardienne au Temple de la renommée, cadenasse la chaise de Réal pour sauver le trône, perd 0-1 contre un pot de cornichons face à l'IA et ressort la cassette des noces… écrasée par Miami Vice."
+  "2026-11-10": "Mardi de mauvais coups : Ginette postule comme porte-parole de la Maison-Blanche (expérience : porte-parole de Réal depuis 1987), joue gardienne au Temple de la renommée, cadenasse la chaise de Réal pour sauver le trône, perd 0-1 contre un pot de cornichons face à l'IA et ressort la cassette des noces… écrasée par Miami Vice.",
+  "2026-11-11": "Mercredi de grosses peurs : Ginette veut échanger Trump contre Obama chez le concessionnaire et repart avec 4 pneus d'hiver (sans char), félicite M. Carney pour son prix de « fossile », s'inquiète d'une angine à Coachella, attend sa pub de croisière pendant que l'IA dessine leur portrait et offre à Réal, pour leurs 39 ans, un beau code « VAISSELLE » dans une boîte."
  },
  "entrees": [
   {
@@ -1019,6 +1020,61 @@
    "post": "Palmarès des ventes : 1. GTA 5 : 235 millions de copies. 2. GTA 6 : précommandes « bien au-delà des attentes », sortie le 19. 3. La cassette de nos noces, 1987 : 1 copie. Réal, mon mari, a enregistré Miami Vice par-dessus. Le 19, c'est nos 39 ans. Les vrais chiffres 👇 #GTA6",
    "reponse": "Rembobiné trois fois sur le vieux magnétoscope de Réal. En anglais, mais avec de gros chiffres :",
    "source": "https://www.pushsquare.com/news/2026/11/gta-6-pre-orders-outperform-even-take-twos-expectations-gta-5-just-keeps-on-selling"
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Pas d'Obama, 4 pneus d'hiver",
+   "image": "images/2026-11-11-pneus-obama.jpg",
+   "genre": "Caricature",
+   "resume": "Obama passe à Québec chez les concessionnaires ; Ginette court l'échanger contre Trump et revient avec 4 pneus d'hiver, sans char.",
+   "description": "Le 10 novembre, Barack Obama prononce un discours à Québec devant le congrès de la Corporation des concessionnaires automobiles du Québec. Chez un concessionnaire enneigé de MonRéal, Ginette roule fièrement quatre pneus d'hiver géants devant une silhouette de carton sans visage « Président d'occasion · Pas à vendre », pendant que Réal, sur le trottoir, montre l'entrée de garage vide.",
+   "post": "Obama était à Québec hier, au congrès des concessionnaires d'autos. J'ai couru au garage du coin : « Je l'échange contre Trump, avec la garantie prolongée! » Pas d'Obama. Je suis repartie avec 4 pneus d'hiver. Réal, mon mari : « On a même pas de char. » La preuve 👇 #Trump",
+   "reponse": "Trouvé dans le coffre à gants du char qu'on a pas :",
+   "source": "https://www.noovo.info/nouvelles/international/article/ce-quil-faut-retenir-du-passage-de-barack-obama-a-quebec/"
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Fossile du jour, édition 1987",
+   "image": "images/2026-11-11-fossile-1987.jpg",
+   "genre": "Caricature",
+   "resume": "Carney sacré « Fossile du jour » ; Réal, jaloux, s'expose au musée dans sa chaise inclinable, édition 1987.",
+   "description": "Le 10 novembre, le Réseau Action Climat décerne son prix satirique « Fossile du jour » à Mark Carney et à d'autres dirigeants absents de la COP31, en Turquie. Au Musée d'histoire naturelle de MonRéal, entre deux squelettes de dinosaures, Réal trône dans sa chaise inclinable sous une cloche de verre « Fossile du jour · Édition 1987 · Ne pas nourrir », pendant que Ginette, en guide de musée, montre la vitrine avec sa baguette.",
+   "post": "Cher journal, mon beau M. Carney a eu le prix « Fossile du jour », remis aux chefs absents de la COP31 sur le climat. Un fossile? Y a 61 ans, y est en forme! Réal, mon mari, est jaloux : y demande où on s'inscrit. Y a pas bougé de sa chaise depuis 1987. Le palmarès 👇 #Carney",
+   "reponse": "Rangé dans mon journal intime, entre deux pages de 1987. Ça sent la naphtaline :",
+   "source": "https://www.noovo.info/nouvelles/environnement/article/carney-et-dautres-dirigeants-ont-recu-le-titre-de-fossile-du-jour/"
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Pub pendant le portrait",
+   "image": "images/2026-11-11-pub-portrait.jpg",
+   "genre": "Caricature",
+   "resume": "ChatGPT glisse une pub pendant qu'il dessine ; Ginette attend son portrait d'amoureux, Réal est déjà parti en croisière.",
+   "description": "Depuis le 10 novembre, des utilisateurs voient une publicité pendant que ChatGPT génère une image, avec le message « Here's an ad while we create your image ». BD en deux cases : Ginette, attendrie devant sa tablette, attend « Portrait : Ginette et Réal, en amoureux » (barre de progression à 12 %) ; dans la case suivante, le portrait est fini, mais la chaise à côté d'elle est vide : Réal est déjà sur un paquebot dans la pub, en chemise hawaïenne.",
+   "post": "Depuis mardi, ChatGPT gratuit met une pub pendant qu'y dessine ton image : « Voici une pub pendant qu'on crée ton image. » J'y ai demandé un portrait de nous deux, en amoureux. En attendant : pub de croisière à Miami. Réal, mon mari, a cliqué avant la fin. Preuve 👇 #IA",
+   "reponse": "Le lien est en anglais, mais au moins y a pas de pub dedans :",
+   "source": "https://www.seroundtable.com/openai-chatgpt-ads-visual-ads-42493.html"
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Angine de Poitrine à Coachella",
+   "image": "images/2026-11-11-angine-coachella.jpg",
+   "genre": "Caricature",
+   "resume": "Un groupe québécois à Coachella : Ginette entend « angine de poitrine » et vide la pharmacie de pastilles pour la Californie.",
+   "description": "Le 11 novembre, la programmation de Coachella 2027 (Indio, Californie, 9-11 et 16-18 avril) annonce le groupe québécois Angine de Poitrine, aux côtés de Dua Lipa, Madonna et SZA ; l'admission générale coûte 779 $ par fin de semaine. À la pharmacie de MonRéal, Ginette pousse un panier débordant de boîtes de pastilles « Pour la Californie », devant le pharmacien découragé, pendant qu'une affiche de festival inventée « Coachella 2027 · Angine de Poitrine » montre un groupe de musiciens sans visage avec guitares.",
+   "post": "À la pharmacie, j'entends : « Angine de Poitrine s'en va à Coachella! » Peur! J'ai acheté des pastilles pour toute la Californie. Le pharmacien : « C'est un groupe québécois, madame. Y jouent avec Dua Lipa. » Billet : 779 $. Pour une angine, c'est cher. Le programme 👇 #Coachella",
+   "reponse": "Lu dans la file de la pharmacie, entre un sirop pour la toux pis un thermomètre :",
+   "source": "https://www.noovo.info/nouvelles/art-et-culture/article/angine-de-poitrine-dua-lipa-madonna-dans-la-programmation-de-coachella-en-2027/"
+  },
+  {
+   "date": "2026-11-11",
+   "titre": "Un code dans la boîte",
+   "image": "images/2026-11-11-code-dans-la-boite.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 en boîte n'a qu'un code ; pour leurs 39 ans, Ginette offre à Réal une boîte avec le code « VAISSELLE ».",
+   "description": "La version en boîte de GTA 6 ne contient pas de disque, seulement un code de téléchargement ; le jeu se débloque le 19 novembre, jour des 39 ans de mariage de Ginette et Réal. Gros plan sur Réal, ému, qui ouvre une boîte cadeau dorée « Édition 39 ans » et découvre un papier « CODE : VAISSELLE · Débloqué le 19 » ; derrière lui, Ginette sourit, une pile de vaisselle sale haute comme une tour à côté de l'évier.",
+   "post": "GTA 6 en boîte, c'est pas un disque : juste un code dans la boîte, qui débloque le 19. Pour nos 39 ans, le 19, j'ai fait pareil pour Réal, mon mari : une belle boîte, un ruban, pis un papier avec un code : « VAISSELLE ». Y peut le précharger tout de suite. Mode d'emploi 👇 #GTA6",
+   "reponse": "Déballé avec mes pantoufles. Pas de disque là-dedans non plus :",
+   "source": "https://www.dlcompare.fr/actualites-gaming/semaine-de-lancement-de-gta-6-tout-ce-qu-il-faut-savoir-avant-le-19-novembre-87703"
   }
  ]
 }
