@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-12",
+ "mis_a_jour": "2026-11-13",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -14,7 +14,8 @@
   "2026-11-08": "Dimanche de petites annonces : Ginette cherche 20 républicains contre un sucre à la crème, achète 48 piles au lithium pour sa télécommande, cale 11 cases sur 30 au bingo d'OpenAI, envoie un gâteau au Cybertruck à la retraite et explique à Réal que, dans sa tête, il a 39 ans de mariage… pendant qu'il se fait un billet du docteur pour la grippe de Vice City.",
   "2026-11-09": "Lundi de météo et de conserves : Ginette annonce des averses de 212 Go sur MonRéal pour le préchargement de GTA 6, pendant que Réal s'enferme au sous-sol avec ses laits au chocolat… et elle vide ses pêches au sirop par précaution, au cas où « impeachment » voudrait dire autre chose.",
   "2026-11-10": "Mardi de mauvais coups : Ginette postule comme porte-parole de la Maison-Blanche (expérience : porte-parole de Réal depuis 1987), joue gardienne au Temple de la renommée, cadenasse la chaise de Réal pour sauver le trône, perd 0-1 contre un pot de cornichons face à l'IA et ressort la cassette des noces… écrasée par Miami Vice.",
-  "2026-11-11": "Mercredi de grosses peurs : Ginette veut échanger Trump contre Obama chez le concessionnaire et repart avec 4 pneus d'hiver (sans char), félicite M. Carney pour son prix de « fossile », s'inquiète d'une angine à Coachella, attend sa pub de croisière pendant que l'IA dessine leur portrait et offre à Réal, pour leurs 39 ans, un beau code « VAISSELLE » dans une boîte."
+  "2026-11-11": "Mercredi de grosses peurs : Ginette veut échanger Trump contre Obama chez le concessionnaire et repart avec 4 pneus d'hiver (sans char), félicite M. Carney pour son prix de « fossile », s'inquiète d'une angine à Coachella, attend sa pub de croisière pendant que l'IA dessine leur portrait et offre à Réal, pour leurs 39 ans, un beau code « VAISSELLE » dans une boîte.",
+  "2026-11-12": "Jeudi de gros bilans : Ginette plante un matelas dans la fenêtre contre l'arc de 76 mètres de Trump, tient le conseil d'administration de MonRéal (Réal garde sa job, 0 vaisselle), chronomètre 2 h 20 de télécommande contre 4 minutes de vaisselle… et fait un gâteau de 20 ans à une console pendant que Réal se contente d'une carte PlayStation."
  },
  "entrees": [
   {
@@ -1075,6 +1076,50 @@
    "post": "GTA 6 en boîte, c'est pas un disque : juste un code dans la boîte, qui débloque le 19. Pour nos 39 ans, le 19, j'ai fait pareil pour Réal, mon mari : une belle boîte, un ruban, pis un papier avec un code : « VAISSELLE ». Y peut le précharger tout de suite. Mode d'emploi 👇 #GTA6",
    "reponse": "Déballé avec mes pantoufles. Pas de disque là-dedans non plus :",
    "source": "https://www.dlcompare.fr/actualites-gaming/semaine-de-lancement-de-gta-6-tout-ce-qu-il-faut-savoir-avant-le-19-novembre-87703"
+  },
+  {
+   "date": "2026-11-12",
+   "titre": "L'arc de 76 mètres",
+   "image": "images/2026-11-12-arc.jpg",
+   "genre": "Caricature",
+   "resume": "Trump annonce un arc de 76 m ; Ginette, qui attend les flèches, barricade sa fenêtre avec le matelas.",
+   "description": "Le 11 novembre, à Arlington, Trump annonce un « magnifique arc de triomphe » de 76 mètres pour les anciens combattants ; une juge a bloqué les travaux 14 jours. Sur le balcon de son triplex enneigé, Ginette plaque un matelas fleuri contre sa fenêtre devant un arc à flèches géant pointé sur MonRéal (fanion « USA », étiquette « BLOQUÉ 14 JOURS »), pendant que Réal, café en main, brandit un dépliant « Arc de triomphe, comme à Paris ».",
+   "post": "Trump va bâtir un arc de 76 mètres près de Washington. Un ARC! Avec des flèches grandes comment? J'ai mis le matelas dans la fenêtre côté sud. Réal, mon mari : « Un arc de triomphe, Ginette. Comme à Paris. Une juge l'a bloqué 14 jours. » Triompher de qui? Le plan 👇 #Trump",
+   "reponse": "J'ai lu ça accroupie derrière le matelas. Pas de flèche en vue pour l'instant :",
+   "source": "https://www.noovo.info/nouvelles/international/etats-unis/article/trump-affirme-que-limposant-arc-a-washington-pourrait-etre-dedie-aux-veterans/"
+  },
+  {
+   "date": "2026-11-12",
+   "titre": "Conseil d'administration de MonRéal",
+   "image": "images/2026-11-12-conseil.jpg",
+   "genre": "Caricature",
+   "resume": "Nvidia jongle avec le sort de son patron ; le conseil de MonRéal, c'est-à-dire Ginette, vote de garder Réal.",
+   "description": "Le 11 novembre, le Wall Street Journal rapporte que le conseil de Nvidia, géant des puces de l'IA, se réunirait pour décider de l'avenir de son PDG, Jensen Huang. Dans sa cuisine transformée en salle du conseil, Ginette, seule présidente, secrétaire et trésorière, brandit sa cuillère de bois devant un graphique « Vaisselle : 0 · Sieste : 100 % », pendant que Réal sort de la trappe du sous-sol avec son pop-corn.",
+   "post": "Le conseil de Nvidia (les puces de l'IA) se réunirait pour décider si son patron garde sa job. Le conseil de MonRéal (moi) aussi. Sujet : Réal, mon mari, PDG du sous-sol depuis 1987. Bilan : 0 vaisselle. Décision : on le garde, y vient avec la maison. Procès-verbal 👇 #IA",
+   "reponse": "Procès-verbal adopté à l'unanimité (j'étais toute seule). Annexe :",
+   "source": "https://www.noovo.info/nouvelles/international/article/nvidia-sappreterait-a-limoger-jensen-huang/"
+  },
+  {
+   "date": "2026-11-12",
+   "titre": "Le chronomètre de Ginette",
+   "image": "images/2026-11-12-chrono.jpg",
+   "genre": "Caricature",
+   "resume": "Les femmes font plus de travail non payé ; Ginette chronomètre Réal : 2 h 20 de télécommande, 4 minutes de vaisselle.",
+   "description": "Selon les chiffres de 2022 cités par Noovo, les Québécoises font en moyenne 3,4 heures de travail non payé par jour, contre 2,4 heures pour les hommes. Sous un tableau indicateur d'aréna (« Chercher la télécommande 2:20:00 », « Aider à la vaisselle 0:04:00 »), Ginette, sifflet et chronomètre en main, refuse le recomptage pendant que Réal, la tête dans le divan, cherche la télécommande… qui est dans sa poche.",
+   "post": "Les Québécoises font 3,4 h de travail pas payé par jour, les hommes 2,4 h. Réal, mon mari, conteste. J'ai sorti le chronomètre : 2 h 20 à chercher la télécommande, 4 minutes à « aider » à la vaisselle. Y dit que chercher, ça compte. Le calcul 👇 #RéalMonMari",
+   "reponse": "Chronométré au micro-ondes. Réal a demandé un recomptage :",
+   "source": "https://www.noovo.info/chroniques/article/tes-dans-ta-semaine/"
+  },
+  {
+   "date": "2026-11-12",
+   "titre": "Bonne fête, la console!",
+   "image": "images/2026-11-12-console.jpg",
+   "genre": "Caricature",
+   "resume": "La PS3 a 20 ans : grosse fête au sous-sol pour la console, un muffin à une chandelle en haut pour Ginette.",
+   "description": "La PlayStation 3, lancée le 11 novembre 2006 au Japon, a eu 20 ans. Maison en coupe : au sous-sol, Réal fête la console noire « 2006 » avec chapeaux, ballons et gâteau à 20 chandelles ; en haut, Ginette boude devant un muffin à une chandelle et le calendrier du 19 novembre, « 39 ans! ».",
+   "post": "La PS3 a 20 ans! Réal, mon mari, lui a fait un gâteau au sous-sol : 20 chandelles, chapeaux de fête, ballons. Pour une console. À ma fête, y m'a donné une carte… de PlayStation. Le 19, c'est nos 39 ans. Je vais me déguiser en console. Bonne fête 👇 #RéalMonMari",
+   "reponse": "Lien trouvé sous une pile de manettes, avec une miette de gâteau dessus. En anglais, comme la PS3 :",
+   "source": "https://www.timeextension.com/news/2026/11/anniversary-ps3-sonys-most-controversial-playstation-turns-20-today"
   }
  ]
 }
