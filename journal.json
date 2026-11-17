@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-16",
+ "mis_a_jour": "2026-11-17",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -18,7 +18,8 @@
   "2026-11-12": "Jeudi de gros bilans : Ginette plante un matelas dans la fenêtre contre l'arc de 76 mètres de Trump, tient le conseil d'administration de MonRéal (Réal garde sa job, 0 vaisselle), chronomètre 2 h 20 de télécommande contre 4 minutes de vaisselle… et fait un gâteau de 20 ans à une console pendant que Réal se contente d'une carte PlayStation.",
   "2026-11-13": "Vendredi de calculs et de pannes : Ginette met du sel sur l'ordi pour le vendredi 13 pressé de Microsoft, prend 3,98 $ le gallon pour 4 $ le litre et part en peur, met sa spatule à l'encan (mise de départ : 2 $) et rappelle à Réal que sa chasse au vol pour Auckland tombe le soir de leurs 39 ans de mariage.",
   "2026-11-14": "Samedi de cauchemars et de mises à jour : Ginette part en peur à l'idée du triangle Trump-Xi-Poutine sur sa bouée, offre l'eau de son bain (et la sueur de Réal) à Hydro-Québec, cloue ses pantoufles au sol avec tous les avions américains, exige que Réal monte prouver qu'il est vrai (premier escalier depuis 1987) et sort la version Ginette 1.002 : bigoudis neufs.",
-  "2026-11-15": "Dimanche d'IA et de burgers : Ginette écrit une lettre ouverte à ChatGPT pour qu'il refuse la carte de Réal (GTA 6 à 79,99 $, croisière… non merci), ouvre le Burger Ginette avec service au volant autour de la maison en chaise inclinable et s'achète un casque pour le sommet du « Quad » de Trump, en espérant que ce soit pas un VTT."
+  "2026-11-15": "Dimanche d'IA et de burgers : Ginette écrit une lettre ouverte à ChatGPT pour qu'il refuse la carte de Réal (GTA 6 à 79,99 $, croisière… non merci), ouvre le Burger Ginette avec service au volant autour de la maison en chaise inclinable et s'achète un casque pour le sommet du « Quad » de Trump, en espérant que ce soit pas un VTT.",
+  "2026-11-16": "Lundi de ciel et de cadeaux : Ginette fait la météo des satellites (1 million en vue, plus que d'étoiles, ses vœux iront à un serveur) pendant que Réal éclaire sa boîte de GTA 6 à la lampe de poche pour lire le code… qui est encore VAISSELLE."
  },
  "entrees": [
   {
@@ -1255,6 +1256,28 @@
    "post": "Mes 3 peurs du jour :\n1. Trump part à Manille pour un sommet du « Quad ». En VTT!\n2. 4 pays : USA, Japon, Inde, Australie. Sur UN quad?\n3. Elon Musk le suit en Chine. Dans la remorque?\nRéal, mon mari : « C'est une alliance. » J'ai acheté un casque. Trajet 👇, croyez-moi #Trump",
    "reponse": "Mes lunettes sont au congélateur, lisez-le pour moi. Réal dit que c'est écrit « Manila », pas « Manille » :",
    "source": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+  },
+  {
+   "date": "2026-11-16",
+   "titre": "Ciel satellité",
+   "image": "images/2026-11-16-satellites.jpg",
+   "genre": "Caricature",
+   "resume": "SpaceX veut un million de satellites d'IA ; à la Météo de Ginette, il ne reste qu'une étoile, et elle est à louer.",
+   "description": "SpaceX demande jusqu'à un million de satellites pour des centres de données d'IA en orbite ; il y en a environ 17 000 aujourd'hui, et des astronomes craignent plus de satellites que d'étoiles. Sur un toit de MonRéal, Ginette présente la « Météo de Ginette » sous un ciel bourré de satellites-serveurs « IA », avec une lune découragée et la dernière étoile, « À louer ».",
+   "post": "MÉTÉO DE GINETTE. Ce soir : ciel étoilé. Bientôt : ciel satellité. SpaceX demande jusqu'à 1 million de satellites pour des centres de données d'IA dans l'espace. Y en a 17 000 aujourd'hui. Plus de satellites que d'étoiles! Mes vœux, je les fais à un serveur? Prévisions 👇 #IA",
+   "reponse": "Lu sur le balcon en comptant les satellites. Je me suis rendue à 4, pis j'ai eu froid :",
+   "source": "https://www.noovo.info/nouvelles/science-et-nature/article/comment-les-centres-de-donnees-spatiaux-pourraient-transformer-de-facon-permanente-le-ciel-nocturne/"
+  },
+  {
+   "date": "2026-11-16",
+   "titre": "Le code de la boîte",
+   "image": "images/2026-11-16-lampe.jpg",
+   "genre": "Caricature",
+   "resume": "Le truc de la lampe de poche pour GTA 6 : Réal éclaire son cadeau des 39 ans et lit « VAISSELLE ».",
+   "description": "Selon des joueurs, une lampe de poche permettrait de lire le code de GTA 6 à travers la boîte, qui ne contient pas de disque ; le jeu sort le 19 novembre, jour des 39 ans de mariage. La nuit, dans le garde-robe, Réal éclaire le cadeau de Ginette et lit « CODE : VAISSELLE », pendant que Ginette, bras croisés dans l'embrasure, lui rappelle que c'est une surprise.",
+   "post": "Des joueurs disent qu'avec une lampe de poche, on lit le code de GTA 6 à travers la boîte (pas de disque, juste un code). Cette nuit, Réal, mon mari, éclairait mon cadeau pour nos 39 ans, caché dans le garde-robe. Le code, c'est encore VAISSELLE. Le truc 👇, Réal l'a essayé #GTA6",
+   "reponse": "Réal m'a prêté sa lampe de poche pour lire ça. Je l'ai gardée, par sécurité :",
+   "source": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-codes-potentially-being-stolen-from-physical-copies-using-flashlight-trick"
   }
  ]
 }
