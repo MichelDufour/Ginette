@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-17",
+ "mis_a_jour": "2026-11-19",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -19,7 +19,9 @@
   "2026-11-13": "Vendredi de calculs et de pannes : Ginette met du sel sur l'ordi pour le vendredi 13 pressé de Microsoft, prend 3,98 $ le gallon pour 4 $ le litre et part en peur, met sa spatule à l'encan (mise de départ : 2 $) et rappelle à Réal que sa chasse au vol pour Auckland tombe le soir de leurs 39 ans de mariage.",
   "2026-11-14": "Samedi de cauchemars et de mises à jour : Ginette part en peur à l'idée du triangle Trump-Xi-Poutine sur sa bouée, offre l'eau de son bain (et la sueur de Réal) à Hydro-Québec, cloue ses pantoufles au sol avec tous les avions américains, exige que Réal monte prouver qu'il est vrai (premier escalier depuis 1987) et sort la version Ginette 1.002 : bigoudis neufs.",
   "2026-11-15": "Dimanche d'IA et de burgers : Ginette écrit une lettre ouverte à ChatGPT pour qu'il refuse la carte de Réal (GTA 6 à 79,99 $, croisière… non merci), ouvre le Burger Ginette avec service au volant autour de la maison en chaise inclinable et s'achète un casque pour le sommet du « Quad » de Trump, en espérant que ce soit pas un VTT.",
-  "2026-11-16": "Lundi de ciel et de cadeaux : Ginette fait la météo des satellites (1 million en vue, plus que d'étoiles, ses vœux iront à un serveur) pendant que Réal éclaire sa boîte de GTA 6 à la lampe de poche pour lire le code… qui est encore VAISSELLE."
+  "2026-11-16": "Lundi de ciel et de cadeaux : Ginette fait la météo des satellites (1 million en vue, plus que d'étoiles, ses vœux iront à un serveur) pendant que Réal éclaire sa boîte de GTA 6 à la lampe de poche pour lire le code… qui est encore VAISSELLE.",
+  "2026-11-17": "Mardi de veto et de vétérinaire : Ginette court à la clinique avec le chat du voisin pour battre le veto de Trump, pendant que Réal jure que c'est pas un vétérinaire.",
+  "2026-11-18": "Mercredi de pannes, de nids-de-poule et de notes : Ginette loue sa piscine creusée du centre-ville, pendant que Réal sort l'excuse « grand et puissant » pour son pâté chinois brûlé et reçoit sa critique, 71/100, la veille des 39 ans."
  },
  "entrees": [
   {
@@ -1278,6 +1280,50 @@
    "post": "Des joueurs disent qu'avec une lampe de poche, on lit le code de GTA 6 à travers la boîte (pas de disque, juste un code). Cette nuit, Réal, mon mari, éclairait mon cadeau pour nos 39 ans, caché dans le garde-robe. Le code, c'est encore VAISSELLE. Le truc 👇, Réal l'a essayé #GTA6",
    "reponse": "Réal m'a prêté sa lampe de poche pour lire ça. Je l'ai gardée, par sécurité :",
    "source": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-codes-potentially-being-stolen-from-physical-copies-using-flashlight-trick"
+  },
+  {
+   "date": "2026-11-17",
+   "titre": "Le veto du chat",
+   "image": "images/2026-11-17-veto.jpg",
+   "genre": "Caricature",
+   "resume": "Les tarifs de Trump survivent grâce à son veto ; Ginette court chez le vétérinaire avec le chat du voisin pour le battre.",
+   "description": "Malgré la victoire écrasante des démocrates aux mi-mandats, les tarifs de Trump seront difficiles à abolir : le président garde son veto, et il faut les deux tiers des deux chambres pour le renverser (BNN Bloomberg, 16 novembre). Dans une clinique vétérinaire de MonRéal, Ginette, tremblante, tend le chat du voisin à une vétérinaire découragée (« Docteur, battez son veto! » / « Madame… c'est un chat. »), devant une balance qui affiche « 2/3 », un chien à cône et sa pancarte « Abolir le veto de Trump ».",
+   "post": "Les démocrates ont gagné mais peuvent pas abolir les tarifs de Trump : y a son veto, faut les deux tiers du Congrès pour le battre. Un véto? Peur! J'ai couru à la clinique avec le chat du voisin. Réal, mon mari : « C'est pas un vétérinaire! » Preuve 👇 (lue par le chat) #Trump",
+   "reponse": "Le chat du voisin a ronronné au mot « veto ». Moi, j'ai juste compris « deux tiers ». C'est en anglais :",
+   "source": "https://www.bnnbloomberg.ca/tariffs/2026/11/16/trumps-tariffs-are-unpopular-but-theyll-be-tough-to-repeal-despite-democrats-landslide-win/"
+  },
+  {
+   "date": "2026-11-18",
+   "titre": "Grand et puissant",
+   "image": "images/2026-11-18-grand-et-puissant.jpg",
+   "genre": "Caricature",
+   "resume": "Trump excuse les pannes en série des États-Unis ; Réal, 5 pi 6, reprend l'excuse pour son pâté chinois carbonisé.",
+   "description": "Depuis le 12 novembre, les pannes s'enchaînent aux États-Unis (Microsoft, United, une banque, Apple Pay) ; à Manille, Trump répond que « quand on est grand et puissant, et qu'on a tout l'argent, ce genre de choses arrive ». En contre-plongée dans la cuisine, Réal, géant et fier sous sa casquette MAGA FLORIDA, brandit un pâté chinois noir et fumant devant le four en flammes, pendant que Ginette, extincteur en main, panique sous le détecteur qui crie « BIP! BIP! » ; la toise du cadre de porte rappelle qu'il mesure 5 pi 6.",
+   "post": "Aux USA, ça plante chaque jour depuis jeudi : Microsoft, United, Apple Pay. Trump : « Quand on est grand et puissant, et qu'on a tout l'argent, ce genre de choses arrive. » Peur! Réal, mon mari, a brûlé le pâté chinois. Son excuse : la même. Y mesure 5 pi 6. Preuve 👇 #Trump",
+   "reponse": "Lu pendant que la boucane sortait du four. Ce genre de choses arrive, paraît :",
+   "source": "https://www.boursorama.com/bourse/actualites/une-vague-de-pannes-informatiques-touche-le-gouvernement-americain-trump-affirme-que-tout-va-bien-10ee098586dd7fcc6dfda99b44adf011"
+  },
+  {
+   "date": "2026-11-18",
+   "titre": "Piscine creusée à louer",
+   "image": "images/2026-11-18-piscine-creusee.jpg",
+   "genre": "Caricature",
+   "resume": "Un nid-de-poule de 3 pieds avale une auto au centre-ville ; Ginette le loue comme piscine, Réal fait la planche.",
+   "description": "Le 17 novembre au soir, une auto serait tombée dans un nid-de-poule d'environ trois pieds de profond, place Jean-Paul-Riopelle, au centre-ville de Montréal. Au coucher du soleil, entre les tours, Réal flotte sur un flamant rose gonflable dans le trou rempli d'eau turquoise, thé glacé en main, pendant que Ginette plante sa pancarte « À louer · Piscine creusée · 3 pi de creux · Pas chauffée » ; le chat du voisin surveille la baignade sur la borne-fontaine.",
+   "post": "PETITE ANNONCE. À louer : piscine creusée, centre-ville de Montréal, place Jean-Paul-Riopelle. 3 pieds de creux. Une auto serait déjà tombée dedans mardi soir. Pas chauffée. Bouée fournie par Réal, mon mari. Nous autres, on a pas de char : on est sauvés. Visite 👇 #Montréal",
+   "reponse": "Pour ceux qui veulent visiter avant de signer le bail. Apportez votre maillot, pas votre char :",
+   "source": "https://www.noovo.info/nouvelles/patrouille/article/une-voiture-tombe-dans-un-enorme-nid-de-poule-au-centre-ville-de-montreal/"
+  },
+  {
+   "date": "2026-11-18",
+   "titre": "Critique de Réal : 71/100",
+   "image": "images/2026-11-18-critique-de-real.jpg",
+   "genre": "Caricature",
+   "resume": "GTA 6 décroche 99/100 ; la veille de leurs 39 ans, Ginette publie sa critique de Réal : 71, aucune mise à jour depuis 1987.",
+   "description": "Le 18 novembre, la veille de sa sortie, GTA 6 obtient 99/100 sur Metacritic après 107 critiques, à égalité avec le jeu le mieux noté de l'histoire. Parodie de fiche de critique : la pochette « Réal · Édition 1987 » (Réal dans sa chaise, toile d'araignée, autocollant « Aucune mise à jour depuis 1987 ») reçoit un macaron « 71 », pendant que Ginette, lunettes sur le nez et crayon rouge géant, toise la boîte de GTA VI et son « 99 ».",
+   "post": "GTA 6 a 99/100 sur Metacritic (107 critiques) : le mieux noté de l'histoire, ex æquo avec un Zelda de 1998. Ma critique de Réal, mon mari, après 39 ans (demain) : graphisme 6, histoire répétitive, durée de vie excellente. Note : 71. Aucune mise à jour depuis 1987. Notes 👇 #GTA6",
+   "reponse": "Réal a imprimé la page pis l'a encadrée. Ma critique à moi, y l'a mise dans le bac de recyclage :",
+   "source": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-metacritic-score-makes-it-the-highest-rated-game-of-all-time-matching-the-og-zelda-ocarina-of-time/"
   }
  ]
 }
