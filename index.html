@@ -65,7 +65,7 @@ header.profil{background:var(--couv)}
 
 /* barre de navigation collante */
 nav.periodes{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--papier) 92%,transparent);backdrop-filter:blur(8px);border-bottom:2px solid var(--trait)}
-nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
+nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
 .ligne{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .accueil{display:inline-flex;align-items:center;gap:6px;background:var(--encre);color:var(--papier);border:0;border-radius:99px;padding:6px 14px;font-weight:800;font-size:.88rem}
 .haut-flottant{position:fixed;right:16px;bottom:16px;z-index:6;width:48px;height:48px;border-radius:50%;border:0;background:var(--rose);color:#fff;font-size:1.4rem;font-weight:800;box-shadow:0 6px 18px rgba(80,30,60,.3);display:none}
@@ -73,9 +73,9 @@ nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
 .seg{display:inline-flex;border:2px solid var(--rose);border-radius:99px;overflow:hidden}
 .seg button{background:transparent;border:0;color:var(--rose);font-weight:800;padding:5px 14px;font-size:.88rem}
 .seg button[aria-pressed="true"]{background:var(--rose);color:#fff}
-.carrousel{display:flex;align-items:center;gap:6px}
+.carrousel{display:flex;align-items:center;gap:6px;min-width:0}
 .carrousel[hidden]{display:none}
-.piste{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:2px;flex:1}
+.piste{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:2px;flex:1;min-width:0}
 .piste::-webkit-scrollbar{display:none}
 .pastille{scroll-snap-align:start;flex:none;background:var(--carte);border:2px solid var(--trait);border-radius:14px;padding:6px 12px;text-align:left;color:var(--encre);min-width:118px}
 .pastille b{display:block;font-size:.92rem;white-space:nowrap}
@@ -84,7 +84,7 @@ nav.periodes .large{padding-top:10px;padding-bottom:10px;display:grid;gap:8px}
 .pastille[aria-current="true"] span{color:#fff}
 .fleche{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--trait);background:var(--carte);color:var(--encre);font-weight:800;display:none}
 @media (min-width:700px){.fleche{display:block}}
-.sujets{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.sujets{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;min-width:0}
 .sujets::-webkit-scrollbar{display:none}
 .sujet{flex:none;border:1.5px solid var(--trait);background:transparent;color:var(--doux);border-radius:99px;padding:3px 12px;font-size:.85rem;font-weight:600}
 .sujet[aria-pressed="true"]{border-color:var(--sarcelle);background:var(--sarcelle);color:#fff}
