@@ -57,6 +57,7 @@ header.profil{background:var(--couv)}
 .btn.rose{background:var(--rose);color:#fff}
 .stats{margin:12px 0 0;color:var(--doux);font-size:.95rem}
 .stats b{color:var(--rose)}
+.majhaut{margin:4px 0 0;color:var(--doux);font-size:.88rem;font-weight:600}
 .une{background:var(--carte);border-radius:18px;padding:10px;box-shadow:0 10px 28px rgba(80,30,60,.2);display:grid;gap:8px;text-align:left;border:0;color:inherit;width:100%}
 .une img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:12px}
 .une .k{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--rose);padding:0 6px}
@@ -435,7 +436,8 @@ let x0=null;const fin=document.getElementById('fiche-in');
 fin.addEventListener('touchstart',ev=>{x0=ev.touches[0].clientX},{passive:true});
 fin.addEventListener('touchend',ev=>{if(x0==null)return;const dx=ev.changedTouches[0].clientX-x0;if(Math.abs(dx)>60)aller(dx<0?1:-1);x0=null});
 
-fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
+let lm=null;
+fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);lm=r.headers.get('Last-Modified');return r.json()}).then(d=>{
   D=d;
   const pub=(d.entrees||[]).filter(e=>e.statut!=='propose');preparerSujets(pub);
   etat.liste=pub.map((e,i)=>{
@@ -444,6 +446,10 @@ fetch('journal.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.sta
   const nj=new Set(etat.liste.map(e=>e.date)).size;
   const s=document.getElementById('stats');s.textContent='';s.append(el('b',null,`${etat.liste.length} caricatures`),` en ${nj} jours, avec leurs posts et leurs sources.`);
   if(d.mis_a_jour)document.getElementById('maj').textContent='Mis à jour le '+dateFr(d.mis_a_jour);
+  {let t=lm?new Date(lm):null;if(t&&isNaN(t))t=null;
+   let txt=t?'Mis à jour le '+t.toLocaleDateString('fr-CA',{day:'numeric',month:'long',year:'numeric'}).replace(/^1 /,'1er ')+' à '+t.toLocaleTimeString('fr-CA',{hour:'2-digit',minute:'2-digit'}).replace(/\s?h\s?/,' h ').replace(/\u202f|\u00a0/g,' ')
+      :(d.mis_a_jour?'Mis à jour le '+dateFr(d.mis_a_jour):'');
+   if(txt){const p=el('p','majhaut',txt);s.after(p)}}
   // à la une : la plus récente
   const u=etat.liste[0];
   if(u){const b=document.getElementById('une');b.hidden=false;const img=el('img');img.src=u.image;img.alt=u.titre;
