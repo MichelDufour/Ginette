@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-22",
+ "mis_a_jour": "2026-11-24",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -23,7 +23,10 @@
   "2026-11-17": "Mardi de veto et de vétérinaire : Ginette court à la clinique avec le chat du voisin pour battre le veto de Trump, pendant que Réal jure que c'est pas un vétérinaire.",
   "2026-11-18": "Mercredi de pannes, de nids-de-poule et de notes : Ginette loue sa piscine creusée du centre-ville, pendant que Réal sort l'excuse « grand et puissant » pour son pâté chinois brûlé et reçoit sa critique, 71/100, la veille des 39 ans.",
   "2026-11-19": "Jeudi de sommet et de manette : Ginette sort sa gomme à effacer de 1962 pour le trio Trump-Xi-Poutine qui « écrit l'Histoire », pendant que Réal, pour leurs 39 ans de mariage, lui offre une manette en la nommant joueuse 2. Elle joue depuis 3 heures : y a pas de fil.",
-  "2026-11-20": "Vendredi de peurs en rafale : Ginette, en pantoufles, forme l'équipe du Canada contre les Knicks de Navarro, rêve que l'IA de Meta lui réserve la Floride et dresse ses 3 peurs du jour, dont celle qu'on trouve son mot de passe, pendant que Réal installe ses « correctifs de sécurité » de PS5 en 40 minutes."
+  "2026-11-20": "Vendredi de peurs en rafale : Ginette, en pantoufles, forme l'équipe du Canada contre les Knicks de Navarro, rêve que l'IA de Meta lui réserve la Floride et dresse ses 3 peurs du jour, dont celle qu'on trouve son mot de passe, pendant que Réal installe ses « correctifs de sécurité » de PS5 en 40 minutes.",
+  "2026-11-21": "Samedi de Vendredi fou et de plancher percé : Ginette part magasiner avec 12 $ et ses pompons du congélateur pendant que Réal, que l'IA a déjà délesté de sa carte, traverse le plancher du salon comme un personnage de GTA 6 : Metacritic 99, Réal 71, aucun correctif.",
+  "2026-11-22": "Dimanche de pompe et de plafond : Ginette s'installe en chaise de parterre à la pompe no 3 pour attendre la baisse de prix en avance, pendant que Réal jure que l'intérêt de sa carte pour GTA 6, lui, plafonne à 100 %.",
+  "2026-11-23": "Lundi de nominations et d'alligators : Ginette, 39 ans de mariage et zéro nomination, remercie sa tisane et ses pantoufles pendant que Réal répète son discours à sa manette et texte du sous-sol qu'en Floride, un alligator scotché, c'est pas si dangereux. BOYCOTT."
  },
  "entrees": [
   {
@@ -1392,6 +1395,72 @@
    "post": "MES 3 PEURS DU JOUR. 1. OpenAI teste « Dots » : un agent qui prend le contrôle de l'ordi, 4 000 applis. 2. Qu'y fasse mon solitaire à ma place. 3. Qu'y trouve mon mot de passe : Réal1987. Réal, mon mari, en veut deux. Annonce 👇 #IA",
    "reponse": "Mon ordinateur a refusé de l'ouvrir lui-même. Je l'ai fait à la main, comme en 1998 :",
    "source": "https://www.briefia.fr/article/openai-reserve-dots-a-un-petit-nombre-d-abonnes-plus"
+  },
+  {
+   "date": "2026-11-21",
+   "titre": "Le vendredi fou de Ginette",
+   "image": "images/2026-11-21-vendredi-fou.jpg",
+   "genre": "Caricature",
+   "resume": "Vendredi fou : Ginette arrive à 4 h avec 12 $ et des coupons, pendant que le robot de Réal vide le chariot avec sa carte.",
+   "description": "Le Vendredi fou tombe le 27 novembre ; selon un sondage BCG, le budget moyen des Canadiens est de 530 $ et 6 % laisseraient l'IA commander sans vérifier. Parodie de circulaire en trois cases : Ginette dans la file avec 12 $, le robot de Réal et sa carte au chariot débordant, et Réal en chaise inclinable à côté d'un congélateur en solde.",
+   "post": "VENDREDI FOU le 27 : 6 % des Canadiens laisseraient l'IA commander sans vérifier (sondage BCG). Réal, mon mari, a déjà donné sa carte à son robot. Budget moyen : 530 $. Le mien : 12 $, pis mes pompons dans le congélateur. Le sondage 👇 #IA",
+   "reponse": "Lu dans la file de la pharmacie, un coupon dans chaque main :",
+   "source": "https://www.bcg.com/publications/2026/canada-fr-les-canadiens-ont-un-budget-plus-serre-cette-annee-pour-leurs-achats-du-vendredi-fou"
+  },
+  {
+   "date": "2026-11-21",
+   "titre": "Le plancher de GTA",
+   "image": "images/2026-11-21-plancher-gta.jpg",
+   "genre": "Caricature",
+   "resume": "Des personnages de GTA 6 traversent le plancher ; chez Ginette, Réal fait pareil depuis 1987, sans correctif.",
+   "description": "GTA 6 a 99 sur Metacritic mais des bogues de lancement (personnages qui traversent le sol, 30 images/s sur console). Maison en coupe : Réal, bras en l'air avec sa manette, s'enfonce dans un trou en pixels du plancher du salon vers le sous-sol, pendant que Ginette soupire « Encore! » ; sa note à lui : 71.",
+   "post": "Dans GTA 6, des personnages traversent le plancher : bogue, plantages, 30 images/s max sur console. Chez nous, Réal, mon mari, traverse le plancher du salon jusqu'au sous-sol depuis 1987. Zéro correctif. Metacritic : 99. Réal : 71. Rapport 👇 #GTA6",
+   "reponse": "Découvert en cherchant un correctif pour mon plancher :",
+   "source": "https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565"
+  },
+  {
+   "date": "2026-11-22",
+   "titre": "Le plafond de Réal",
+   "image": "images/2026-11-22-plafond-de-real.jpg",
+   "genre": "Caricature",
+   "resume": "Trump plafonne les cartes de crédit à 10 % ; Ginette visse une tuile au plafond, mais l'intérêt de Réal pour GTA 6 la traverse à 100 %.",
+   "description": "Le 21 novembre, Trump dit sur Fox News vouloir plafonner à 10 % les taux d'intérêt des cartes de crédit, dont le taux médian est d'environ 22,2 % (enquête de la Réserve fédérale de New York, août). En deux cases : au salon, Ginette sur un escabeau visse une tuile « 10 % » au-dessus d'un ballon « 22,2 % » aplati ; au sous-sol, Réal, les yeux en spirale, voit le mercure de sa jauge « Intérêt GTA 6 » (100 %) percer la tuile, pendant que Ginette crie « Plafonnez ça! ».",
+   "post": "Trump veut plafonner à 10 % l'intérêt des cartes de crédit (médian actuel : 22,2 %). Plafonner l'intérêt? Commencez par celui de Réal, mon mari, pour GTA 6. Lui : « C'est pas le même intérêt, Ginette. » Ben non, le sien est à 100 %. La preuve 👇 #Trump",
+   "reponse": "Réal m'a imprimé l'article pis a surligné « 22,2 % » en rouge :",
+   "source": "https://www.noovo.info/nouvelles/international/etats-unis/article/trump-sengage-a-plafonner-les-taux-dinteret-des-cartes-de-credit-a-10/"
+  },
+  {
+   "date": "2026-11-22",
+   "titre": "Ginette à la pompe",
+   "image": "images/2026-11-22-pompe-no-3.jpg",
+   "genre": "Caricature",
+   "resume": "L'essence est à 150,1 ¢ le litre mais baissera de 8 à 10 ¢ ; Ginette campe à la pompe no 3 avec sa chaise de parterre pour prendre de l'avance.",
+   "description": "Le 21 novembre, l'essence ordinaire coûte en moyenne 150,1 ¢ le litre au Canada, et Dan McTeague prévoit une baisse de 8 à 10 ¢ la semaine suivante. Au crépuscule, à la station inventée « Pétro-Pantoufle », Ginette est installée dans sa chaise de parterre rayée, thermos en main et tuyau sur les genoux, devant une affiche « Dans 7 jours : −10 ¢ » dont 6 jours sont barrés, pendant que Réal, les chips à la main, lui dit « Ça baisse pas aujourd'hui ».",
+   "post": "Essence : 150,1 ¢ le litre en moyenne au Canada, mais Dan McTeague prévoit une baisse de 8 à 10 ¢ la semaine prochaine. J'attends. Chaise de parterre, thermos, pompe no 3. Réal, mon mari : « Ça baisse pas aujourd'hui. » Je sais, je prends de l'avance. Le prix 👇 #essence",
+   "reponse": "Lu sur ma chaise de parterre, thermos à la main :",
+   "source": "https://www.noovo.info/nouvelles/economie/article/prix-de-lessence-ce-quun-expert-estime-que-les-canadiens-peuvent-sattendre-a-payer-a-la-pompe/"
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "Zéro nomination",
+   "image": "images/2026-11-23-zero-nomination.jpg",
+   "genre": "Caricature",
+   "resume": "GTA VI rafle 8 nominations ; Ginette, 39 ans de soutien, zéro, regarde Réal remercier sa manette.",
+   "description": "GTA VI obtient 8 nominations aux Game Awards du 10 décembre (Euronews, 19 novembre). Parodie d'affiche de gala : une manette dorée géante, le tableau « GTA VI : 8 nominations / Ginette : 0 », Ginette bras croisés avec sa pancarte « 39 ans de soutien », Réal au pupitre qui remercie sa manette.",
+   "post": "GTA VI a 8 nominations aux Game Awards, le 10 décembre. Moi, 39 ans de mariage : zéro. Meilleur rôle de soutien, pourtant, c'est moi. Réal, mon mari, répète déjà son discours de remerciement. À sa manette. Les nominations 👇 #GTA6 #GTAVI",
+   "reponse": "Imprimé pour mon discours. Je remercie ma tisane et mes pantoufles :",
+   "source": "https://fr.euronews.com/2026/11/19/gta-vi-sort-apres-13-ans-dattente-et-depasse-les-17-millions-de-ventes"
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "Gueule scotchée",
+   "image": "images/2026-11-23-gueule-scotchee.jpg",
+   "genre": "Caricature",
+   "resume": "En Floride, un gars s'assoit sur un alligator scotché ; Réal texte « on y va? » du sous-sol, Ginette répond BOYCOTT.",
+   "description": "Le 22 novembre, Parade/Yahoo raconte qu'à Stuart, en Floride, un homme s'est assis sur un alligator de 8 pieds (2,4 m) dont la gueule a été scotchée, en attendant les secours. Maison en coupe : Réal, au sous-sol, texte en rêvant de Floride ; à la cuisine, Ginette crie BOYCOTT, rouleau de ruban gris sur le comptoir.",
+   "post": "Texto de Réal, du sous-sol : « Ginette, en Floride, un gars s'est assis sur un alligator de 8 pieds (2,4 m), gueule scotchée. Pas si dangereux, on y va? » J'ai répondu en majuscules : BOYCOTT. Preuve 👇 #Floride",
+   "reponse": "Réal l'a envoyé avec trois points d'exclamation. J'en ai mis zéro :",
+   "source": "https://www.yahoo.com/news/us/articles/florida-man-rescues-8-foot-190925009.html"
   }
  ]
 }
