@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-24",
+ "mis_a_jour": "2026-11-25",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -26,7 +26,8 @@
   "2026-11-20": "Vendredi de peurs en rafale : Ginette, en pantoufles, forme l'équipe du Canada contre les Knicks de Navarro, rêve que l'IA de Meta lui réserve la Floride et dresse ses 3 peurs du jour, dont celle qu'on trouve son mot de passe, pendant que Réal installe ses « correctifs de sécurité » de PS5 en 40 minutes.",
   "2026-11-21": "Samedi de Vendredi fou et de plancher percé : Ginette part magasiner avec 12 $ et ses pompons du congélateur pendant que Réal, que l'IA a déjà délesté de sa carte, traverse le plancher du salon comme un personnage de GTA 6 : Metacritic 99, Réal 71, aucun correctif.",
   "2026-11-22": "Dimanche de pompe et de plafond : Ginette s'installe en chaise de parterre à la pompe no 3 pour attendre la baisse de prix en avance, pendant que Réal jure que l'intérêt de sa carte pour GTA 6, lui, plafonne à 100 %.",
-  "2026-11-23": "Lundi de nominations et d'alligators : Ginette, 39 ans de mariage et zéro nomination, remercie sa tisane et ses pantoufles pendant que Réal répète son discours à sa manette et texte du sous-sol qu'en Floride, un alligator scotché, c'est pas si dangereux. BOYCOTT."
+  "2026-11-23": "Lundi de nominations et d'alligators : Ginette, 39 ans de mariage et zéro nomination, remercie sa tisane et ses pantoufles pendant que Réal répète son discours à sa manette et texte du sous-sol qu'en Floride, un alligator scotché, c'est pas si dangereux. BOYCOTT.",
+  "2026-11-24": "Mardi de GTA, de puces et de verglas : Ginette compte 39 millions de joueurs et en trouve un seul, au sous-sol, qui joue pour tous les autres, cherche les puces de Nvidia sur le chat du voisin, flaire un document retiré sur les taxes de Montréal comme les bas de Réal, et attend le verglas en pantoufles à pompon, patins prêts."
  },
  "entrees": [
   {
@@ -1461,6 +1462,50 @@
    "post": "Texto de Réal, du sous-sol : « Ginette, en Floride, un gars s'est assis sur un alligator de 8 pieds (2,4 m), gueule scotchée. Pas si dangereux, on y va? » J'ai répondu en majuscules : BOYCOTT. Preuve 👇 #Floride",
    "reponse": "Réal l'a envoyé avec trois points d'exclamation. J'en ai mis zéro :",
    "source": "https://www.yahoo.com/news/us/articles/florida-man-rescues-8-foot-190925009.html"
+  },
+  {
+   "date": "2026-11-24",
+   "titre": "Des puces à la Maison-Blanche",
+   "image": "images/2026-11-24-puces.jpg",
+   "genre": "Caricature",
+   "resume": "Les actions Nvidia de Trump prennent jusqu'à 15 M$ de valeur, Ginette cherche les puces sur le chat du voisin, qui n'a rien gagné.",
+   "description": "Le 23 novembre, le Financial Times rapporte que les actions Nvidia de Trump ont pris jusqu'à 15 M$ de valeur lundi. Ginette, loupe géante, inspecte le chat roux du voisin d'où sautent de minuscules puces en haut-de-forme avec des billets, devant un sac « TRUMP · 15 M$ » coiffé d'une casquette MAGA FLORIDA et une Maison-Blanche inventée, pendant que Réal, aux chips, répète « des puces électroniques! ».",
+   "post": "Les actions Nvidia de Trump auraient pris jusqu'à 15 M$ de valeur lundi (Financial Times). Réal, mon mari : « Nvidia fait des puces, Ginette. » Des puces?! Le chat du voisin en a depuis septembre, pis y a rien gagné. La preuve 👇 #Trump",
+   "reponse": "Lu entre deux camomilles, Réal a surligné « puces » en jaune :",
+   "source": "https://politicalwire.com/2026/11/23/trump-made-up-to-15-million-on-nvidia-shares/"
+  },
+  {
+   "date": "2026-11-24",
+   "titre": "39 millions de Réal",
+   "image": "images/2026-11-24-39-millions.jpg",
+   "genre": "Caricature",
+   "resume": "Sony compte 39 millions de joueurs de GTA 6 ; Ginette en a compté un, au sous-sol, qui joue pour tous les autres.",
+   "description": "Sony annonce plus de 39 millions de joueurs uniques de GTA VI sur PS5 depuis le lancement du 19 novembre. Vue de haut : un stade rempli de minuscules Réal identiques sous un tableau « JOUEURS : 39 000 000 », le vrai Réal dans sa chaise au centre, et Ginette au premier plan, compteur à clic affichant « 1 ».",
+   "post": "Sony annonce plus de 39 millions de joueurs sur PS5 pour GTA 6 en un week-end. Je suis allée les compter : j'en ai trouvé un, au sous-sol, qui joue pour tous les autres. Réal, mon mari. Y a pas dormi. Le chiffre 👇 #GTA6 #GTAVI",
+   "reponse": "Compté sur mes doigts, pis sur ceux de Mme Gagnon :",
+   "source": "https://www.lalibre.be/economie/entreprises-startup/2026/11/24/gta-vi-marque-le-plus-grand-lancement-de-lhistoire-de-playstation-OBW4MMAQAVB2DCY2OG7U2XD2XM/"
+  },
+  {
+   "date": "2026-11-24",
+   "titre": "Le document retiré",
+   "image": "images/2026-11-24-bas-retire.jpg",
+   "genre": "Caricature",
+   "resume": "Montréal retire le document sur ses taxes +9,8 %, mais Ginette jure que ça sent encore, comme les bas de Réal.",
+   "description": "Un document de la Ville de Montréal, depuis retiré du site et non confirmé, évoquerait une hausse de taxes de 9,8 % en 2027. Au salon, l'écran affiche « Document retiré » pendant que Ginette se bouche le nez devant un énorme bas rayé d'où monte un nuage vert « +9,8 % », et que Réal, un pied nu, demande « Quel bas? ».",
+   "post": "Montréal parlerait d'une hausse de taxes de 9,8 % en 2027, dans un document vite retiré du site. Retiré? C'est comme les bas de Réal, mon mari : le bas disparaît, l'odeur reste. La Ville a rien confirmé. Source 👇 #Montréal",
+   "reponse": "Réal a trouvé l'article en se bouchant le nez :",
+   "source": "https://www.noovo.info/nouvelles/politique/article/les-montrealais-pourraient-voir-les-taxes-municipales-augmenter-de-98/"
+  },
+  {
+   "date": "2026-11-24",
+   "titre": "Météo de Ginette",
+   "image": "images/2026-11-24-meteo-verglas.jpg",
+   "genre": "Caricature",
+   "resume": "Il fera -6 °C et du verglas guette : Ginette patine en pantoufles à pompon pendant que Réal sale la rue avec le sel de table.",
+   "description": "Mercredi, -6 °C à Montréal, et risque de pluie verglaçante vendredi-samedi en Estrie, dans la Capitale-Nationale et le Bas-Saint-Laurent. Rue de MonRéal à la tombée de la nuit : Ginette dérape en patinage artistique, Réal lance du sel d'une salière géante depuis le balcon, et le chat du voisin patine avec de minuscules patins.",
+   "post": "MÉTÉO DE GINETTE. Mercredi : -6 °C à Montréal. Vendredi-samedi : pluie verglaçante possible en Estrie, dans la Capitale-Nationale et le Bas-Saint-Laurent. Mes pantoufles à pompon prévoient du patinage artistique. Réal, mon mari, sort le sel de la cuisine. Prévisions 👇 #météo",
+   "reponse": "Épinglé sur le frigo, à côté du sel de Réal :",
+   "source": "https://www.meteomedia.com/fr/nouvelles/meteo/previsions/le-froid-pourrait-arriver-avec-de-la-neige-au-quebec-cette-semaine"
   }
  ]
 }
