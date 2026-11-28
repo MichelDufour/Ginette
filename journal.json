@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "2026-11-26",
+ "mis_a_jour": "2026-11-27",
  "jours": {
   "2026-10-27": "Naissance de Ginette Pantoufle : une pantoufle rose, un compte X, et déjà peur de tout.",
   "2026-10-28": "Réal s'installe dans sa chaise inclinable, Ginette fait des cauchemars d'Halloween et la chaise vide du sommet l'inquiète. Vice City le 19 novembre, déjà encerclé en rouge.",
@@ -28,7 +28,8 @@
   "2026-11-22": "Dimanche de pompe et de plafond : Ginette s'installe en chaise de parterre à la pompe no 3 pour attendre la baisse de prix en avance, pendant que Réal jure que l'intérêt de sa carte pour GTA 6, lui, plafonne à 100 %.",
   "2026-11-23": "Lundi de nominations et d'alligators : Ginette, 39 ans de mariage et zéro nomination, remercie sa tisane et ses pantoufles pendant que Réal répète son discours à sa manette et texte du sous-sol qu'en Floride, un alligator scotché, c'est pas si dangereux. BOYCOTT.",
   "2026-11-24": "Mardi de GTA, de puces et de verglas : Ginette compte 39 millions de joueurs et en trouve un seul, au sous-sol, qui joue pour tous les autres, cherche les puces de Nvidia sur le chat du voisin, flaire un document retiré sur les taxes de Montréal comme les bas de Réal, et attend le verglas en pantoufles à pompon, patins prêts.",
-  "2026-11-25": "Mercredi de missions et d'aubaines : Ginette rate sa mission Provigo sans sauvegarde (et oublie le lait) devant Mme Gagnon, puis gagne l'aspirateur du Vendredi fou à roche-papier-ciseaux, parce que Réal joue toujours roche."
+  "2026-11-25": "Mercredi de missions et d'aubaines : Ginette rate sa mission Provigo sans sauvegarde (et oublie le lait) devant Mme Gagnon, puis gagne l'aspirateur du Vendredi fou à roche-papier-ciseaux, parce que Réal joue toujours roche.",
+  "2026-11-27": "Vendredi fou de jouets pis d'adoption : Ginette renvoie au père Noël son jouet qui jase tout seul depuis 1987, Réal dans son casque de gamer, pendant que Réal, suce à la bouche, supplie Lise de l'adopter pour deux actions SpaceX. Lise a dit non. Deux fois."
  },
  "entrees": [
   {
@@ -1529,6 +1530,28 @@
    "post": "VENDREDI FOU le 27 : chez Costco en ligne, l'aspirateur Dyson V8 passe de 549,99 $ à 349,99 $ (-36 %). Réal, mon mari, vise le portable à 500,59 $ pour GTA 6. Roche-papier-ciseaux. J'ai gagné : y joue toujours roche. Les prix 👇 #VendrediFou",
    "reponse": "Épinglé sur le frigo, à côté de la roche de Réal :",
    "source": "https://www.narcity.com/fr/costco-pre-vendredi-fou-2026-meilleures-aubaines"
+  },
+  {
+   "date": "2026-11-27",
+   "titre": "Retour au père Noël",
+   "image": "images/2026-11-27-retour-pere-noel.jpg",
+   "genre": "Caricature",
+   "resume": "New York interdit les jouets IA qui jasent ; Ginette rapporte au Pôle Nord son jouet qui jase tout seul depuis 1987 : Réal.",
+   "description": "New York interdit pour cinq ans les jouets munis d'un robot conversationnel IA, avec des amendes jusqu'à 15 000 $ par jour. Dans la neige, Ginette pousse jusqu'au « Service des retours — Pôle Nord » une boîte-cadeau « JOUET QUI JASE · MODÈLE 1987 » où Réal, casque de gamer sur la tête, crie « Gauche! GAUCHE! » ; le lutin tient une « GARANTIE EXPIRÉE EN 1988 ».",
+   "post": "Cher père Noël, New York interdit pour 5 ans les jouets à robot conversationnel : y disaient n'importe quoi aux enfants. Amende : 15 000 $ par jour! Moi, j'ai un jouet qui jase tout seul depuis 1987 : Réal, mon mari, dans son casque de gamer. Je peux-tu l'échanger? P.-S. 👇 #IA",
+   "reponse": "Glissé dans l'enveloppe du père Noël, avec un timbre pis un pompon :",
+   "source": "https://www.briefia.fr/article/new-york-bannit-pour-cinq-ans-les-jouets-a-chatbot-ia"
+  },
+  {
+   "date": "2026-11-27",
+   "titre": "Adoptez Réal!",
+   "image": "images/2026-11-27-adoptez-real.jpg",
+   "genre": "Caricature",
+   "resume": "Deux actions SpaceX par enfant américain : Réal se met une suce pour que Lise l'adopte ; en Floride, Lise répond « NON ».",
+   "description": "Elon Musk promet deux actions SpaceX à chacun des quelque 73 millions d'enfants américains, environ 255 $ US chacun. Écran partagé : au Québec, Réal en bonnet de bébé, suce et bavoir « ADOPTE-MOI » dans une chaise haute « 0-99 ans? », Ginette brandissant sa pantoufle à pompon ; en Floride, Lise brandit « ADOPTION : NON » à côté d'un tampon « REFUSÉ ».",
+   "post": "Elon Musk promet 2 actions SpaceX à chaque enfant américain : environ 255 $ US chacun. Réal, mon mari, s'est mis une suce pis demande à Lise, en Floride, de l'adopter. Lise : « Non. » J'ai montré mes pantoufles à pompon, preuve d'enfance : refusée aussi. L'annonce 👇 #Musk",
+   "reponse": "Lise l'a lu au complet avant de dire non. Deux fois :",
+   "source": "https://www.noovo.info/nouvelles/international/etats-unis/article/elon-musk-promet-deux-actions-spacex-a-chaque-enfant-en-amerique/"
   }
  ]
 }
